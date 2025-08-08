@@ -79,3 +79,12 @@ The 16bit @ 44.1Khz sampling parameters provdes a good balance between audio qua
 ```
 
 > Note that some of the space calculated above (actual amount will be configurable) is allocated to the audio effects processing chain, i.e. for reverb and delay. 
+
+
+## Attribution
+
+### 3D Models
+
+Majority of 3D models for PCB components are from their respective manufactures, with the exception of:
+ - https://grabcad.com/library/kailh-low-profile-mechanical-keyboard-switch-1
+ - https://grabcad.com/library/kailh-low-profile-keycaps-1

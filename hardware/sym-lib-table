@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "pocket_synth")(type "KiCad")(uri "${KIPRJMOD}/pocket_synth.kicad_sym")(options "")(descr ""))
-)

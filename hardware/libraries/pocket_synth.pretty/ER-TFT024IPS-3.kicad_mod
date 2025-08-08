@@ -99,15 +99,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/ER-TFT024IPS-3.STEP"
+	(model "${KIPRJMOD}/../libraries/ER-TFT024IPS-3.STEP"
 		(offset
-			(xyz 0 0 3)
+			(xyz 0 0 4.25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -90)
+			(xyz -0 -0 90)
 		)
 	)
 )
