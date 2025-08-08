@@ -114,8 +114,8 @@
 		(uuid "cac0f10f-f417-4173-8261-8ca82485feb7")
 	)
 	(fp_line
-		(start -2.4 4.2)
-		(end -2.4 9.2)
+		(start -2.4 4.3)
+		(end -2.4 9.3)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -206,8 +206,8 @@
 		(uuid "2c6c9606-41f1-49df-a0e7-94440ebc6d73")
 	)
 	(fp_rect
-		(start -11.4 3.7)
-		(end 6.6 9.9)
+		(start -11.4 3.8)
+		(end 6.6 10.8)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -5240,7 +5240,7 @@
 	)
 	(model "kicad-embed://THQWGD001C_wheel.stp"
 		(offset
-			(xyz 19.5 -17.5 4.75)
+			(xyz 19.5 -18 4.75)
 		)
 		(scale
 			(xyz 1 1 1)
