@@ -1417,6 +1417,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: op-amp based level converter,\nsee adafruit neokey projects"
+		(exclude_from_sim no)
+		(at 176.784 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "6cf98721-acde-4825-8ef0-2c413dcca975")
+	)
 	(junction
 		(at 34.29 26.67)
 		(diameter 0)
