@@ -236,7 +236,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 8.89 6.35 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -244,7 +244,7 @@
 			)
 		)
 		(property "Value" "5034800540"
-			(at 0 0 0)
+			(at -8.89 5.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -252,16 +252,17 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:CONN_503480-0540_MOL"
-			(at 0 0 0)
+			(at -8.89 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5034800540?display=pdf"
-			(at 0 0 0)
+			(at -8.89 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -8.89 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +301,7 @@
 		(symbol "5034800540_1_1"
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -12.7)
+					(xy -3.81 7.62) (xy -3.81 -11.43)
 				)
 				(stroke
 					(width 0.127)
@@ -312,7 +313,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -12.7) (xy 12.7 -12.7)
+					(xy -3.81 -11.43) (xy 3.81 -11.43)
 				)
 				(stroke
 					(width 0.127)
@@ -324,7 +325,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 5.08 0)
+					(xy 1.27 5.08) (xy -3.81 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -336,7 +337,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 8.89 0.8467)
+					(xy 1.27 5.08) (xy 0 5.9267)
 				)
 				(stroke
 					(width 0.127)
@@ -348,7 +349,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 8.89 -0.8467)
+					(xy 1.27 5.08) (xy 0 4.2333)
 				)
 				(stroke
 					(width 0.127)
@@ -360,7 +361,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -2.54) (xy 5.08 -2.54)
+					(xy 1.27 2.54) (xy -3.81 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -372,7 +373,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					(xy 1.27 2.54) (xy 0 3.3867)
 				)
 				(stroke
 					(width 0.127)
@@ -384,7 +385,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					(xy 1.27 2.54) (xy 0 1.6933)
 				)
 				(stroke
 					(width 0.127)
@@ -396,7 +397,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -5.08) (xy 5.08 -5.08)
+					(xy 1.27 0) (xy -3.81 0)
 				)
 				(stroke
 					(width 0.127)
@@ -408,7 +409,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					(xy 1.27 0) (xy 0 0.8467)
 				)
 				(stroke
 					(width 0.127)
@@ -420,7 +421,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					(xy 1.27 0) (xy 0 -0.8467)
 				)
 				(stroke
 					(width 0.127)
@@ -432,7 +433,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -7.62) (xy 5.08 -7.62)
+					(xy 1.27 -2.54) (xy -3.81 -2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -444,7 +445,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					(xy 1.27 -2.54) (xy 0 -1.6933)
 				)
 				(stroke
 					(width 0.127)
@@ -456,7 +457,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					(xy 1.27 -2.54) (xy 0 -3.3867)
 				)
 				(stroke
 					(width 0.127)
@@ -468,7 +469,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -10.16) (xy 5.08 -10.16)
+					(xy 1.27 -5.08) (xy -3.81 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -480,7 +481,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -10.16) (xy 8.89 -9.3133)
+					(xy 1.27 -5.08) (xy 0 -4.2333)
 				)
 				(stroke
 					(width 0.127)
@@ -492,7 +493,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -10.16) (xy 8.89 -11.0067)
+					(xy 1.27 -5.08) (xy 0 -5.9267)
 				)
 				(stroke
 					(width 0.127)
@@ -504,7 +505,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 2.54) (xy 5.08 2.54)
+					(xy 3.81 7.62) (xy -3.81 7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -516,7 +517,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -12.7) (xy 12.7 2.54)
+					(xy 3.81 -11.43) (xy 3.81 7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -527,7 +528,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 0 0)
+				(at -8.89 5.08 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -545,7 +546,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -2.54 0)
+				(at -8.89 2.54 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -563,7 +564,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 0)
+				(at -8.89 0 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -581,7 +582,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -7.62 0)
+				(at -8.89 -2.54 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -599,7 +600,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -10.16 0)
+				(at -8.89 -5.08 0)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -609,6 +610,42 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -7.62 0)
+				(length 5.08)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -10.16 0)
+				(length 5.08)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -996,6 +1033,904 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FX6-20P-0.8SV1(71)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 7.62 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "FX6-20P-0.8SV1(71)"
+			(at 7.62 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "pocket_synth:FX6-20P-0.8SV1(71)"
+			(at 7.62 -83.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/p/CL0576-0021-0-71"
+			(at 7.62 -183.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hirose FX6 Series, 0.8mm Pitch 20 Way 2 Row Straight PCB Header, Solder Termination, 0.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.25"
+			(at 7.62 -383.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-FX620P08SV171"
+			(at 7.62 -483.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FX6-20P-0.8SV171?qs=zOgoZG1CgI%2FdLW6QquT0oA%3D%3D"
+			(at 7.62 -583.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 7.62 -683.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FX6-20P-0.8SV1(71)"
+			(at 7.62 -783.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "FX6-20P-0.8SV1(71)_1_1"
+			(rectangle
+				(start -6.35 13.97)
+				(end 6.35 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -11.43 11.43 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 8.89 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 6.35 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 3.81 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -6.35 0)
+				(length 5.08)
+				(name "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -8.89 0)
+				(length 5.08)
+				(name "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -11.43 0)
+				(length 5.08)
+				(name "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 11.43 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 8.89 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 6.35 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 3.81 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -1.27 180)
+				(length 5.08)
+				(name "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -6.35 180)
+				(length 5.08)
+				(name "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -8.89 180)
+				(length 5.08)
+				(name "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -11.43 180)
+				(length 5.08)
+				(name "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FX6-20S-0.8SV(93)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FX6-20S-0.8SV(93)"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pocket_synth:FX6-20S-0.8SV(93)"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/product/p/CL0576-0101-8-93#"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Board to Board & Mezzanine Connectors 20P F RECEPT SMT BOARD VERTICAL TYPE"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FX6-20S-0.8SV(93)_1_1"
+			(rectangle
+				(start -6.35 13.97)
+				(end 6.35 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -11.43 11.43 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 8.89 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 6.35 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 3.81 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -6.35 0)
+				(length 5.08)
+				(name "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -8.89 0)
+				(length 5.08)
+				(name "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -11.43 0)
+				(length 5.08)
+				(name "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 11.43 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 8.89 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 6.35 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 3.81 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -1.27 180)
+				(length 5.08)
+				(name "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -6.35 180)
+				(length 5.08)
+				(name "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -8.89 180)
+				(length 5.08)
+				(name "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -11.43 180)
+				(length 5.08)
+				(name "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
