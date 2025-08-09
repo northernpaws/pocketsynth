@@ -4,26 +4,28 @@
 
 This repository contains my project for an STM32H7-based sequencer, synthesizer, and sampler, all in a small phone-sized pocketable form factor. 
 
- * 480 MHz Arm® Cortex®-M7 32-bit Processor (`STM32H743ZIT6`)
-   * Floating-point unit
-   * DSP instructions
-   * High-speed memory controller
-   * Quad SPI interface for flash
-   * High-speed USB host and device mode
-   * Several SAI audio blocks
- * 24 bit Audio Codec (`WM8904CGEFL/RV`)
+  * 480 MHz Arm® Cortex®-M7 32-bit Processor (`STM32H743ZIT6`)
+    * Floating-point unit
+    * DSP instructions
+    * High-speed memory controller
+    * Quad SPI interface for flash
+    * High-speed USB host and device mode
+    * Several SAI audio blocks
+  * 2.4" 240x320 TFT IPS Display (`ER-TFT024IPS-3`)
+    * Capacitive touch
+  * 24 bit Audio Codec (`WM8904CGEFL/RV`)
     * DAC SNR 96dB
     * ADC SNR 91dB
- * Optional Bluetooth Classic and BLE Audio Source (`FSC-BT6038`)
-   * Wirelessly connect Bluethooth headphones and speakers
-   * Supports various high-fedality audio protocols
-   * Note: Audio transmitter does not support other BLE protocols
- * Optional Wifi and BLE capabilities (`ESP32-C3-MINI-1`)
-   * Wifi sample management and transfer
-   * BLE MIDI
- * Interal speaker
- * Internal microphone
- * SDRAM for sample pool and audio processing
+  * Optional Bluetooth Classic and BLE Audio Source (`FSC-BT6038`)
+    * Wirelessly connect Bluethooth headphones and speakers
+    * Supports various high-fedality audio protocols
+    * Note: Audio transmitter does not support other BLE protocols
+  * Optional Wifi and BLE capabilities (`ESP32-C3-MINI-1`)
+    * Wifi sample management and transfer
+    * BLE MIDI
+  * Interal speaker
+  * Internal microphone
+  * SDRAM for sample pool and audio processing
     * Part allocated to in-memory sample pool for project
     * Part allocated to audio effects processing
     * Variable sizes in similar footprint available, up to 512Mbit:
@@ -86,5 +88,8 @@ The 16bit @ 44.1Khz sampling parameters provdes a good balance between audio qua
 ### 3D Models
 
 Majority of 3D models for PCB components are from their respective manufactures, with the exception of:
- - https://grabcad.com/library/kailh-low-profile-mechanical-keyboard-switch-1
- - https://grabcad.com/library/kailh-low-profile-keycaps-1
+
+  - https://grabcad.com/library/kailh-low-profile-mechanical-keyboard-switch-1
+  - https://grabcad.com/library/kailh-low-profile-keycaps-1
+  - https://cad.grabcad.com/library/sk6812mini-e-led-1
+

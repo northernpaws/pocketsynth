@@ -30972,68 +30972,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pocket_synth:ER-TFT024IPS-3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "pocket_synth:ER-TFT024IPS-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ER-TFT024IPS-3_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -32969,78 +32907,6 @@
 			(project ""
 				(path "/485383b8-00f4-4405-b270-de249939cff4"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pocket_synth:ER-TFT024IPS-3")
-		(at -3.81 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1233da6f-e402-4bfe-bacd-a3468bcc9410")
-		(property "Reference" "U19"
-			(at 2.54 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 2.54 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pocket_synth:ER-TFT024IPS-3"
-			(at -3.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -3.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -3.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" ""
-			(at -3.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/485383b8-00f4-4405-b270-de249939cff4"
-					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -35273,6 +35139,7 @@
 		)
 		(pin "114"
 			(uuid "26e4ce81-6a4e-42a5-95d3-587698cc165e")
+			(alternate "FMC_D2")
 		)
 		(pin "115"
 			(uuid "7572b308-0816-4187-a074-a37cb447d9b9")
@@ -35324,12 +35191,14 @@
 		)
 		(pin "77"
 			(uuid "efe958a9-5d2c-4484-81ea-4bc5eacfd6af")
+			(alternate "FMC_D13")
 		)
 		(pin "78"
 			(uuid "75b9cf1e-81ed-43b6-bb97-80223cde1019")
 		)
 		(pin "79"
 			(uuid "d926ec03-fd4c-41c2-b3d2-29ebf3c8e7fc")
+			(alternate "FMC_D15")
 		)
 		(pin "80"
 			(uuid "499254af-8f8e-404c-9569-315e5eb4a989")
@@ -35342,9 +35211,11 @@
 		)
 		(pin "85"
 			(uuid "20c28b04-f091-4c39-b785-37917e5d7a23")
+			(alternate "FMC_D0")
 		)
 		(pin "86"
 			(uuid "89949e6e-d2b4-4c06-b347-ddd910efc63a")
+			(alternate "FMC_D1")
 		)
 		(pin "94"
 			(uuid "1bc2565b-2e62-4744-93e5-538e64761d2e")
@@ -35575,6 +35446,7 @@
 		)
 		(pin "63"
 			(uuid "8327ba93-733d-4f1d-8ab5-86af0ea8d1dc")
+			(alternate "FMC_D7")
 		)
 		(pin "6"
 			(uuid "2d91d565-a3c4-425c-9703-dfef77cb9736")
@@ -35587,6 +35459,7 @@
 		)
 		(pin "65"
 			(uuid "bb5ed71f-96fc-4296-885a-9e408e7542b8")
+			(alternate "FMC_D9")
 		)
 		(pin "17"
 			(uuid "462d4888-da75-4ad2-8267-c3fc0b55e4b6")
@@ -35596,12 +35469,15 @@
 		)
 		(pin "60"
 			(uuid "a0c73bba-95af-4dcd-92fc-9082e9e936aa")
+			(alternate "FMC_D6")
 		)
 		(pin "67"
 			(uuid "dfc0747e-6d09-4a05-b645-16f28eeb7874")
+			(alternate "FMC_D11")
 		)
 		(pin "68"
 			(uuid "d143ddf5-fead-40c5-be14-2a4b0073b809")
+			(alternate "FMC_D12")
 		)
 		(pin "90"
 			(uuid "ca80a7a7-3404-4217-94ac-39bf701cea3f")
@@ -35617,6 +35493,7 @@
 		)
 		(pin "64"
 			(uuid "c028cc58-6e67-4efa-ae69-08e91fe481f1")
+			(alternate "FMC_D8")
 		)
 		(pin "20"
 			(uuid "e4761c4e-aef0-480c-8b69-7f2baf8b7f66")
@@ -35638,6 +35515,7 @@
 		)
 		(pin "59"
 			(uuid "881a3383-faed-47f6-8efe-99fc5fc9fac4")
+			(alternate "FMC_D5")
 		)
 		(pin "87"
 			(uuid "51d7c643-4fb8-4826-b40d-efe978ecb933")
@@ -35677,6 +35555,7 @@
 		)
 		(pin "58"
 			(uuid "f8582d98-6124-4706-a3b9-8d6abc8d7b92")
+			(alternate "FMC_D4")
 		)
 		(pin "49"
 			(uuid "38920449-2592-46bf-8547-ed394ac009c5")
@@ -35977,6 +35856,7 @@
 		)
 		(pin "66"
 			(uuid "b4a6d0d8-e7bd-4d5b-ac76-85ce91d26a0d")
+			(alternate "FMC_D10")
 		)
 		(pin "143"
 			(uuid "390e1351-d2e9-4f88-9c1e-1b99b6fea5c5")
@@ -36177,6 +36057,7 @@
 		)
 		(pin "50"
 			(uuid "d1a2a8a2-cd97-4098-8f97-f2e6fdc9ee13")
+			(alternate "FMC_A6")
 		)
 		(pin "5"
 			(uuid "2dd51445-69d0-4300-91fa-ab20d41bf08c")
@@ -36195,9 +36076,11 @@
 		)
 		(pin "54"
 			(uuid "edc153e9-b8a7-49a4-afd2-61bd8893867b")
+			(alternate "FMC_A8")
 		)
 		(pin "53"
 			(uuid "594466df-b048-492e-bfb3-329b5c083a13")
+			(alternate "FMC_A7")
 		)
 		(pin "125"
 			(uuid "08691d18-9f2b-4b8b-9a97-0731f909f530")
@@ -36453,6 +36336,7 @@
 		)
 		(pin "55"
 			(uuid "62032a2a-f87a-4386-8bd2-8899b7c2766c")
+			(alternate "FMC_A9")
 		)
 		(pin "56"
 			(uuid "3969b278-e13e-455d-ba5a-58f25e0b4af7")
@@ -37830,6 +37714,7 @@
 		)
 		(pin "76"
 			(uuid "d5fcc1a7-1109-43c3-9404-731bbc33b1a9")
+			(alternate "USB_OTG_HS_DP")
 		)
 		(pin "26"
 			(uuid "f0516786-18c1-4404-bf3a-b8c100730024")
@@ -37968,6 +37853,7 @@
 		)
 		(pin "75"
 			(uuid "46f825db-2b84-4181-afb8-27f028862c5d")
+			(alternate "USB_OTG_HS_DM")
 		)
 		(pin "55"
 			(uuid "62032a2a-f87a-4386-8bd2-8899b7c2766f")
@@ -39538,7 +39424,7 @@
 		)
 	)
 	(sheet
-		(at 248.92 104.14)
+		(at 313.69 97.79)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39554,7 +39440,7 @@
 		)
 		(uuid "4ddef61a-efa7-4012-86d6-37c4f1088d14")
 		(property "Sheetname" "Power"
-			(at 248.92 103.4284 0)
+			(at 313.69 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39563,7 +39449,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 248.92 125.0446 0)
+			(at 313.69 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39580,7 +39466,7 @@
 		)
 	)
 	(sheet
-		(at 242.57 15.24)
+		(at 307.34 8.89)
 		(size 35.56 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39596,7 +39482,7 @@
 		)
 		(uuid "7f1ac839-494f-4521-b63e-5606a3cb7bc9")
 		(property "Sheetname" "Keypad"
-			(at 242.57 14.5284 0)
+			(at 307.34 8.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39605,7 +39491,7 @@
 			)
 		)
 		(property "Sheetfile" "keypad.kicad_sch"
-			(at 242.57 42.4946 0)
+			(at 307.34 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39622,7 +39508,7 @@
 		)
 	)
 	(sheet
-		(at 254 49.53)
+		(at 318.77 43.18)
 		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39638,7 +39524,7 @@
 		)
 		(uuid "ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d")
 		(property "Sheetname" "Audio"
-			(at 254 48.8184 0)
+			(at 318.77 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39647,7 +39533,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 254 66.6246 0)
+			(at 318.77 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39664,7 +39550,7 @@
 		)
 	)
 	(sheet
-		(at 250.19 72.39)
+		(at 314.96 66.04)
 		(size 27.94 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39680,7 +39566,7 @@
 		)
 		(uuid "d641c287-d179-45c1-92b5-f0a3902e6ffa")
 		(property "Sheetname" "Memory"
-			(at 250.19 71.6784 0)
+			(at 314.96 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39689,7 +39575,7 @@
 			)
 		)
 		(property "Sheetfile" "memory.kicad_sch"
-			(at 250.19 95.8346 0)
+			(at 314.96 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
