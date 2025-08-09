@@ -3409,6 +3409,15 @@
 		(uuid "45f595f7-b341-4816-a40b-01d4981669d4")
 	)
 	(bus_entry
+		(at 121.92 105.41)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c0d0c6-65df-4f55-b8a2-86b9ad44206f")
+	)
+	(bus_entry
 		(at 21.59 71.12)
 		(size -2.54 -2.54)
 		(stroke
@@ -3452,6 +3461,15 @@
 			(type default)
 		)
 		(uuid "7bc78e4a-6ce7-49ff-a668-34b6af9d9de3")
+	)
+	(bus_entry
+		(at 121.92 107.95)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83078a71-b799-4e8e-bd36-28960716e6de")
 	)
 	(bus_entry
 		(at 21.59 96.52)
@@ -3597,6 +3615,16 @@
 		)
 		(uuid "13ad79d2-95d4-4cb5-a6f1-de9369122789")
 	)
+	(bus
+		(pts
+			(xy 119.38 96.52) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198b88e8-fa10-4751-b99a-ce7f060773e9")
+	)
 	(wire
 		(pts
 			(xy 58.42 41.91) (xy 58.42 44.45)
@@ -3687,6 +3715,16 @@
 		)
 		(uuid "2f82479c-2b04-4795-bd1f-db2bf5a161fe")
 	)
+	(bus
+		(pts
+			(xy 119.38 102.87) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb9343b-cd6a-484d-9b53-a08f7603000e")
+	)
 	(wire
 		(pts
 			(xy 63.5 25.4) (xy 71.12 25.4)
@@ -3726,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "35cc1274-3059-4c12-b1ff-0227f2eb64d4")
+	)
+	(bus
+		(pts
+			(xy 119.38 96.52) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c10e6a2-bb0d-434a-bee1-e3cf1d94ec0c")
 	)
 	(wire
 		(pts
@@ -4099,6 +4147,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 105.41) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9980a3af-af1b-4976-8e9e-41bcf7876a39")
+	)
+	(wire
+		(pts
 			(xy 64.77 125.73) (xy 90.17 125.73)
 		)
 		(stroke
@@ -4306,6 +4364,16 @@
 			(type default)
 		)
 		(uuid "c8638b8e-9d43-4c33-85ff-1adffca85ad5")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 132.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93b0873-cf51-4e61-adbd-c387857bea54")
 	)
 	(bus
 		(pts
@@ -4537,6 +4605,16 @@
 		)
 		(uuid "1588146c-0409-45c8-8106-1c109873a57a")
 	)
+	(label "I2C.SDA"
+		(at 130.81 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "174d4e62-4b8f-42f2-bfa0-5e95d9420e09")
+	)
 	(label "FMC.D2"
 		(at 33.02 63.5 180)
 		(effects
@@ -4586,6 +4664,16 @@
 			(justify right bottom)
 		)
 		(uuid "4f256bc3-86da-4f91-9d10-8cf8952a0369")
+	)
+	(label "I2C.SCL"
+		(at 130.81 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52786553-85c2-44b4-bf19-f2a85ff4b53b")
 	)
 	(label "FMC.NWE"
 		(at 33.02 111.76 180)
@@ -4716,6 +4804,17 @@
 			(justify right bottom)
 		)
 		(uuid "ee57c44f-bdfd-4c63-8264-6b5e117e2a88")
+	)
+	(hierarchical_label "{I2C}"
+		(shape input)
+		(at 120.65 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5d690be-21e1-495a-aef5-c20ddc0a9850")
 	)
 	(hierarchical_label "{FMC}"
 		(shape input)
@@ -4931,7 +5030,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:ER-TFT024IPS-3")
-		(at 133.35 107.95 0)
+		(at 143.51 109.22 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4939,7 +5038,7 @@
 		(dnp no)
 		(uuid "1233da6f-e402-4bfe-bacd-a3468bcc9410")
 		(property "Reference" "U19"
-			(at 124.206 94.488 0)
+			(at 134.366 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +5047,7 @@
 			)
 		)
 		(property "Value" "ER-TFT024IPS-3"
-			(at 124.968 121.158 0)
+			(at 135.128 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:ER-TFT024IPS-3"
-			(at 133.35 107.95 0)
+			(at 143.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 107.95 0)
+			(at 143.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 107.95 0)
+			(at 143.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +5083,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 133.35 107.95 0)
+			(at 143.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

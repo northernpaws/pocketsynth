@@ -32418,6 +32418,15 @@
 		(uuid "c440c7b9-2b67-43dc-a49d-d140b4604ead")
 	)
 	(bus_entry
+		(at 142.24 160.02)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eec715a-22e0-49e4-8b05-d3a44ef2df5a")
+	)
+	(bus_entry
 		(at 276.86 109.22)
 		(size 2.54 -2.54)
 		(stroke
@@ -32506,6 +32515,15 @@
 			(type default)
 		)
 		(uuid "49eec8be-aa7b-4d1f-923a-a48b902bd7bb")
+	)
+	(bus_entry
+		(at 142.24 157.48)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca59c6d-70a2-45ae-bce6-ed7997545e12")
 	)
 	(bus_entry
 		(at 276.86 76.2)
@@ -32835,6 +32853,16 @@
 		)
 		(uuid "060fb21c-8387-4151-96fb-04f21a40409a")
 	)
+	(bus
+		(pts
+			(xy 139.7 154.94) (xy 139.7 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066cfbdb-669f-4b60-9f6d-2e55f380878e")
+	)
 	(wire
 		(pts
 			(xy 276.86 57.15) (xy 264.16 57.15)
@@ -32974,6 +33002,16 @@
 			(type default)
 		)
 		(uuid "145d445e-c4dc-4a8f-b0d0-154d0e7b6091")
+	)
+	(bus
+		(pts
+			(xy 134.62 149.86) (xy 137.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152e3167-02de-45aa-839a-c97f0d68f648")
 	)
 	(bus
 		(pts
@@ -33255,6 +33293,16 @@
 		)
 		(uuid "39ebc6b0-65b5-41ef-af12-a9ea3aa8ae05")
 	)
+	(bus
+		(pts
+			(xy 139.7 152.4) (xy 139.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee8b7dd-0962-4318-9899-e1bb0c91d8d9")
+	)
 	(wire
 		(pts
 			(xy 186.69 31.75) (xy 199.39 31.75)
@@ -33284,6 +33332,16 @@
 			(type default)
 		)
 		(uuid "40d0a49f-86a0-4a29-b744-a9b0ae9b2d06")
+	)
+	(wire
+		(pts
+			(xy 142.24 160.02) (xy 158.75 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42045da6-d725-4213-8ca1-445d6b88da80")
 	)
 	(bus
 		(pts
@@ -33474,6 +33532,16 @@
 			(type default)
 		)
 		(uuid "5c40ddd0-dbcd-4d08-880b-5a8dc6c6ec1a")
+	)
+	(bus
+		(pts
+			(xy 139.7 152.4) (xy 137.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d701df4-8388-4e78-806a-b5a8a0f69404")
 	)
 	(wire
 		(pts
@@ -33744,6 +33812,16 @@
 			(type default)
 		)
 		(uuid "7cf4e99c-9f5f-4461-b54c-01e06de50b7b")
+	)
+	(wire
+		(pts
+			(xy 142.24 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0d0183-8823-4925-982a-9b1b2cf44e5f")
 	)
 	(bus
 		(pts
@@ -34905,6 +34983,16 @@
 		)
 		(uuid "2c3abaec-5d1e-4f39-9cab-c4250255da9a")
 	)
+	(label "I2C.SDA"
+		(at 157.48 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30b8cb5c-8de6-4fc4-9574-4ba3906e5d61")
+	)
 	(label "FMC.D10"
 		(at 265.43 59.69 0)
 		(effects
@@ -34924,6 +35012,16 @@
 			(justify right bottom)
 		)
 		(uuid "466fc011-3e3b-4bc5-8d68-baf2cdc12dd9")
+	)
+	(label "I2C.SCL"
+		(at 157.48 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46b7eec8-07fa-4f7d-85b0-6edde246b134")
 	)
 	(label "FMC.CAS"
 		(at 198.12 64.77 180)
@@ -35336,6 +35434,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "{I2C}"
+		(shape input)
+		(at 134.62 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1321994-846a-4ae6-9cd0-557fe4be3041")
 	)
 	(hierarchical_label "{FMC}"
 		(shape output)
@@ -37716,6 +37825,7 @@
 		)
 		(pin "105"
 			(uuid "09a70525-493a-4954-911b-fabba5b8ddf8")
+			(alternate "DEBUG_JTMS-SWDIO")
 		)
 		(pin "109"
 			(uuid "6e30bdbc-c312-4979-b417-c5c4a1c81bdd")
