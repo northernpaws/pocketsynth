@@ -32188,9 +32188,9 @@
 		)
 		(uuid "626cdceb-d81e-4187-acdd-4a40338e708a")
 	)
-	(text "PWR_FLAG is required for the DRC to properly\nsee this filtering as a VDDA \"source\""
+	(text "PWR_FLAG is required for the ERC to properly\nsee this filtering as a VDDA \"source\""
 		(exclude_from_sim no)
-		(at 128.27 18.288 0)
+		(at 128.27 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
