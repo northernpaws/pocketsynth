@@ -32151,6 +32151,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "I2C"
+		(members "I2C.SCL" "I2C.SDA")
+	)
+	(bus_alias "SPI"
+		(members "SPI.PICO" "SPI.CLK" "SPI.POCI")
+	)
 	(text "1x 100nf per VDD"
 		(exclude_from_sim no)
 		(at 54.356 24.384 0)
@@ -32418,6 +32424,15 @@
 		(uuid "c440c7b9-2b67-43dc-a49d-d140b4604ead")
 	)
 	(bus_entry
+		(at 111.76 170.18)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091d4a24-c6cd-4a62-bb01-5fc1bcfcdbda")
+	)
+	(bus_entry
 		(at 142.24 160.02)
 		(size -2.54 -2.54)
 		(stroke
@@ -32434,6 +32449,15 @@
 			(type default)
 		)
 		(uuid "119a218b-a49c-4be9-b618-805542d1bb66")
+	)
+	(bus_entry
+		(at 111.76 167.64)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145825a4-361f-4a3d-a7e3-4e00aec86da3")
 	)
 	(bus_entry
 		(at 273.05 143.51)
@@ -32587,6 +32611,15 @@
 			(type default)
 		)
 		(uuid "7826a0fd-50ac-4452-b81d-55cb10c83e87")
+	)
+	(bus_entry
+		(at 111.76 176.53)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad251f6-f2e2-4c87-a08e-4f3d3edddcda")
 	)
 	(bus_entry
 		(at 182.88 64.77)
@@ -33025,6 +33058,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 176.53) (xy 123.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1624b5ca-5915-4a7a-bc12-c1f0a34cb637")
+	)
+	(wire
+		(pts
 			(xy 30.48 62.23) (xy 24.13 62.23)
 		)
 		(stroke
@@ -33272,6 +33315,16 @@
 			(type default)
 		)
 		(uuid "37d1aea3-2467-45be-936d-ff2961c46642")
+	)
+	(bus
+		(pts
+			(xy 109.22 162.56) (xy 109.22 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39717e78-f868-4a13-8648-8f430ee85d56")
 	)
 	(bus
 		(pts
@@ -33795,6 +33848,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 170.18) (xy 123.19 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b419a26-e6f1-4f0b-b48d-9a778d76973f")
+	)
+	(wire
+		(pts
 			(xy 30.48 162.56) (xy 33.02 162.56)
 		)
 		(stroke
@@ -33832,6 +33895,16 @@
 			(type default)
 		)
 		(uuid "810c41d7-0acc-4ee0-9737-5115205bc500")
+	)
+	(bus
+		(pts
+			(xy 109.22 165.1) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c2a4e9-9fc9-4c1c-a6de-8cc7ee70ab5e")
 	)
 	(wire
 		(pts
@@ -34473,6 +34546,16 @@
 		)
 		(uuid "cb3cbcd0-175d-4567-9e24-443f8c3d3b49")
 	)
+	(bus
+		(pts
+			(xy 109.22 167.64) (xy 109.22 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe6489e-ede8-4a39-8fa5-cb64f96694f4")
+	)
 	(wire
 		(pts
 			(xy 273.05 59.69) (xy 260.35 59.69)
@@ -34632,6 +34715,16 @@
 			(type default)
 		)
 		(uuid "de5451a6-e768-4502-b6ad-efd1e5fcedc3")
+	)
+	(wire
+		(pts
+			(xy 111.76 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb6e805-68cf-4b62-b285-c095cf2173c7")
 	)
 	(bus
 		(pts
@@ -35113,7 +35206,7 @@
 		)
 		(uuid "66ade850-a110-4c00-b7b4-9e335aec9339")
 	)
-	(label "FMC.NWE"
+	(label "FMC.WE"
 		(at 194.31 73.66 180)
 		(effects
 			(font
@@ -35263,6 +35356,16 @@
 		)
 		(uuid "b83338db-1e0d-4667-9eee-8ef0d1f2982f")
 	)
+	(label "SPI.POCI"
+		(at 121.92 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf376452-9c5b-4804-976e-32ec83867a2e")
+	)
 	(label "FMC.D13"
 		(at 261.62 140.97 0)
 		(effects
@@ -35333,6 +35436,16 @@
 		)
 		(uuid "cfc54944-8460-4505-9340-1eefe25329ec")
 	)
+	(label "SPI.CLK"
+		(at 121.92 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d602d8c1-7bff-4e0d-8872-24de46834944")
+	)
 	(label "FMC.BA1"
 		(at 194.31 39.37 180)
 		(effects
@@ -35382,6 +35495,16 @@
 			(justify left bottom)
 		)
 		(uuid "e40c4801-88c3-45b5-8cb0-e4c7b6b27ae2")
+	)
+	(label "SPI.PICO"
+		(at 121.92 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9683301-4520-458e-b3a8-c27b7e88b651")
 	)
 	(label "FMC.A11"
 		(at 194.31 29.21 180)
@@ -35434,6 +35557,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "{SPI}"
+		(shape input)
+		(at 109.22 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0955a46-5c24-449b-8979-ee4f59ad5a2f")
 	)
 	(hierarchical_label "{I2C}"
 		(shape input)
