@@ -13345,7 +13345,25 @@
 				)
 			)
 			(pin input line
-				(at -29.21 10.16 0)
+				(at -29.21 13.97 0)
+				(length 7.62)
+				(name "MCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 7.62 0)
 				(length 7.62)
 				(name "SCLK"
 					(effects
@@ -13363,7 +13381,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 7.62 0)
+				(at -29.21 5.08 0)
 				(length 7.62)
 				(name "SDA"
 					(effects
@@ -13373,24 +13391,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -29.21 0 0)
-				(length 7.62)
-				(name "MCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
