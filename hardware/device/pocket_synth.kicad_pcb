@@ -488,7 +488,19 @@
 	(net 321 "/Audio/HEADPHONE_OUT_R")
 	(net 322 "/Audio/HEADPHONE_OUT_FB")
 	(net 323 "/Audio/CODEC_IRQ")
-	(net 324 "unconnected-(J5-Pad17)")
+	(net 324 "Net-(C23-Pad2)")
+	(net 325 "Net-(C24-Pad2)")
+	(net 326 "/Audio/SPKR_SHDN")
+	(net 327 "Net-(U29-INL-)")
+	(net 328 "Net-(U29-OUTL+)")
+	(net 329 "Net-(U29-INL+)")
+	(net 330 "VCC")
+	(net 331 "unconnected-(U29-INR+-Pad7)")
+	(net 332 "unconnected-(U29-INR--Pad6)")
+	(net 333 "unconnected-(U29-OUTR+-Pad10)")
+	(net 334 "Net-(U29-OUTL-)")
+	(net 335 "/Audio/HP_SENSE")
+	(net 336 "unconnected-(U29-OUTR--Pad9)")
 	(footprint "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "058000c2-8477-4f2c-a6e5-65c6840b61df")
@@ -14529,7 +14541,7 @@
 				)
 			)
 		)
-		(path "/f0d5f3c5-7c53-4584-b479-82b3ef9bea09/1233da6f-e402-4bfe-bacd-a3468bcc9412")
+		(path "/f0d5f3c5-7c53-4584-b479-82b3ef9bea09/1233da6f-e402-4bfe-bacd-a3468bcc9411")
 		(sheetname "/Display/")
 		(sheetfile "display.kicad_sch")
 		(attr smd)
@@ -16273,6 +16285,205 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "44ef50c0-f23a-4fa0-93b4-84f5ce92572e")
+		(at 139.4325 57.93)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C23"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "6dcbc67a-c89c-4b04-b973-577ca0cfbee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "8972d69f-0a89-4370-8f8f-8f5c7dc33361")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad3185e9-13aa-4af7-8f5f-a6c9b060e530")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4425a8b8-4283-4111-be70-8ffbc2d84f3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/d469fa87-a7c1-47ca-823a-06d57bf7d8f2")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.115835 -0.36)
+			(end 0.115835 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3fd0a8d9-95d1-46f2-b9ef-9ee98801702c")
+		)
+		(fp_line
+			(start -0.115835 0.36)
+			(end 0.115835 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a215adca-8e08-4ffb-b81b-5816b0faf15d")
+		)
+		(fp_line
+			(start -1.09 -0.46)
+			(end 1.09 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97ee9ce0-63e2-49d9-bca4-9586f174992f")
+		)
+		(fp_line
+			(start -1.09 0.46)
+			(end -1.09 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddca04b4-2785-415b-8aee-92a1c6c0c226")
+		)
+		(fp_line
+			(start 1.09 -0.46)
+			(end 1.09 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1d63aecb-bb16-4215-a8f9-584da254394e")
+		)
+		(fp_line
+			(start 1.09 0.46)
+			(end -1.09 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0045960f-d51e-4867-a6e9-d775d14f1783")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8f29bf35-9be5-4f4f-98f4-3ddae6f0a877")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "85c0e1b4-adaa-44c7-9675-ca3ff818598d")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37a42dbc-3a46-4d68-aec5-0840789396e7")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c3766b9-c7d2-49fe-a323-f351862c76d8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "84c34cfa-8fb1-4575-9830-c4812c63c67d")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5675 0)
+			(size 0.735 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 307 "/Audio/HEADPHONE_OUT_L")
+			(pintype "passive")
+			(uuid "55668922-be19-4f1a-8420-12c9d4839d38")
+		)
+		(pad "2" smd roundrect
+			(at 0.5675 0)
+			(size 0.735 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 324 "Net-(C23-Pad2)")
+			(pintype "passive")
+			(uuid "4d065bd3-e4f4-4590-8434-cac31916eb59")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DFN_QFN:TDFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm"
 		(layer "F.Cu")
 		(uuid "48338a46-82e9-4672-bc40-eb5a5ea594f9")
@@ -17370,6 +17581,576 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+		(layer "F.Cu")
+		(uuid "551b1c6e-0996-4d72-b55d-0c92dca25096")
+		(at 131.6925 53.16)
+		(descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
+		(tags "3.5mm audio cui horizontal jack stereo")
+		(property "Reference" "J9"
+			(at 0 -9.9 0)
+			(layer "F.SilkS")
+			(uuid "272aae73-c2ef-4f88-a7a4-925f7b1449af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "HP_OUT"
+			(at 0 10.35 0)
+			(layer "F.Fab")
+			(uuid "b56ceae4-ea69-4020-82a2-e48120ab4dcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57c6f267-3a9d-4206-9b77-62af7c6d82f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0fb871d-0a9a-4cba-87b5-8b6637452026")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/d7504d97-b3b3-42f7-96c5-3fd8c5b8cc96")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.1 -6.1)
+			(end -2.6 -6.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6575eb1e-d83b-4fcf-bbf6-794646860e64")
+		)
+		(fp_line
+			(start -3.1 -4.9)
+			(end -5.1 -4.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4e79a33-6d9f-45e1-a917-1857e17dbdaf")
+		)
+		(fp_line
+			(start -3.1 -4.9)
+			(end -3.1 -6.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "81a5b379-5f97-46b4-b159-b4184d2dbc94")
+		)
+		(fp_line
+			(start -3.1 -2.3)
+			(end -5.1 -2.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "976573ca-f243-42fd-8288-11e91f154b68")
+		)
+		(fp_line
+			(start -3.1 4.2)
+			(end -3.1 -2.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "331e766a-2011-4729-bdf7-d3643ed4851d")
+		)
+		(fp_line
+			(start -3.1 8.6)
+			(end -3.1 7.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b26236db-3012-4166-9969-623b4e5d939c")
+		)
+		(fp_line
+			(start -2.6 -8.6)
+			(end 2.6 -8.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7d5556d4-e8de-45b2-a8ab-5a0d15eaea44")
+		)
+		(fp_line
+			(start -2.6 -6.1)
+			(end -2.6 -8.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9efcb20-3214-4102-9091-efda5c7321f9")
+		)
+		(fp_line
+			(start 2.6 -8.6)
+			(end 2.6 -6.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f2cfbcf5-8d83-4c16-be80-c74d71cbb5fa")
+		)
+		(fp_line
+			(start 2.6 -6.1)
+			(end 3.1 -6.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc621fba-f74d-4326-b969-1f79ba91d096")
+		)
+		(fp_line
+			(start 3.1 -6.1)
+			(end 3.1 -2.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fa148c32-73d8-48e2-b23c-b102c5514d9c")
+		)
+		(fp_line
+			(start 3.1 -0.3)
+			(end 3.1 8.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3668cdf-2d2e-4775-8338-213f63ee53ad")
+		)
+		(fp_line
+			(start 3.1 8.6)
+			(end -3.1 8.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea8e70d5-27c4-4d6d-bbb7-aa3c1201a565")
+		)
+		(fp_line
+			(start -5.6 -9)
+			(end 5.6 -9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ab3f06fe-24c9-4608-bc73-7cc94bfc120e")
+		)
+		(fp_line
+			(start -5.6 9)
+			(end -5.6 -9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62fad995-0db8-4e70-80c4-8c1f43a23eac")
+		)
+		(fp_line
+			(start 5.6 -9)
+			(end 5.6 9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6e605b8d-8652-4cce-a0b7-9a52539d556d")
+		)
+		(fp_line
+			(start 5.6 9)
+			(end -5.6 9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b3746da-da3e-4ee9-80c7-b241f2ef4f7f")
+		)
+		(fp_line
+			(start -3 -6)
+			(end -2.5 -6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b01482c3-6cc8-471f-b4f7-67c9461100a9")
+		)
+		(fp_line
+			(start -3 8.5)
+			(end -3 -6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0b1a614b-2d42-4447-8c79-86660a7f6878")
+		)
+		(fp_line
+			(start -2.5 -8.5)
+			(end 2.5 -8.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "71a9580f-e914-483a-a790-2570ebaf0460")
+		)
+		(fp_line
+			(start -2.5 -6)
+			(end -2.5 -8.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3bd225b4-aedf-4d37-bb97-ba9d90a91512")
+		)
+		(fp_line
+			(start 2.5 -8.5)
+			(end 2.5 -6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41ebc9fe-0346-47f2-a196-d38c5f7138c5")
+		)
+		(fp_line
+			(start 2.5 -6)
+			(end 3 -6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "05bbbb4d-b508-40f9-8417-2ed6602dda61")
+		)
+		(fp_line
+			(start 3 -6)
+			(end 3 8.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d1d090d-3f34-422b-a398-89c909547aa0")
+		)
+		(fp_line
+			(start 3 8.5)
+			(end -3 8.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18f86e6a-5d2a-4b51-8e85-00d9c6b27ff3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a2a8f15a-168c-4e7d-9852-b4ce9b537937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -2.5)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "095e43fa-af56-4d4e-bc23-78a1255af4a0")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 4.5)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9f8fc23f-a997-443b-9bb2-cbddd98f37da")
+		)
+		(pad "R" smd rect
+			(at 3.7 -1.6)
+			(size 2.8 2.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 321 "/Audio/HEADPHONE_OUT_R")
+			(pintype "passive")
+			(uuid "b8b9c2c6-d4b6-4ba7-aca2-7b37a61f5347")
+		)
+		(pad "S" smd rect
+			(at -3.7 -3.6)
+			(size 2.8 2.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 322 "/Audio/HEADPHONE_OUT_FB")
+			(pintype "passive")
+			(uuid "049643d6-92ab-4913-9edb-8e094d052999")
+		)
+		(pad "T" smd rect
+			(at -3.7 5.8)
+			(size 2.8 2.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 307 "/Audio/HEADPHONE_OUT_L")
+			(pintype "passive")
+			(uuid "6184908b-eb5c-4661-a837-01ccd91f492c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "5595abae-6413-4c5d-b63d-653d65e8c1f1")
+		(at 139.4525 53.96)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R20"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "c0de037f-23b0-49b6-a96f-f85d026f2bc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "20R"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "ec7251e0-a521-4fc0-8fca-50f4491de8ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d415c8d-438c-451f-9059-53b47804f8ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12b5a9a5-d99f-4f9d-99f4-bc62d39dfbdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/dec50053-4888-47c9-b9c4-fe7c2097ec26")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.167621 -0.38)
+			(end 0.167621 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d9f13e96-1654-4f2c-81e2-db8532046239")
+		)
+		(fp_line
+			(start -0.167621 0.38)
+			(end 0.167621 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a3e12970-07ca-4cbf-9654-cb63f697f2c4")
+		)
+		(fp_line
+			(start -1.11 -0.47)
+			(end 1.11 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb41df5f-e0ec-4735-ac42-62f8fe5a2edc")
+		)
+		(fp_line
+			(start -1.11 0.47)
+			(end -1.11 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b45e6a6c-9852-4ff1-8d18-a57eb8ae96bc")
+		)
+		(fp_line
+			(start 1.11 -0.47)
+			(end 1.11 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9f0cd8a-617b-495d-9422-c330262e1fbc")
+		)
+		(fp_line
+			(start 1.11 0.47)
+			(end -1.11 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0457c086-9b5a-4dde-8c86-a370e2f8f073")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1b24681-0ce2-414d-9d10-5833c5dca605")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "385feee8-502b-4978-a2be-738da4b1461d")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bd9c99d1-0844-499f-a0df-ca34aff209e8")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5105e28a-7e5f-4c81-a001-7c84deab199b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b9a5e7bf-7d8f-4cc9-8e97-78dd2918168f")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5975 0)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 324 "Net-(C23-Pad2)")
+			(pintype "passive")
+			(uuid "996c604b-b3cf-43f9-9cb3-f10647c8992b")
+		)
+		(pad "2" smd roundrect
+			(at 0.5975 0)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 182 "GND")
+			(pintype "passive")
+			(uuid "1128a6b6-7a53-4df4-ae8a-a4cb25e4239d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27506,6 +28287,205 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "8aff44d4-06b7-4265-88c5-0cd22208eb19")
+		(at 139.4325 59.9)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C24"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "dd95ecd0-e426-4bf7-8dd8-84f637996b33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "71dfae68-4f8e-4400-adb6-531a390374c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c7691a2-e619-4eed-9213-7d5f22e90d35")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "905ba730-d28e-415b-911b-4491d04a9c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/9fe18ce5-51cb-46c6-b110-a2fabc199603")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.115835 -0.36)
+			(end 0.115835 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fbf11b42-7fc2-41ef-82ed-f54f8dd0b304")
+		)
+		(fp_line
+			(start -0.115835 0.36)
+			(end 0.115835 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07b3cc57-b05f-4934-b93c-a5fc88705b9d")
+		)
+		(fp_line
+			(start -1.09 -0.46)
+			(end 1.09 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb727b7e-ca6e-4bf2-b720-fdf4f1e716bc")
+		)
+		(fp_line
+			(start -1.09 0.46)
+			(end -1.09 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d26adb5c-c63c-4e97-a561-5735ef2c267d")
+		)
+		(fp_line
+			(start 1.09 -0.46)
+			(end 1.09 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2354ab51-17bd-4db5-983a-872a78e047e4")
+		)
+		(fp_line
+			(start 1.09 0.46)
+			(end -1.09 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67297247-a8aa-43c5-88f7-9f60b22adb3f")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a54b4a05-fea0-47da-a9a5-af0a39b8a054")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "82c57901-eafc-4dd2-a8ee-c1f236b47e5c")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2e61267-d5ac-474c-afbd-205f93b654b0")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e5d9ff1-0e19-405a-be17-a458b6a11f7b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b3c46f0e-0441-4cd4-b0a8-0f8f9201bf33")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5675 0)
+			(size 0.735 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 321 "/Audio/HEADPHONE_OUT_R")
+			(pintype "passive")
+			(uuid "7fd87044-5738-48cb-beb3-0846cd2466ca")
+		)
+		(pad "2" smd roundrect
+			(at 0.5675 0)
+			(size 0.735 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 325 "Net-(C24-Pad2)")
+			(pintype "passive")
+			(uuid "b952b425-1fb5-48c0-96f7-d2054f9c04d8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "pocket_synth:SK6812MINI-E"
 		(layer "F.Cu")
 		(uuid "8c22e082-072d-4dde-9d41-7eb23951b554")
@@ -37064,6 +38044,205 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "d3dbcb04-eb29-48bd-a3ac-63b505268978")
+		(at 139.4525 55.95)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R21"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "dcd681f7-8e4a-4a35-b170-5df951bb7406")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "20R"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "3907b481-e519-438e-b02f-a163890743d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c322677e-eea7-4eaf-8346-62fadb584c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dc54501-7e63-499b-9f4d-99fb75bab301")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/6d2fb1d8-86b9-4e63-8a3a-e80ebbe432fd")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.167621 -0.38)
+			(end 0.167621 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e6f0bb5-324e-4e54-8bea-7bf5c4375026")
+		)
+		(fp_line
+			(start -0.167621 0.38)
+			(end 0.167621 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "abb05813-b4cc-497a-9989-5e76d04130cb")
+		)
+		(fp_line
+			(start -1.11 -0.47)
+			(end 1.11 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "865aac81-6ce0-435e-8765-bbbcd0715861")
+		)
+		(fp_line
+			(start -1.11 0.47)
+			(end -1.11 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "10bdede5-a377-4146-bb4a-15ec30520b19")
+		)
+		(fp_line
+			(start 1.11 -0.47)
+			(end 1.11 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "44f85da8-680a-4c74-9da9-a23efc1f5c05")
+		)
+		(fp_line
+			(start 1.11 0.47)
+			(end -1.11 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "adbce9b5-9962-4b81-a1af-fd168bda4e07")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "346af737-f204-45f3-941d-a14beecede31")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4382d549-5d06-472a-803b-af30a5aadf84")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e1da9a3e-630b-4a75-8db0-80648b6eb4f7")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2d2732f-694e-4ae7-bde9-a676e5d56a6a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "38f96d40-ab28-4e24-ad91-d1f3d9d24402")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5975 0)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 325 "Net-(C24-Pad2)")
+			(pintype "passive")
+			(uuid "cf2fc9c6-fb41-4b58-bca9-c1af771f7254")
+		)
+		(pad "2" smd roundrect
+			(at 0.5975 0)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 182 "GND")
+			(pintype "passive")
+			(uuid "29522a75-14ac-4255-98a8-a2033ae247f3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d5f63905-c43f-488b-a165-3ebb76dd864f")
@@ -37327,6 +38506,174 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D2.5mm"
+		(layer "F.Cu")
+		(uuid "d7229fe4-6117-442b-bb53-8306b1c30a2f")
+		(at 140.0925 50.69)
+		(descr "SMD pad as test Point, diameter 2.5mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP10"
+			(at 0 -2.148 0)
+			(layer "F.SilkS")
+			(uuid "e0d00478-065f-42ff-b1ba-4d352fce3bd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPKR_SHDN"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "33f32303-1916-47ba-adcb-01fdf92130cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f451149a-620d-4dbb-870f-aa4597d20b9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28e9988b-045d-4668-8846-3415a9feb2e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4da0bf85-7e4d-475f-8da0-652e62d741a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb20a472-9b00-4701-b813-c06ea0493c02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68ce1736-e491-487b-ac19-04fd036a07fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a76848-3d0c-4546-a290-d8191e5f8921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b1f23e-0aac-4941-808d-ed2f6ac2e9d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/038fb03e-7ce1-4811-86ae-5bf86af3abf9")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "5d51702b-dd1d-45b9-a03f-7cfac4dd0549")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bc6b57a7-09a9-4177-a7da-e8715bd918b8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.15 0)
+			(layer "F.Fab")
+			(uuid "63f9adc8-788f-4854-89b7-cdcc7c1f4751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(layers "F.Cu" "F.Mask")
+			(net 326 "/Audio/SPKR_SHDN")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "5a9ab028-083a-427d-8f53-ad7d250fb2a1")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -41726,6 +43073,399 @@
 			)
 		)
 	)
+	(footprint "Package_DFN_QFN:TDFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm"
+		(layer "F.Cu")
+		(uuid "fc672bbd-b302-4530-8af0-a1282351ecc0")
+		(at 140.9075 46.145)
+		(descr "TDFN, 14 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0137.PDF (T1433-2C)), generated with kicad-footprint-generator ipc_noLead_generator.py")
+		(tags "TDFN NoLead")
+		(property "Reference" "U29"
+			(at 0 -2.45 0)
+			(layer "F.SilkS")
+			(uuid "01f5e1fb-c56b-4614-bac2-9bc458cccc98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MAX98306xDT"
+			(at 0 2.45 0)
+			(layer "F.Fab")
+			(uuid "4e9ffc8a-4270-485b-90db-215ad09713b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX98306.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74ae3cf4-b510-417d-8a38-4d49fc68a5d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Stereo 3.7 W Class D Amplifier, TDFN-14"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1901c093-1da5-4dcb-87aa-c123324319a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "C124549"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cde0ce35-905d-4bb9-aa72-fce961455ace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "914ada4e-edbc-4052-84b9-1797de08aa16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d459e52a-f2fb-4655-99c5-cd8b20029790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296f9cc6-7820-40a3-8b45-6d629e7024a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b544e577-fcb8-4e70-95ca-baf99c2d1003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59e54b9f-9899-4683-ad16-34ccef78c861")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TDFN*1EP*3x3mm*P0.4mm*")
+		(path "/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d/cf2f75c6-db25-4e7a-b7a0-8ae2a290f8ee")
+		(sheetname "/Audio/")
+		(sheetfile "audio.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.5 -1.61)
+			(end 1.5 -1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "47beedd0-2ddb-4942-99be-5e4bfa1594cb")
+		)
+		(fp_line
+			(start -1.5 1.61)
+			(end 1.5 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a67b6f2e-fb1d-4b42-9183-0431fd5243ca")
+		)
+		(fp_poly
+			(pts
+				(xy -2.05 -1.47) (xy -2.53 -1.47) (xy -2.05 -1.95)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "eb5a1cef-3abf-4100-80a0-920038311c3a")
+		)
+		(fp_rect
+			(start -2.13 -1.75)
+			(end 2.13 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fe926a53-77b2-470b-9a97-afdd07c72855")
+		)
+		(fp_poly
+			(pts
+				(xy -1.5 -0.75) (xy -1.5 1.5) (xy 1.5 1.5) (xy 1.5 -1.5) (xy -0.75 -1.5)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f950b1d0-56ef-45bf-a713-e145041407a3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "62139042-482e-4b57-8ef8-bd5f0ed60bc5")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.11)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.445 -0.59)
+			(size 0.72 0.95)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "9ef00abb-eb47-4848-933b-6c8046b2a2f6")
+		)
+		(pad "" smd roundrect
+			(at -0.445 0.59)
+			(size 0.72 0.95)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "4f7e87e4-005c-4f3d-ad91-f8330ce2c7fa")
+		)
+		(pad "" smd roundrect
+			(at 0.445 -0.59)
+			(size 0.72 0.95)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "f79ceb1d-2c3c-4cdd-95ee-2f266e6413aa")
+		)
+		(pad "" smd roundrect
+			(at 0.445 0.59)
+			(size 0.72 0.95)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "2430c844-8212-479d-b403-a2b5323a7357")
+		)
+		(pad "1" smd roundrect
+			(at -1.4875 -1.2)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 182 "GND")
+			(pinfunction "PGND")
+			(pintype "power_in")
+			(uuid "b771c656-5e62-446d-8e3c-e9c270acd63c")
+		)
+		(pad "2" smd roundrect
+			(at -1.4875 -0.8)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 335 "/Audio/HP_SENSE")
+			(pinfunction "~{SHDN}")
+			(pintype "input")
+			(uuid "917f320d-a292-4d0a-bef9-b1d285dec4ae")
+		)
+		(pad "3" smd roundrect
+			(at -1.4875 -0.4)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 329 "Net-(U29-INL+)")
+			(pinfunction "INL+")
+			(pintype "input")
+			(uuid "3d1d471c-6a49-470b-b473-eac7b16889c6")
+		)
+		(pad "4" smd roundrect
+			(at -1.4875 0)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 327 "Net-(U29-INL-)")
+			(pinfunction "INL-")
+			(pintype "input")
+			(uuid "034a14cc-2fef-4969-80f5-ffdec220d2b8")
+		)
+		(pad "5" smd roundrect
+			(at -1.4875 0.4)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 330 "VCC")
+			(pinfunction "GAIN")
+			(pintype "input")
+			(uuid "405b5118-ce7a-4303-95ff-b80ed7e38983")
+		)
+		(pad "6" smd roundrect
+			(at -1.4875 0.8)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 332 "unconnected-(U29-INR--Pad6)")
+			(pinfunction "INR-")
+			(pintype "input")
+			(uuid "6e149ffe-5d03-4105-8afc-9c4ac1239a26")
+		)
+		(pad "7" smd roundrect
+			(at -1.4875 1.2)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 331 "unconnected-(U29-INR+-Pad7)")
+			(pinfunction "INR+")
+			(pintype "input")
+			(uuid "5d23e264-dd22-482c-bf93-fd4a1384f1fa")
+		)
+		(pad "8" smd roundrect
+			(at 1.4875 1.2)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 182 "GND")
+			(pinfunction "PGND")
+			(pintype "passive")
+			(uuid "e925ab1e-eb7c-49fa-9f3d-c8f84f9b5d2a")
+		)
+		(pad "9" smd roundrect
+			(at 1.4875 0.8)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 336 "unconnected-(U29-OUTR--Pad9)")
+			(pinfunction "OUTR-")
+			(pintype "power_out")
+			(uuid "ddaa09c5-97a1-4438-addb-0af3db76b3ed")
+		)
+		(pad "10" smd roundrect
+			(at 1.4875 0.4)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 333 "unconnected-(U29-OUTR+-Pad10)")
+			(pinfunction "OUTR+")
+			(pintype "power_out")
+			(uuid "74b7530e-be27-458f-9fbd-69578c3bd705")
+		)
+		(pad "11" smd roundrect
+			(at 1.4875 0)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 24 "VDD")
+			(pinfunction "PVDD")
+			(pintype "power_in")
+			(uuid "4a87ea28-329e-470b-955c-9f9ce6807f3a")
+		)
+		(pad "12" smd roundrect
+			(at 1.4875 -0.4)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 24 "VDD")
+			(pinfunction "PVDD")
+			(pintype "passive")
+			(uuid "cb84468a-f63a-42ad-af46-7f54e2321e48")
+		)
+		(pad "13" smd roundrect
+			(at 1.4875 -0.8)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 328 "Net-(U29-OUTL+)")
+			(pinfunction "OUTL+")
+			(pintype "power_out")
+			(uuid "1177e9e0-4ea2-466a-ba77-118b52e0bea3")
+		)
+		(pad "14" smd roundrect
+			(at 1.4875 -1.2)
+			(size 0.775 0.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 334 "Net-(U29-OUTL-)")
+			(pinfunction "OUTL-")
+			(pintype "power_out")
+			(uuid "8ca79314-2ff5-43e4-95d6-9bd3c4666dc1")
+		)
+		(pad "15" smd rect
+			(at 0 0)
+			(size 1.78 2.35)
+			(property pad_prop_heatsink)
+			(layers "F.Cu" "F.Mask")
+			(net 182 "GND")
+			(pinfunction "PGND")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "b9aa5224-14c0-4081-9ba6-6d51660d9ae4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TDFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fe2f6bcc-c702-44d8-b3d3-c8b7a8318688")
@@ -42962,7 +44702,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "AUDIO_MODULE"
+		(property "Value" "AUDIO_EXP"
 			(at 0 0.375 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -43584,7 +45324,7 @@
 			(at -2.8 2.35)
 			(size 0.5 2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 324 "unconnected-(J5-Pad17)")
+			(net 91 "/Audio/EXP_DETECT")
 			(pinfunction "17")
 			(pintype "passive")
 			(uuid "7595d768-8042-47f1-9d75-d8b4e17c58b5")
@@ -43595,7 +45335,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 104 "unconnected-(J5-Pad18)")
 			(pinfunction "18")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "b2f3bf7d-445d-475b-bc95-003838f5d586")
 		)
 		(pad "19" smd rect
@@ -43613,7 +45353,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 87 "unconnected-(J5-Pad20)")
 			(pinfunction "20")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "0bfce8f8-0938-492e-81c1-0c7ce5996269")
 		)
 		(embedded_fonts no)
@@ -47012,7 +48752,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "7230fcba-ab58-4b74-b7f6-bf221f533370")
@@ -49866,7 +51606,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "aa864d83-abb1-4dbb-b14d-7bbb3b6ff733")
@@ -56018,7 +57758,7 @@
 			)
 		)
 		(property ki_fp_filters "LQFP*20x20mm*P0.5mm*")
-		(path "/0f59ca20-5500-4399-8ffa-55aebf6eb4ee/64111d65-9e01-4946-b97c-77cca56250bd")
+		(path "/0f59ca20-5500-4399-8ffa-55aebf6eb4ee/64111d65-9e01-4946-b97c-77cca56250bf")
 		(sheetname "/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(attr smd)
