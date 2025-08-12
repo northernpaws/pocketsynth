@@ -32207,6 +32207,19 @@
 		)
 		(uuid "626cdceb-d81e-4187-acdd-4a40338e708a")
 	)
+	(text "TODO: change to female"
+		(exclude_from_sim no)
+		(at 43.18 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "8d21c69e-0a66-4efd-bcbd-78a9e6b0e4cc")
+	)
 	(text "Notifies MCU of\nline-in jack plug"
 		(exclude_from_sim no)
 		(at 107.95 136.906 0)
@@ -32672,7 +32685,7 @@
 		(uuid "7826a0fd-50ac-4452-b81d-55cb10c83e87")
 	)
 	(bus_entry
-		(at 111.76 176.53)
+		(at 111.76 172.72)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -33134,16 +33147,6 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 149.86) (xy 137.16 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152e3167-02de-45aa-839a-c97f0d68f648")
-	)
-	(bus
-		(pts
 			(xy 180.34 72.39) (xy 180.34 77.47)
 		)
 		(stroke
@@ -33154,7 +33157,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 176.53) (xy 123.19 176.53)
+			(xy 111.76 172.72) (xy 123.19 172.72)
 		)
 		(stroke
 			(width 0)
@@ -33314,7 +33317,7 @@
 	)
 	(bus
 		(pts
-			(xy 279.4 30.48) (xy 279.4 19.05)
+			(xy 279.4 30.48) (xy 279.4 27.94)
 		)
 		(stroke
 			(width 0)
@@ -33424,16 +33427,6 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 162.56) (xy 109.22 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39717e78-f868-4a13-8648-8f430ee85d56")
-	)
-	(bus
-		(pts
 			(xy 273.05 19.05) (xy 275.59 21.59)
 		)
 		(stroke
@@ -33531,6 +33524,16 @@
 			(type default)
 		)
 		(uuid "448d46ac-391f-4e69-9354-f4730bdaebf2")
+	)
+	(bus
+		(pts
+			(xy 109.22 165.1) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44af164e-4dd5-44ad-8c1f-94286fcaf8e9")
 	)
 	(wire
 		(pts
@@ -33741,16 +33744,6 @@
 			(type default)
 		)
 		(uuid "5c40ddd0-dbcd-4d08-880b-5a8dc6c6ec1a")
-	)
-	(bus
-		(pts
-			(xy 139.7 152.4) (xy 137.16 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d701df4-8388-4e78-806a-b5a8a0f69404")
 	)
 	(wire
 		(pts
@@ -34051,16 +34044,6 @@
 			(type default)
 		)
 		(uuid "810c41d7-0acc-4ee0-9737-5115205bc500")
-	)
-	(bus
-		(pts
-			(xy 109.22 165.1) (xy 109.22 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c2a4e9-9fc9-4c1c-a6de-8cc7ee70ab5e")
 	)
 	(wire
 		(pts
@@ -34552,16 +34535,6 @@
 		)
 		(uuid "b8c5d216-6fed-4e00-a09a-c29d3776a9d7")
 	)
-	(bus
-		(pts
-			(xy 279.4 19.05) (xy 275.59 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94b9d53-93b3-4f7c-ad01-a6d1c971c03d")
-	)
 	(wire
 		(pts
 			(xy 30.48 172.72) (xy 33.02 172.72)
@@ -34601,6 +34574,16 @@
 			(type default)
 		)
 		(uuid "c017b7b0-0973-4bd4-998b-7758318d3051")
+	)
+	(bus
+		(pts
+			(xy 109.22 167.64) (xy 109.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09716d6-510d-415e-86dd-61228c269d65")
 	)
 	(wire
 		(pts
@@ -34744,7 +34727,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 167.64) (xy 109.22 173.99)
+			(xy 109.22 162.56) (xy 109.22 165.1)
 		)
 		(stroke
 			(width 0)
@@ -35011,16 +34994,6 @@
 			(type default)
 		)
 		(uuid "e679f5d8-9f10-4b0b-ab98-da249e5ded56")
-	)
-	(bus
-		(pts
-			(xy 273.05 15.24) (xy 275.59 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ba464e-2514-4bbb-a20c-5dc737591759")
 	)
 	(wire
 		(pts
@@ -35633,7 +35606,7 @@
 		(uuid "b83338db-1e0d-4667-9eee-8ef0d1f2982f")
 	)
 	(label "SPI.POCI"
-		(at 121.92 176.53 180)
+		(at 121.92 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35901,12 +35874,12 @@
 	)
 	(hierarchical_label "{I2C}"
 		(shape input)
-		(at 134.62 149.86 180)
+		(at 139.7 152.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e1321994-846a-4ae6-9cd0-557fe4be3041")
 	)
@@ -35934,12 +35907,12 @@
 	)
 	(hierarchical_label "{CODEC}"
 		(shape input)
-		(at 273.05 15.24 180)
+		(at 279.4 27.94 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fb045f86-2af3-4803-9844-ea553c2ea508")
 	)

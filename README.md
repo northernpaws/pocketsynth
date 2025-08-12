@@ -13,9 +13,11 @@ This repository contains my project for an STM32H7-based sequencer, synthesizer,
     * Several SAI audio blocks
   * 2.4" 240x320 TFT IPS Display (`ER-TFT024IPS-3`)
     * Capacitive touch
-  * 24 bit Audio Codec (`WM8904CGEFL/RV`)
-    * DAC SNR 96dB
-    * ADC SNR 91dB
+  * 24 bit Audio Codec (`NAU88C22YG`)
+    * DAC: 94dB SNR and -84dB THD (“A” weighted)
+    * ADC: 90dB SNR and -80dB THD (“A” weighted)
+    * Integrated BTL speaker driver: 1W into 8Ω
+    * Integrated head-phone driver: 40mW into 16Ω
   * Optional Bluetooth Classic and BLE Audio Source (`FSC-BT6038`)
     * Wirelessly connect Bluethooth headphones and speakers
     * Supports various high-fedality audio protocols
