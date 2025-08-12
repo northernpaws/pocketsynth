@@ -967,51 +967,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Speaker"
+		(symbol "pocket_synth:AS01808AO-SC18-WP-R"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "LS"
-				(at 1.27 5.715 0)
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Speaker"
-				(at 1.27 3.81 0)
+			(property "Value" "AS01808AO-SC18-WP-R"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
+			(property "Footprint" "pocket_synth:AS01808AO-SC18-WP-R"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Speaker"
+			(property "Datasheet" "https://puiaudio.com/file/specs-AS01808AO-SC18-WP-R.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1020,7 +1011,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "speaker sound"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1029,10 +1020,63 @@
 					(hide yes)
 				)
 			)
-			(symbol "Speaker_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "PUI Audio"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AS01808AO-SC18-WP-R_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -3.175 -1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1043,7 +1087,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
+						(xy -3.175 1.905) (xy -2.54 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1053,40 +1097,154 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Speaker_1_1"
-				(pin input line
-					(at -5.08 0 0)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -2.286 2.54 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -2.286 -4.064 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "P"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -2.54 0)
+			)
+			(symbol "AS01808AO-SC18-WP-R_1_0"
+				(pin passive line
+					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "N"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3259,7 +3417,7 @@
 	)
 	(text "Headphone driver: 40 mW @ 16 Ω\nSpeaker driver: up to 1 W @ 8 Ω (BTL)"
 		(exclude_from_sim no)
-		(at 125.984 88.138 0)
+		(at 143.51 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3571,16 +3729,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 109.22 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06108c86-db1f-4c7a-b58f-6752e9bf4a19")
-	)
-	(wire
-		(pts
 			(xy 48.26 120.65) (xy 48.26 121.92)
 		)
 		(stroke
@@ -3661,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 111.76 74.93)
+			(xy 111.76 73.66) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 110.49 88.9)
+			(xy 114.3 88.9) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 110.49 91.44)
+			(xy 96.52 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4001,7 +4149,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 73.66) (xy 111.76 73.66)
+			(xy 114.3 73.66) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 106.68 101.6)
+			(xy 106.68 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4321,7 +4469,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 113.03 66.04)
+			(xy 106.68 66.04) (xy 114.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4441,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 109.22) (xy 111.76 109.22)
+			(xy 114.3 106.68) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4551,16 +4699,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 113.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95770634-94b7-4130-b0ca-cada48467bed")
-	)
-	(wire
-		(pts
 			(xy 106.68 109.22) (xy 109.22 109.22)
 		)
 		(stroke
@@ -4601,7 +4739,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 83.82) (xy 96.52 83.82)
+			(xy 99.06 83.82) (xy 96.52 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4761,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 111.76 63.5)
+			(xy 114.3 63.5) (xy 111.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4771,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 113.03 106.68)
+			(xy 109.22 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4811,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 113.03 86.36)
+			(xy 99.06 86.36) (xy 114.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4831,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 110.49 83.82)
+			(xy 99.06 86.36) (xy 99.06 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +5009,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 113.03 71.12)
+			(xy 106.68 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4951,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 109.22) (xy 109.22 106.68)
+			(xy 109.22 109.22) (xy 109.22 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4961,7 +5099,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 91.44)
+			(xy 99.06 88.9) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5011,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 111.76 110.49)
+			(xy 111.76 106.68) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5434,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 118.11 106.68 180)
+		(at 119.38 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5442,23 +5580,25 @@
 		(dnp no)
 		(uuid "009f1122-5c04-4f8e-a247-2de16367e21b")
 		(property "Reference" "J8"
-			(at 119.38 100.076 0)
+			(at 125.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LINE_OUT"
-			(at 119.38 112.268 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 118.11 106.68 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 106.68 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5616,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 118.11 106.68 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 110.49 0)
+		(at 111.76 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5512,7 +5652,7 @@
 		(dnp no)
 		(uuid "0d311478-f7c0-4e90-9a68-a9c123621573")
 		(property "Reference" "#PWR056"
-			(at 111.76 116.84 0)
+			(at 111.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 115.316 0)
+			(at 111.76 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 110.49 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 110.49 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 110.49 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,6 +6534,116 @@
 		)
 	)
 	(symbol
+		(lib_id "pocket_synth:AS01808AO-SC18-WP-R")
+		(at 120.65 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417f8a54-4ebb-48e1-a62a-62db6d159438")
+		(property "Reference" "LS1"
+			(at 124.46 86.5042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPK"
+			(at 124.46 89.0442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pocket_synth:AS01808AO-SC18-WP-R"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://puiaudio.com/file/specs-AS01808AO-SC18-WP-R.pdf"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "PUI Audio"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P"
+			(uuid "97f4d654-5ade-4665-9ea8-f7d7fc2b26e9")
+		)
+		(pin "N"
+			(uuid "7028acc8-87ea-49d3-85df-28c367a36b77")
+		)
+		(instances
+			(project ""
+				(path "/485383b8-00f4-4405-b270-de249939cff4/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d"
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 102.87 101.6 90)
 		(unit 1)
@@ -6872,113 +7122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Speaker")
-		(at 118.11 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "633a56a6-2a6b-42d2-8fcb-035d73578f82")
-		(property "Reference" "LS7"
-			(at 117.348 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SPK"
-			(at 117.094 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 117.856 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57269f96-5eec-4628-a9a1-7f57396fd157")
-		)
-		(pin "1"
-			(uuid "dd8a5aee-1035-4cb1-80d2-728334b36cbd")
-		)
-		(instances
-			(project "pocket_synth"
-				(path "/485383b8-00f4-4405-b270-de249939cff4/ac7a2cd5-8a17-4132-a50f-a1edfbc58e6d"
-					(reference "LS7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pocket_synth:FX6-20P-0.8SV1(71)")
 		(at 251.46 133.35 0)
 		(unit 1)
@@ -7368,7 +7511,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchT")
-		(at 118.11 71.12 180)
+		(at 119.38 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7376,7 +7519,7 @@
 		(dnp no)
 		(uuid "82872f4a-e4a8-4595-887b-afa235fac224")
 		(property "Reference" "J10"
-			(at 120.65 59.436 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,15 +7528,16 @@
 			)
 		)
 		(property "Value" "HP_OUT"
-			(at 119.38 76.708 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal"
-			(at 118.11 71.12 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +7546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 71.12 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +7555,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 118.11 71.12 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7973,7 +8117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 74.93 0)
+		(at 111.76 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7981,7 +8125,7 @@
 		(dnp no)
 		(uuid "b94c02f0-3218-4d4f-979a-23fc857e282d")
 		(property "Reference" "#PWR061"
-			(at 111.76 81.28 0)
+			(at 111.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +8134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 79.756 0)
+			(at 111.76 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +8142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 74.93 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 74.93 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 74.93 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
