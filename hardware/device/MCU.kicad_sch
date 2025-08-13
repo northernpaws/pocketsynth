@@ -19929,7 +19929,6 @@
 					(alternate "I2S2_WS" bidirectional line)
 					(alternate "LPUART1_CTS" bidirectional line)
 					(alternate "LTDC_R4" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM1_CH4" bidirectional line)
 					(alternate "UART4_RX" bidirectional line)
@@ -19961,7 +19960,6 @@
 					(alternate "LPUART1_DE" bidirectional line)
 					(alternate "LPUART1_RTS" bidirectional line)
 					(alternate "LTDC_R5" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI2_FS_B" bidirectional line)
 					(alternate "SPI2_SCK" bidirectional line)
 					(alternate "TIM1_ETR" bidirectional line)
@@ -30976,6 +30974,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pocket_synth:BMDU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://black-magic.org/knowledge/pinouts.html#black-magic-debug-unified-connector-bmdu"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Black Magic Debug Unified Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMDU_1_1"
+				(rectangle
+					(start -11.43 8.89)
+					(end 11.43 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -13.97 6.35 0)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 3.81 0)
+					(length 2.54)
+					(name "SWDCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 1.27 0)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -13.97 -6.35 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "vRef"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -6.35 180)
+					(length 2.54)
+					(name "UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pocket_synth:FX6-20P-0.8SV1(71)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -32480,7 +32703,7 @@
 		(uuid "c440c7b9-2b67-43dc-a49d-d140b4604ead")
 	)
 	(bus_entry
-		(at 111.76 170.18)
+		(at 127 149.86)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32489,7 +32712,7 @@
 		(uuid "091d4a24-c6cd-4a62-bb01-5fc1bcfcdbda")
 	)
 	(bus_entry
-		(at 142.24 160.02)
+		(at 153.67 149.86)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32507,7 +32730,7 @@
 		(uuid "119a218b-a49c-4be9-b618-805542d1bb66")
 	)
 	(bus_entry
-		(at 111.76 167.64)
+		(at 127 147.32)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32606,7 +32829,7 @@
 		(uuid "49eec8be-aa7b-4d1f-923a-a48b902bd7bb")
 	)
 	(bus_entry
-		(at 142.24 157.48)
+		(at 153.67 147.32)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32687,7 +32910,7 @@
 		(uuid "7826a0fd-50ac-4452-b81d-55cb10c83e87")
 	)
 	(bus_entry
-		(at 111.76 172.72)
+		(at 127 152.4)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32989,13 +33212,23 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 154.94) (xy 139.7 157.48)
+			(xy 151.13 144.78) (xy 151.13 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "066cfbdb-669f-4b60-9f6d-2e55f380878e")
+	)
+	(wire
+		(pts
+			(xy 193.04 154.94) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b2e43a-8d9a-4aa1-ab5d-152eb4af769c")
 	)
 	(wire
 		(pts
@@ -33127,6 +33360,16 @@
 		)
 		(uuid "125081ac-8543-436b-b4cf-9bd41df16e7f")
 	)
+	(wire
+		(pts
+			(xy 193.04 157.48) (xy 195.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13082956-3b1e-43b2-aab7-c9bc62c97f1e")
+	)
 	(bus
 		(pts
 			(xy 275.59 121.92) (xy 275.59 129.54)
@@ -33159,7 +33402,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 172.72) (xy 123.19 172.72)
+			(xy 127 152.4) (xy 138.43 152.4)
 		)
 		(stroke
 			(width 0)
@@ -33407,6 +33650,16 @@
 		)
 		(uuid "3284517c-be83-47a9-b185-9717c72bed87")
 	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d1f000-ad8b-466a-9fe6-56ff7bcfd8a4")
+	)
 	(bus
 		(pts
 			(xy 175.26 19.05) (xy 177.8 19.05)
@@ -33426,6 +33679,16 @@
 			(type default)
 		)
 		(uuid "37d1aea3-2467-45be-936d-ff2961c46642")
+	)
+	(wire
+		(pts
+			(xy 146.05 173.99) (xy 143.51 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391b07b2-b998-456b-b364-07854e852dbc")
 	)
 	(bus
 		(pts
@@ -33459,7 +33722,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 152.4) (xy 139.7 154.94)
+			(xy 151.13 142.24) (xy 151.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -33499,7 +33762,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 160.02) (xy 158.75 160.02)
+			(xy 153.67 149.86) (xy 170.18 149.86)
 		)
 		(stroke
 			(width 0)
@@ -33529,7 +33792,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 165.1) (xy 109.22 167.64)
+			(xy 124.46 144.78) (xy 124.46 147.32)
 		)
 		(stroke
 			(width 0)
@@ -33877,6 +34140,16 @@
 		)
 		(uuid "6d1c2cf0-2205-4896-b518-75810f919600")
 	)
+	(wire
+		(pts
+			(xy 160.02 161.29) (xy 160.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d27b8c2-73bb-4265-a2c5-6b9584fda008")
+	)
 	(bus
 		(pts
 			(xy 275.59 144.78) (xy 275.59 154.94)
@@ -33886,6 +34159,16 @@
 			(type default)
 		)
 		(uuid "6d2f9cb3-d101-48d1-9f7e-b75006901f43")
+	)
+	(wire
+		(pts
+			(xy 146.05 171.45) (xy 143.51 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6daa7de4-bea9-4a15-ba16-5ff1049f09cf")
 	)
 	(wire
 		(pts
@@ -33916,6 +34199,16 @@
 			(type default)
 		)
 		(uuid "7079d331-97c8-451b-ac6b-2f2e3f5f2ef8")
+	)
+	(wire
+		(pts
+			(xy 157.48 161.29) (xy 160.02 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708792e4-24e3-4460-b988-8cc3fcf49e1b")
 	)
 	(wire
 		(pts
@@ -33999,7 +34292,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 123.19 170.18)
+			(xy 127 149.86) (xy 138.43 149.86)
 		)
 		(stroke
 			(width 0)
@@ -34029,7 +34322,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 157.48) (xy 158.75 157.48)
+			(xy 153.67 147.32) (xy 170.18 147.32)
 		)
 		(stroke
 			(width 0)
@@ -34176,6 +34469,16 @@
 			(type default)
 		)
 		(uuid "93ab2983-1d34-4f0a-8c67-9ca50cf8dcbb")
+	)
+	(wire
+		(pts
+			(xy 146.05 168.91) (xy 143.51 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9432a86e-2fdc-4155-908d-a0d4fa69fc9d")
 	)
 	(wire
 		(pts
@@ -34579,7 +34882,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 167.64) (xy 109.22 170.18)
+			(xy 124.46 147.32) (xy 124.46 149.86)
 		)
 		(stroke
 			(width 0)
@@ -34646,6 +34949,16 @@
 			(type default)
 		)
 		(uuid "c4a07066-d6b4-4e12-aa13-704ad4788522")
+	)
+	(wire
+		(pts
+			(xy 160.02 186.69) (xy 160.02 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54409c6-2a72-4996-9b34-af76960d988f")
 	)
 	(wire
 		(pts
@@ -34729,7 +35042,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 162.56) (xy 109.22 165.1)
+			(xy 124.46 142.24) (xy 124.46 144.78)
 		)
 		(stroke
 			(width 0)
@@ -34919,7 +35232,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 167.64) (xy 123.19 167.64)
+			(xy 127 147.32) (xy 138.43 147.32)
 		)
 		(stroke
 			(width 0)
@@ -35267,6 +35580,16 @@
 		)
 		(uuid "23c7caa2-eddb-4004-bead-69e613810423")
 	)
+	(label "SWD_SWO"
+		(at 128.27 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "259655e8-6bda-4b55-b8f5-ab0d792a4f49")
+	)
 	(label "CODEC.ADCDAT"
 		(at 261.62 35.56 0)
 		(effects
@@ -35317,8 +35640,18 @@
 		)
 		(uuid "2c3abaec-5d1e-4f39-9cab-c4250255da9a")
 	)
+	(label "PROBE_PWR"
+		(at 157.48 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ca3757a-fcd6-4587-8872-01f485efd497")
+	)
 	(label "I2C.SDA"
-		(at 157.48 160.02 180)
+		(at 168.91 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35347,6 +35680,16 @@
 		)
 		(uuid "3cdac458-5f59-447a-973d-4717f9cbd940")
 	)
+	(label "SWD_SWDIO"
+		(at 143.51 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3db851ee-3e63-4519-8648-843a76ced698")
+	)
 	(label "FMC.CLK"
 		(at 194.31 48.26 180)
 		(effects
@@ -35358,7 +35701,7 @@
 		(uuid "466fc011-3e3b-4bc5-8d68-baf2cdc12dd9")
 	)
 	(label "I2C.SCL"
-		(at 157.48 157.48 180)
+		(at 168.91 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35557,6 +35900,16 @@
 		)
 		(uuid "993c9319-171c-4c33-80ca-b15d8f836202")
 	)
+	(label "SWD_SWDIO"
+		(at 193.04 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dee6986-f21e-40dd-8004-0405a4990da9")
+	)
 	(label "FMC.A5"
 		(at 261.62 87.63 0)
 		(effects
@@ -35576,6 +35929,16 @@
 			(justify right bottom)
 		)
 		(uuid "a218a265-eb0a-45df-b703-8bc8c2ef90d6")
+	)
+	(label "SWD_SWO"
+		(at 143.51 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a64f7858-ebe7-4ca0-8ffd-6277a25a9a49")
 	)
 	(label "EXP_UART_TX"
 		(at 30.48 162.56 180)
@@ -35608,7 +35971,7 @@
 		(uuid "b83338db-1e0d-4667-9eee-8ef0d1f2982f")
 	)
 	(label "SPI.POCI"
-		(at 121.92 172.72 180)
+		(at 137.16 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35698,7 +36061,7 @@
 		(uuid "cfc54944-8460-4505-9340-1eefe25329ec")
 	)
 	(label "SPI.CLK"
-		(at 121.92 170.18 180)
+		(at 137.16 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35758,7 +36121,7 @@
 		(uuid "e40c4801-88c3-45b5-8cb0-e4c7b6b27ae2")
 	)
 	(label "SPI.PICO"
-		(at 121.92 167.64 180)
+		(at 137.16 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35776,6 +36139,16 @@
 			(justify right bottom)
 		)
 		(uuid "ed014dcc-1e7f-4597-8340-022ca3b58f9b")
+	)
+	(label "SWD_SWCLK"
+		(at 143.51 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f22b45a3-1d32-4885-aa09-4849a90b123f")
 	)
 	(label "FMC.A3"
 		(at 261.62 82.55 0)
@@ -35796,6 +36169,16 @@
 			(justify left bottom)
 		)
 		(uuid "f429dca7-1995-49c6-b2f7-822100c34dbd")
+	)
+	(label "SWD_SWCLK"
+		(at 193.04 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f79e75e8-7428-4ff1-87c4-5a418ae6dd31")
 	)
 	(global_label "3v3_PG"
 		(shape input)
@@ -35865,7 +36248,7 @@
 	)
 	(hierarchical_label "{SPI}"
 		(shape input)
-		(at 109.22 162.56 90)
+		(at 124.46 142.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35876,7 +36259,7 @@
 	)
 	(hierarchical_label "{I2C}"
 		(shape input)
-		(at 139.7 152.4 90)
+		(at 151.13 142.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36880,6 +37263,72 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44e6e212-eca8-49ab-8f13-953ace6dca33")
+		(property "Reference" "#PWR038"
+			(at 160.02 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab8e3c5c-7e8a-47de-a51d-13bd46a4e282")
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -41195,6 +41644,7 @@
 		)
 		(pin "133"
 			(uuid "b1ba5108-5335-4132-9f32-345d943f1625")
+			(alternate "DEBUG_JTDO-SWO")
 		)
 		(pin "134"
 			(uuid "008a1438-6870-4296-8b3f-fcf63e428e40")
@@ -42167,6 +42617,96 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
 					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pocket_synth:BMDU")
+		(at 160.02 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a367269f-b4ab-4260-b036-d56b64df095b")
+		(property "Reference" "U1"
+			(at 161.29 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMDU"
+			(at 161.29 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
+			(at 160.02 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://black-magic.org/knowledge/pinouts.html#black-magic-debug-unified-connector-bmdu"
+			(at 160.02 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Black Magic Debug Unified Connector"
+			(at 160.02 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f5a8d18-d899-4f24-8ee5-3960a987e154")
+		)
+		(pin "5"
+			(uuid "1b7788e0-a277-4b0b-af37-8de7a8934132")
+		)
+		(pin "8"
+			(uuid "c84077b9-2e37-460f-a877-8cbbb9c276c5")
+		)
+		(pin "1"
+			(uuid "1ca9d4ed-436b-4158-a916-1394afbe03a7")
+		)
+		(pin "2"
+			(uuid "f3a8af20-abea-4df7-8591-593f79376e2c")
+		)
+		(pin "7"
+			(uuid "1340150c-f711-47d7-82b3-c12eaa066ff8")
+		)
+		(pin "9"
+			(uuid "628116fe-381b-40c1-95e2-e9c362c0d69e")
+		)
+		(pin "6"
+			(uuid "854c739c-10e5-4aa2-bac2-b330f787ccaa")
+		)
+		(pin "4"
+			(uuid "7d957b46-e182-487b-83c2-8868f63aa5a3")
+		)
+		(instances
+			(project ""
+				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
+					(reference "U1")
 					(unit 1)
 				)
 			)
