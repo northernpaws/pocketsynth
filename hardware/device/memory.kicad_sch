@@ -5457,7 +5457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3BT-DSF-PEJS"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at 158.75 63.5 0)
 			(effects
 				(font
