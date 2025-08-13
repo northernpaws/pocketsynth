@@ -13007,6 +13007,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_INP10" bidirectional line)
 					(alternate "ADC2_INP10" bidirectional line)
 					(alternate "ADC3_INP10" bidirectional line)
@@ -13014,7 +13015,6 @@
 					(alternate "DFSDM1_DATIN4" bidirectional line)
 					(alternate "FMC_SDNWE" bidirectional line)
 					(alternate "LTDC_R5" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI2_FS_B" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_STP" bidirectional line)
 				)
@@ -13073,6 +13073,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC3_INN1" bidirectional line)
 					(alternate "ADC3_INP0" bidirectional line)
 					(alternate "DFSDM1_CKIN1" bidirectional line)
@@ -13080,7 +13081,6 @@
 					(alternate "ETH_TXD2" bidirectional line)
 					(alternate "FMC_SDNE0" bidirectional line)
 					(alternate "I2S2_SDI" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_CSTOP" bidirectional line)
 					(alternate "SPI2_MISO" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_DIR" bidirectional line)
@@ -13102,12 +13102,12 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC3_INP1" bidirectional line)
 					(alternate "DFSDM1_DATIN1" bidirectional line)
 					(alternate "ETH_TX_CLK" bidirectional line)
 					(alternate "FMC_SDCKE0" bidirectional line)
 					(alternate "I2S2_SDO" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_CSLEEP" bidirectional line)
 					(alternate "SPI2_MOSI" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_NXT" bidirectional line)
@@ -19932,7 +19932,6 @@
 					(alternate "I2S2_WS" bidirectional line)
 					(alternate "LPUART1_CTS" bidirectional line)
 					(alternate "LTDC_R4" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM1_CH4" bidirectional line)
 					(alternate "UART4_RX" bidirectional line)
@@ -19964,7 +19963,6 @@
 					(alternate "LPUART1_DE" bidirectional line)
 					(alternate "LPUART1_RTS" bidirectional line)
 					(alternate "LTDC_R5" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI2_FS_B" bidirectional line)
 					(alternate "SPI2_SCK" bidirectional line)
 					(alternate "TIM1_ETR" bidirectional line)
@@ -31782,6 +31780,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "AUDIO_UART"
+		(members "AUDIO_UART.RX" "AUDIO_UART.TX")
+	)
 	(bus_alias "CODEC"
 		(members "CODEC.MCLK" "CODEC.ADCDAT" "CODEC.LRCLK" "CODEC.BCLK" "CODEC.DACDAT")
 	)
@@ -31789,7 +31790,10 @@
 		(members "I2C.SCL" "I2C.SDA")
 	)
 	(bus_alias "SPI"
-		(members "SPI.CLK" "SPI.POCI" "SPI.PICO")
+		(members "FMC.DQML" "FMC.DQMH" "FMC.CLK" "FMC.CAS" "FMC.RAS" "FMC.D[0..15]"
+			"FMC.A[0..12]" "FMC.NOE" "FMC.NWE" "FMC.BA0" "FMC.BA1" "FMC.CLK" "FMC.CAS"
+			"FMC.WE" "FMC.NE0" "FMC.CKE" "FMC.NE1"
+		)
 	)
 	(text "MCU signal to control\nsoft power-off"
 		(exclude_from_sim no)
@@ -31836,7 +31840,7 @@
 	)
 	(text "FMC_SDNWE is alternate\n"
 		(exclude_from_sim no)
-		(at 179.07 138.43 0)
+		(at 170.18 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32177,7 +32181,7 @@
 		(uuid "091d4a24-c6cd-4a62-bb01-5fc1bcfcdbda")
 	)
 	(bus_entry
-		(at 153.67 149.86)
+		(at 144.78 128.27)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32240,6 +32244,15 @@
 		(uuid "231393b2-290f-44dc-bb01-0b7ce6d60956")
 	)
 	(bus_entry
+		(at 176.53 147.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259a058c-1fe9-4217-b77f-4670d0cf54ed")
+	)
+	(bus_entry
 		(at 273.05 53.34)
 		(size 2.54 -2.54)
 		(stroke
@@ -32294,7 +32307,7 @@
 		(uuid "49eec8be-aa7b-4d1f-923a-a48b902bd7bb")
 	)
 	(bus_entry
-		(at 153.67 147.32)
+		(at 144.78 125.73)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32582,6 +32595,15 @@
 		(uuid "e54899c4-993f-47a0-bbdd-29c1304b34d2")
 	)
 	(bus_entry
+		(at 179.07 152.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72d8f2e-5571-4897-a906-cb784ddeb6ec")
+	)
+	(bus_entry
 		(at 276.86 40.64)
 		(size 2.54 -2.54)
 		(stroke
@@ -32677,7 +32699,7 @@
 	)
 	(bus
 		(pts
-			(xy 151.13 144.78) (xy 151.13 147.32)
+			(xy 142.24 123.19) (xy 142.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -32744,6 +32766,26 @@
 			(type default)
 		)
 		(uuid "08663735-ef5c-420e-9176-86216977372c")
+	)
+	(bus
+		(pts
+			(xy 176.53 147.32) (xy 176.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d91546b-a622-4ada-a6a4-53e532ef05c8")
+	)
+	(bus
+		(pts
+			(xy 176.53 144.78) (xy 176.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de4955c-42a7-49ec-aeb0-9a08d7708a37")
 	)
 	(wire
 		(pts
@@ -33217,7 +33259,7 @@
 	)
 	(bus
 		(pts
-			(xy 151.13 142.24) (xy 151.13 144.78)
+			(xy 142.24 120.65) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -33257,7 +33299,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 149.86) (xy 170.18 149.86)
+			(xy 144.78 128.27) (xy 161.29 128.27)
 		)
 		(stroke
 			(width 0)
@@ -33847,7 +33889,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 147.32) (xy 170.18 147.32)
+			(xy 144.78 125.73) (xy 161.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -34054,6 +34096,16 @@
 			(type default)
 		)
 		(uuid "95cd2758-933f-474f-b464-50b37c045aa7")
+	)
+	(wire
+		(pts
+			(xy 179.07 152.4) (xy 195.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8b18ee-78d8-4a57-bae9-c28266315ffd")
 	)
 	(bus
 		(pts
@@ -34494,6 +34546,16 @@
 			(type default)
 		)
 		(uuid "c55eb4f8-323a-47be-b898-bf009ef8b259")
+	)
+	(wire
+		(pts
+			(xy 179.07 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ef9c45-9fa8-467f-a1cc-f0f53cc691b5")
 	)
 	(wire
 		(pts
@@ -35135,6 +35197,16 @@
 		)
 		(uuid "272d1d9f-6aea-4efb-be04-494d03531569")
 	)
+	(label "AUDIO_UART.RX"
+		(at 194.31 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27a5f8c0-3d1d-40b6-b89f-efd47cb47586")
+	)
 	(label "FMC.NE1"
 		(at 194.31 92.71 180)
 		(effects
@@ -35156,7 +35228,7 @@
 		(uuid "2ca3757a-fcd6-4587-8872-01f485efd497")
 	)
 	(label "I2C.SDA"
-		(at 168.91 149.86 180)
+		(at 160.02 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35206,7 +35278,7 @@
 		(uuid "466fc011-3e3b-4bc5-8d68-baf2cdc12dd9")
 	)
 	(label "I2C.SCL"
-		(at 168.91 147.32 180)
+		(at 160.02 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35234,6 +35306,16 @@
 			(justify left bottom)
 		)
 		(uuid "4d466f04-cacc-49ad-9d71-1f379816037e")
+	)
+	(label "AUDIO_UART.TX"
+		(at 194.31 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51905c80-6724-4e96-9604-8b8bfd8cd98f")
 	)
 	(label "FMC.DQML"
 		(at 261.62 27.94 0)
@@ -35658,6 +35740,17 @@
 		)
 		(uuid "072dfd5f-b496-41f0-8e48-6d8e0ea32114")
 	)
+	(hierarchical_label "{AUDIO_UART}"
+		(shape output)
+		(at 176.53 144.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65a604e7-9ff1-4101-835a-8bc0c42f48c4")
+	)
 	(hierarchical_label "USB_D-"
 		(shape input)
 		(at 30.48 193.04 180)
@@ -35704,7 +35797,7 @@
 	)
 	(hierarchical_label "{I2C}"
 		(shape input)
-		(at 151.13 142.24 90)
+		(at 142.24 120.65 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37907,11 +38000,11 @@
 		)
 		(pin "103"
 			(uuid "1976e252-e26f-4940-9d41-5fae22f4f9ee")
-			(alternate "PA11")
+			(alternate "UART4_RX")
 		)
 		(pin "104"
 			(uuid "8038ebd7-8a5c-49be-80f3-e0d3b1be81be")
-			(alternate "PA12")
+			(alternate "UART4_TX")
 		)
 		(pin "105"
 			(uuid "09a70525-493a-4954-911b-fabba5b8ddf8")
