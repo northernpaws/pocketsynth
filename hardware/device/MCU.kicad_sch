@@ -31790,10 +31790,7 @@
 		(members "I2C.SCL" "I2C.SDA")
 	)
 	(bus_alias "SPI"
-		(members "FMC.DQML" "FMC.DQMH" "FMC.CLK" "FMC.CAS" "FMC.RAS" "FMC.D[0..15]"
-			"FMC.A[0..12]" "FMC.NOE" "FMC.NWE" "FMC.BA0" "FMC.BA1" "FMC.CLK" "FMC.CAS"
-			"FMC.WE" "FMC.NE0" "FMC.CKE" "FMC.NE1"
-		)
+		(members "SPI.CLK" "SPI.PICO" "SPI.POCI")
 	)
 	(text "MCU signal to control\nsoft power-off"
 		(exclude_from_sim no)

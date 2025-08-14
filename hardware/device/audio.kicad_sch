@@ -2591,9 +2591,9 @@
 		)
 		(uuid b9e2a662-cd14-45dc-a5c1-81f3aca6fad0)
 	)
-	(text "Expansion pulls\nHIGH to signal\npresence"
+	(text "Expansion module\npulls HIGH to\nsignal presence."
 		(exclude_from_sim no)
-		(at 221.996 144.526 0)
+		(at 220.98 145.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2665,6 +2665,18 @@
 			(justify right bottom)
 		)
 		(uuid "6b9881f4-943b-4fa3-861f-b7246aa58f93")
+	)
+	(text "AUX lines are inputs for external modules to the mixer.\nLine is the analog outputs from the mixer."
+		(exclude_from_sim no)
+		(at 279.4 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify right top)
+		)
+		(uuid "6f047b65-a810-460c-af8f-1495b0728bb4")
 	)
 	(text "Headphone driver: 40 mW @ 16 Ω\nSpeaker driver: up to 1 W @ 8 Ω (BTL)"
 		(exclude_from_sim no)
@@ -3578,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 119.38) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe0e198-d66b-48ed-8c1b-74be8ec9e80d")
+	)
+	(wire
+		(pts
 			(xy 139.7 66.04) (xy 142.24 66.04)
 		)
 		(stroke
@@ -4098,6 +4120,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 127) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ad8283-d2ad-4667-a2d7-4a6eee3e8fe0")
+	)
+	(wire
+		(pts
 			(xy 114.3 46.99) (xy 114.3 45.72)
 		)
 		(stroke
@@ -4358,6 +4390,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 124.46) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e2eb5a-2fe4-4cf9-b82c-adf4df48970a")
+	)
+	(wire
+		(pts
+			(xy 256.54 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74c82b3-65dc-4dc0-9e69-1533eb1f5cc4")
+	)
+	(wire
+		(pts
 			(xy 67.31 120.65) (xy 74.93 120.65)
 		)
 		(stroke
@@ -4519,7 +4571,7 @@
 		(uuid "6e9b7d7c-ae80-46fa-9d3b-15c10ecb3a46")
 	)
 	(label "LINE_L"
-		(at 262.89 120.65 0)
+		(at 259.08 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4529,7 +4581,7 @@
 		(uuid "75d198b5-fdeb-476b-89a3-21ccb2561080")
 	)
 	(label "AUX_L"
-		(at 262.89 114.3 0)
+		(at 259.08 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,7 +4611,7 @@
 		(uuid "873981bd-561b-4fc6-b8fb-3a77acfa1144")
 	)
 	(label "LINE_R"
-		(at 262.89 123.19 0)
+		(at 259.08 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4599,7 +4651,7 @@
 		(uuid "abbda03d-6eac-4007-91c2-0f1b46508dcd")
 	)
 	(label "AUX_R"
-		(at 262.89 116.84 0)
+		(at 259.08 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
