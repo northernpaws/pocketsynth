@@ -21,7 +21,7 @@ This repository contains my project for an STM32H7-based sequencer, synthesizer,
   * Optional Bluetooth Classic and BLE Audio Source (`FSC-BT6038`)
     * Wirelessly connect Bluethooth headphones and speakers
     * Supports various high-fedality audio protocols
-    * Note: Audio transmitter does not support other BLE protocols
+    * Note: Audio transmitter does not support other BLE protocols, such as MIDI
   * Optional Wifi and BLE capabilities (`ESP32-C3-MINI-1`)
     * Wifi sample management and transfer
     * BLE MIDI
