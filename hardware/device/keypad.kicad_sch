@@ -2389,6 +2389,16 @@
 		)
 		(uuid "6cf98721-acde-4825-8ef0-2c413dcca975")
 	)
+	(text "ITS40FV3SR"
+		(exclude_from_sim no)
+		(at 19.304 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7488d704-7b87-42c5-bd08-483701f5701a")
+	)
 	(junction
 		(at 34.29 26.67)
 		(diameter 0)
@@ -5613,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Value" "ENCODER"
+		(property "Value" "SCROLL_WHEEL"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -8414,7 +8424,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:KMR221NGLFS")
-		(at 120.65 134.62 0)
+		(at 115.57 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8423,15 +8433,15 @@
 		(fields_autoplaced yes)
 		(uuid "a35b575f-b36d-4962-a158-126a1e759075")
 		(property "Reference" "SW17"
-			(at 134.62 127 0)
+			(at 129.54 128.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "KMR221NGLFS"
-			(at 134.62 129.54 0)
+		(property "Value" "WHEEL_BTN"
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8439,7 +8449,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:KMR221_CNK"
-			(at 120.65 134.62 0)
+			(at 115.57 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8459,7 @@
 			)
 		)
 		(property "Datasheet" "KMR221NGLFS"
-			(at 120.65 134.62 0)
+			(at 115.57 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 134.62 0)
+			(at 115.57 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
