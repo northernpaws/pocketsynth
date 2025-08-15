@@ -63,6 +63,19 @@ This repository contains my project for an STM32H7-based sequencer, synthesizer,
   * Two-Button Smart Reset (`STM6510`)
     * Hold two input buttons to power off the device if it freezes and power gets latched on
 
+## Step Sequencer
+
+The step sequencer on the device is modeled after popular semantics used by hardware sequencers, such as the Elektron Digitone and Digitakt.
+
+> The hard requirements of the step sequencer and audio engine are not defined yet because they are under active development.
+
+  * As many projects as the SD card or internal memory can store
+    * 128 Patterns (TBD)
+      * 8-16 Audio or MIDI tracks per pattern (TBD)
+    * 8-24 Songs (arrangements of patterns) (TBD)
+  * 8-16 voice polyphony (TBD)
+    * 2-3 LFO per voice (TBD)
+
 ## Audio
 
 The primary audio engine chain runs at 16bit 44.1Khz, but supports stereo audio effects. 16 bit audio was selected as it had suitable depth without being too large for a small embedded device to reasonably process. 44.1Khz also has a good frequency range, and has been the standard for CDs and many music streaming platforms for a long time.
