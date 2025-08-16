@@ -65,7 +65,7 @@ This repository contains my project for an STM32H7-based sequencer, synthesizer,
 
 ## Step Sequencer
 
-The step sequencer on the device is modeled after popular semantics used by hardware sequencers, such as the Elektron Digitone and Digitakt.
+The step sequencer on the device is modeled after popular semantics used by hardware sequencers, such as the Elektron Digitone and Digitakt, OP-1, OP-Z, Pocket Operators, Woovebox, etc.
 
 > The hard requirements of the step sequencer and audio engine are not defined yet because they are under active development.
 

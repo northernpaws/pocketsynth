@@ -111,7 +111,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 59.69) (xy 116.84 128.27)
+			(xy 109.22 63.5) (xy 109.22 138.43)
 		)
 		(stroke
 			(width 0)
@@ -119,15 +119,35 @@
 		)
 		(uuid "32690ee7-d51b-4e6a-8255-ea58ded53a61")
 	)
+	(bus
+		(pts
+			(xy 113.03 59.69) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431cfce7-2e35-4b2c-9d37-2cbca8f084cd")
+	)
 	(wire
 		(pts
-			(xy 101.6 59.69) (xy 116.84 59.69)
+			(xy 101.6 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "43b47ebc-952c-4b26-9ceb-426b1f80ec39")
+	)
+	(bus
+		(pts
+			(xy 116.84 63.5) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650d57a3-0be5-4213-9c18-93aeafe26adc")
 	)
 	(bus
 		(pts
@@ -149,9 +169,19 @@
 		)
 		(uuid "6a740705-0011-4cb2-8f9c-4f1acd682b72")
 	)
+	(bus
+		(pts
+			(xy 101.6 59.69) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da42c49-5da9-4224-8a56-37bdddd8a8ec")
+	)
 	(wire
 		(pts
-			(xy 116.84 128.27) (xy 139.7 128.27)
+			(xy 109.22 138.43) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -331,6 +361,16 @@
 	)
 	(bus
 		(pts
+			(xy 128.27 128.27) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf25178-ffdc-475f-866d-3a4b9890cee2")
+	)
+	(bus
+		(pts
 			(xy 120.65 115.57) (xy 129.54 124.46)
 		)
 		(stroke
@@ -348,6 +388,16 @@
 			(type default)
 		)
 		(uuid "d2790a02-12f7-41e9-84da-4f3b6b0e0e32")
+	)
+	(bus
+		(pts
+			(xy 116.84 116.84) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4912612-2e58-4614-bae2-e3bd5c949d29")
 	)
 	(bus
 		(pts
@@ -381,7 +431,7 @@
 	)
 	(sheet
 		(at 63.5 38.1)
-		(size 38.1 25.4)
+		(size 38.1 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -405,7 +455,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 63.5 64.0846 0)
+			(at 63.5 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +524,7 @@
 				(justify left)
 			)
 		)
-		(pin "{CODEC}" input
+		(pin "{CODEC}" output
 			(at 101.6 52.07 0)
 			(uuid "886f8b5a-7d2f-4747-8d37-e3dd0fec213a")
 			(effects
@@ -495,7 +545,7 @@
 			)
 		)
 		(pin "CODEC_IRQ" input
-			(at 101.6 59.69 0)
+			(at 101.6 63.5 0)
 			(uuid "74f183bc-4d8e-4d70-a344-afc79ed10de5")
 			(effects
 				(font
@@ -507,6 +557,16 @@
 		(pin "{AUDIO_UART}" output
 			(at 101.6 55.88 0)
 			(uuid "112704e5-4242-4291-989e-66f8032ee235")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{EXP_CODEC}" output
+			(at 101.6 59.69 0)
+			(uuid "ae86d620-5710-4bfe-8b42-3727d683be13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +740,7 @@
 	)
 	(sheet
 		(at 139.7 114.3)
-		(size 25.4 16.51)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -704,7 +764,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 139.7 131.3946 0)
+			(at 139.7 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +794,7 @@
 			)
 		)
 		(pin "CODEC_IRQ" input
-			(at 139.7 128.27 180)
+			(at 139.7 138.43 180)
 			(uuid "d883d2de-9f93-4d9b-b63b-e32895f101e8")
 			(effects
 				(font
@@ -756,6 +816,36 @@
 		(pin "{AUDIO_UART}" input
 			(at 139.7 124.46 180)
 			(uuid "ee393009-d258-4c5c-9f8b-057a822794ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUX_SELECT" input
+			(at 139.7 133.35 180)
+			(uuid "e028735d-5c34-4c44-96c8-98a0237ceba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_SELECT" input
+			(at 139.7 135.89 180)
+			(uuid "37451544-608f-41a2-b37a-580abb35e0eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{EXP_CODEC}" input
+			(at 139.7 128.27 180)
+			(uuid "1f1c1ded-2673-4a2b-86f2-e84f16170834")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,6 +930,48 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 88.9)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecdfb102-30c7-4f5a-8eb8-8f15fcbab9da")
+		(property "Sheetname" "Lighting"
+			(at 184.15 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lighting.kicad_sch"
+			(at 184.15 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4"
+					(page "8")
 				)
 			)
 		)

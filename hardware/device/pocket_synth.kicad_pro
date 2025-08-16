@@ -783,6 +783,10 @@
     [
       "f0d5f3c5-7c53-4584-b479-82b3ef9bea09",
       "Display"
+    ],
+    [
+      "ecdfb102-30c7-4f5a-8eb8-8f15fcbab9da",
+      "Lighting"
     ]
   ],
   "text_variables": {}
