@@ -4074,7 +4074,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bb95d14-9913-47ac-94bb-ea15aeeb71d0")
+		(uuid "2bb95d14-9913-47ac-94bb-ea15aeeb71d1")
 		(property "Reference" "SW6"
 			(at 209.55 120.65 0)
 			(effects
@@ -4127,16 +4127,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5fc6ca7-5110-4ca2-9396-53978b62fb74")
+			(uuid "d5fc6ca7-5110-4ca2-9396-53978b62fb75")
 		)
 		(pin "2"
-			(uuid "29192902-96f4-40f2-be87-7a34978b7c37")
+			(uuid "29192902-96f4-40f2-be87-7a34978b7c38")
 		)
 		(pin "3"
-			(uuid "00046eb2-ee44-4cca-8d2a-607b185c4284")
+			(uuid "00046eb2-ee44-4cca-8d2a-607b185c4285")
 		)
 		(pin "4"
-			(uuid "7e7df7b0-8788-4ae4-8a68-4240ff9dfb42")
+			(uuid "7e7df7b0-8788-4ae4-8a68-4240ff9dfb43")
 		)
 		(instances
 			(project "pocket_synth"
@@ -4922,7 +4922,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c0572e7-2d7e-48c8-8e99-4d69fb0cd23a")
+		(uuid "4c0572e7-2d7e-48c8-8e99-4d69fb0cd23b")
 		(property "Reference" "SW13"
 			(at 194.31 146.05 0)
 			(effects
@@ -4975,16 +4975,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "051d1502-e77e-43ab-b3aa-751c7d864ea7")
+			(uuid "051d1502-e77e-43ab-b3aa-751c7d864ea8")
 		)
 		(pin "2"
-			(uuid "c2bc9457-1d4f-4b59-8d08-9ffce475e918")
+			(uuid "c2bc9457-1d4f-4b59-8d08-9ffce475e919")
 		)
 		(pin "3"
-			(uuid "0421d20c-0b66-4eef-970f-61da87c41dea")
+			(uuid "0421d20c-0b66-4eef-970f-61da87c41deb")
 		)
 		(pin "4"
-			(uuid "ea3092dd-5b99-4c9a-83b4-2cb930310a78")
+			(uuid "ea3092dd-5b99-4c9a-83b4-2cb930310a79")
 		)
 		(instances
 			(project "pocket_synth"
@@ -5086,7 +5086,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5190521d-43d2-43d8-ad80-c7c8ddf3a0b0")
+		(uuid "5190521d-43d2-43d8-ad80-c7c8ddf3a0b1")
 		(property "Reference" "SW11"
 			(at 224.79 133.35 0)
 			(effects
@@ -5139,16 +5139,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "c628fc94-f891-41dc-962c-fd90c769d442")
+			(uuid "c628fc94-f891-41dc-962c-fd90c769d443")
 		)
 		(pin "2"
-			(uuid "1a30bcc3-ae56-4516-b2e8-c86b18adaf7d")
+			(uuid "1a30bcc3-ae56-4516-b2e8-c86b18adaf7e")
 		)
 		(pin "3"
-			(uuid "1c31e92a-bd6a-4626-9b60-026d443a7e24")
+			(uuid "1c31e92a-bd6a-4626-9b60-026d443a7e25")
 		)
 		(pin "4"
-			(uuid "435a5067-488e-4167-8341-7efece7aa60a")
+			(uuid "435a5067-488e-4167-8341-7efece7aa60b")
 		)
 		(instances
 			(project "pocket_synth"
@@ -5250,7 +5250,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "53a478a5-fb5e-403c-a865-25b1491ecabb")
+		(uuid "53a478a5-fb5e-403c-a865-25b1491ecabc")
 		(property "Reference" "SW4"
 			(at 240.03 107.95 0)
 			(effects
@@ -5303,16 +5303,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e12de457-0105-4683-ab77-79eb7b59c2ab")
+			(uuid "e12de457-0105-4683-ab77-79eb7b59c2ac")
 		)
 		(pin "2"
-			(uuid "6d1ba477-440a-40d0-b5af-bd25360ad5c1")
+			(uuid "6d1ba477-440a-40d0-b5af-bd25360ad5c2")
 		)
 		(pin "3"
-			(uuid "b67ec1cf-f7dd-46ec-a680-c89f2398730e")
+			(uuid "b67ec1cf-f7dd-46ec-a680-c89f2398730f")
 		)
 		(pin "4"
-			(uuid "2f7514e5-8a10-487a-be78-6caff7e73bb8")
+			(uuid "2f7514e5-8a10-487a-be78-6caff7e73bb9")
 		)
 		(instances
 			(project "pocket_synth"
@@ -5414,7 +5414,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "55e50c04-5d77-4f8d-b215-6ac11af1add2")
+		(uuid "55e50c04-5d77-4f8d-b215-6ac11af1add3")
 		(property "Reference" "SW15"
 			(at 224.79 146.05 0)
 			(effects
@@ -5467,16 +5467,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "121a3ab3-f67c-4818-835f-fa400f7228f7")
+			(uuid "121a3ab3-f67c-4818-835f-fa400f7228f8")
 		)
 		(pin "2"
-			(uuid "ce27fe32-62ab-4abe-9a12-bcd03a8e3dc4")
+			(uuid "ce27fe32-62ab-4abe-9a12-bcd03a8e3dc5")
 		)
 		(pin "3"
-			(uuid "a8fd8af7-ea83-4db7-b925-604c202b7e4b")
+			(uuid "a8fd8af7-ea83-4db7-b925-604c202b7e4c")
 		)
 		(pin "4"
-			(uuid "4e3de743-2fe9-4e32-8133-41dc9c1a11cc")
+			(uuid "4e3de743-2fe9-4e32-8133-41dc9c1a11cd")
 		)
 		(instances
 			(project "pocket_synth"
@@ -5832,7 +5832,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63160132-be19-43aa-9337-31dacd1fe54c")
+		(uuid "63160132-be19-43aa-9337-31dacd1fe54d")
 		(property "Reference" "SW16"
 			(at 240.03 146.05 0)
 			(effects
@@ -5885,16 +5885,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9f41935-4c14-445c-aa66-7824e0e54240")
+			(uuid "a9f41935-4c14-445c-aa66-7824e0e54241")
 		)
 		(pin "2"
-			(uuid "a01ea4e0-48de-4634-8c4c-4a66512b469b")
+			(uuid "a01ea4e0-48de-4634-8c4c-4a66512b469c")
 		)
 		(pin "3"
-			(uuid "1ab0d043-9f10-4003-990f-c8586d8fb98b")
+			(uuid "1ab0d043-9f10-4003-990f-c8586d8fb98c")
 		)
 		(pin "4"
-			(uuid "c0ccd13a-d296-43d6-b42e-485ff1180864")
+			(uuid "c0ccd13a-d296-43d6-b42e-485ff1180865")
 		)
 		(instances
 			(project "pocket_synth"
@@ -5996,7 +5996,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a62e4d3-5e79-4ae0-a425-fde9c2f5b9ff")
+		(uuid "6a62e4d3-5e79-4ae0-a425-fde9c2f5ba00")
 		(property "Reference" "SW1"
 			(at 194.31 107.95 0)
 			(effects
@@ -6049,16 +6049,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a745983-46cc-4d3d-a857-861b75c8413d")
+			(uuid "6a745983-46cc-4d3d-a857-861b75c8413e")
 		)
 		(pin "2"
-			(uuid "7a9c0fdd-a0ce-4504-bfe3-740f1ed70b0c")
+			(uuid "7a9c0fdd-a0ce-4504-bfe3-740f1ed70b0d")
 		)
 		(pin "3"
-			(uuid "00f8174e-576a-4b1f-a389-b1963c0c5103")
+			(uuid "00f8174e-576a-4b1f-a389-b1963c0c5104")
 		)
 		(pin "4"
-			(uuid "83c8bf0b-3190-4f8e-834f-758bdfc288d8")
+			(uuid "83c8bf0b-3190-4f8e-834f-758bdfc288d9")
 		)
 		(instances
 			(project "pocket_synth"
@@ -6253,7 +6253,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a242a84-3655-4ce9-8f88-ff997cab139c")
+		(uuid "8a242a84-3655-4ce9-8f88-ff997cab139d")
 		(property "Reference" "SW8"
 			(at 240.03 120.65 0)
 			(effects
@@ -6306,16 +6306,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "13225cec-fc5e-4421-b1f4-a08a3ffb81b3")
+			(uuid "13225cec-fc5e-4421-b1f4-a08a3ffb81b4")
 		)
 		(pin "2"
-			(uuid "c5c0d30c-6b0f-4e4e-936b-20ee097b9dfd")
+			(uuid "c5c0d30c-6b0f-4e4e-936b-20ee097b9dfe")
 		)
 		(pin "3"
-			(uuid "84a49035-31bc-4519-ae8e-924982d30d18")
+			(uuid "84a49035-31bc-4519-ae8e-924982d30d19")
 		)
 		(pin "4"
-			(uuid "219b2119-6cb5-4b2d-802d-ad711580e7dd")
+			(uuid "219b2119-6cb5-4b2d-802d-ad711580e7de")
 		)
 		(instances
 			(project "pocket_synth"
@@ -6417,7 +6417,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9730d66f-47c6-40bc-9b75-aad5e17a2eff")
+		(uuid "9730d66f-47c6-40bc-9b75-aad5e17a2f00")
 		(property "Reference" "SW12"
 			(at 240.03 133.35 0)
 			(effects
@@ -6470,16 +6470,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e71a690-2e88-4ab7-95f5-a60829043205")
+			(uuid "2e71a690-2e88-4ab7-95f5-a60829043206")
 		)
 		(pin "2"
-			(uuid "fd560acf-7f7e-4646-bf8a-96f42bafb43b")
+			(uuid "fd560acf-7f7e-4646-bf8a-96f42bafb43c")
 		)
 		(pin "3"
-			(uuid "79d515bd-9069-46b2-95c6-634f6398f15c")
+			(uuid "79d515bd-9069-46b2-95c6-634f6398f15d")
 		)
 		(pin "4"
-			(uuid "644d009a-10e9-400a-b3c0-b9bcee830f3f")
+			(uuid "644d009a-10e9-400a-b3c0-b9bcee830f40")
 		)
 		(instances
 			(project "pocket_synth"
@@ -6674,7 +6674,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a3c5d2a-d020-4d18-9ddd-0fadb8223401")
+		(uuid "9a3c5d2a-d020-4d18-9ddd-0fadb8223402")
 		(property "Reference" "SW14"
 			(at 209.55 146.05 0)
 			(effects
@@ -6727,16 +6727,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3c3e967-e49c-4571-b32f-d5b058ea5622")
+			(uuid "d3c3e967-e49c-4571-b32f-d5b058ea5623")
 		)
 		(pin "2"
-			(uuid "15e7d363-3425-4758-84ed-379996675a4a")
+			(uuid "15e7d363-3425-4758-84ed-379996675a4b")
 		)
 		(pin "3"
-			(uuid "7cd7d246-731e-43ae-bf8f-7f7e4e296f1c")
+			(uuid "7cd7d246-731e-43ae-bf8f-7f7e4e296f1d")
 		)
 		(pin "4"
-			(uuid "3f637dfd-3f38-49fd-9369-a9b0f4f57f5b")
+			(uuid "3f637dfd-3f38-49fd-9369-a9b0f4f57f5c")
 		)
 		(instances
 			(project "pocket_synth"
@@ -6980,7 +6980,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9b973ec-679a-4f0e-b1b8-ad4ff418ecee")
+		(uuid "a9b973ec-679a-4f0e-b1b8-ad4ff418ecef")
 		(property "Reference" "SW9"
 			(at 194.31 133.35 0)
 			(effects
@@ -7033,16 +7033,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a7ed3c6-679c-43e4-868b-fef516f70c0c")
+			(uuid "1a7ed3c6-679c-43e4-868b-fef516f70c0d")
 		)
 		(pin "2"
-			(uuid "96770525-1f96-47d0-b2ac-2fa42977da5d")
+			(uuid "96770525-1f96-47d0-b2ac-2fa42977da5e")
 		)
 		(pin "3"
-			(uuid "57d96a5c-403c-400a-9ed1-2b1081442c90")
+			(uuid "57d96a5c-403c-400a-9ed1-2b1081442c91")
 		)
 		(pin "4"
-			(uuid "1aea9904-78d3-490d-b355-633b443671b5")
+			(uuid "1aea9904-78d3-490d-b355-633b443671b6")
 		)
 		(instances
 			(project "pocket_synth"
@@ -7330,7 +7330,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bc8af26b-7fa6-46e9-962c-efae76585b99")
+		(uuid "bc8af26b-7fa6-46e9-962c-efae76585b9a")
 		(property "Reference" "SW5"
 			(at 194.31 120.65 0)
 			(effects
@@ -7383,16 +7383,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a7e1267-378d-4edb-801b-b4edcc7dabe7")
+			(uuid "6a7e1267-378d-4edb-801b-b4edcc7dabe8")
 		)
 		(pin "2"
-			(uuid "0cf18830-ab45-4c4b-bebd-7ec6ae9b63c3")
+			(uuid "0cf18830-ab45-4c4b-bebd-7ec6ae9b63c4")
 		)
 		(pin "3"
-			(uuid "ca1cb457-e469-4741-884a-fc4a9fae412f")
+			(uuid "ca1cb457-e469-4741-884a-fc4a9fae4130")
 		)
 		(pin "4"
-			(uuid "02e54afd-298e-497b-9040-ce25a89c584c")
+			(uuid "02e54afd-298e-497b-9040-ce25a89c584d")
 		)
 		(instances
 			(project "pocket_synth"
@@ -7494,7 +7494,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bcd2bcfd-f69e-4786-a738-00e8f0ba859b")
+		(uuid "bcd2bcfd-f69e-4786-a738-00e8f0ba859c")
 		(property "Reference" "SW10"
 			(at 209.55 133.35 0)
 			(effects
@@ -7547,16 +7547,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f35b760f-833b-4dd3-9731-99f63a0e3a39")
+			(uuid "f35b760f-833b-4dd3-9731-99f63a0e3a3a")
 		)
 		(pin "2"
-			(uuid "fcdad247-1658-4c46-abcb-d293b92ca67c")
+			(uuid "fcdad247-1658-4c46-abcb-d293b92ca67d")
 		)
 		(pin "3"
-			(uuid "70e77765-6f19-41a3-b67f-4d36ffdc0547")
+			(uuid "70e77765-6f19-41a3-b67f-4d36ffdc0548")
 		)
 		(pin "4"
-			(uuid "d4b29e1b-0707-4386-b584-185a3838dc36")
+			(uuid "d4b29e1b-0707-4386-b584-185a3838dc37")
 		)
 		(instances
 			(project "pocket_synth"
@@ -7844,7 +7844,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb354008-ba2f-4681-8a26-f65bfffb4f05")
+		(uuid "cb354008-ba2f-4681-8a26-f65bfffb4f06")
 		(property "Reference" "SW2"
 			(at 209.55 107.95 0)
 			(effects
@@ -7897,16 +7897,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "0573fe96-a16c-44d7-a546-b9492b82432a")
+			(uuid "0573fe96-a16c-44d7-a546-b9492b82432b")
 		)
 		(pin "2"
-			(uuid "a2aec5cf-6b9d-403d-9663-bb3fca7a9faf")
+			(uuid "a2aec5cf-6b9d-403d-9663-bb3fca7a9fb0")
 		)
 		(pin "3"
-			(uuid "87dbb552-ff85-457a-873c-d5cd15f48c9c")
+			(uuid "87dbb552-ff85-457a-873c-d5cd15f48c9d")
 		)
 		(pin "4"
-			(uuid "211fdcfa-9242-44e0-9a30-c33e36f9c748")
+			(uuid "211fdcfa-9242-44e0-9a30-c33e36f9c749")
 		)
 		(instances
 			(project "pocket_synth"
@@ -8008,7 +8008,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0c5d618-6f84-416f-8984-7b7192325dbc")
+		(uuid "d0c5d618-6f84-416f-8984-7b7192325dbd")
 		(property "Reference" "SW3"
 			(at 224.79 107.95 0)
 			(effects
@@ -8061,16 +8061,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d035ce8-d6d6-489f-b479-74873fda7b2e")
+			(uuid "3d035ce8-d6d6-489f-b479-74873fda7b2f")
 		)
 		(pin "2"
-			(uuid "f6a4bf84-b161-426d-a9af-9cb3761454e6")
+			(uuid "f6a4bf84-b161-426d-a9af-9cb3761454e7")
 		)
 		(pin "3"
-			(uuid "75c5d6c0-002d-446e-afca-3daf3745b85a")
+			(uuid "75c5d6c0-002d-446e-afca-3daf3745b85b")
 		)
 		(pin "4"
-			(uuid "63218036-70a7-4c66-bd15-d672dec15108")
+			(uuid "63218036-70a7-4c66-bd15-d672dec15109")
 		)
 		(instances
 			(project "pocket_synth"
@@ -8610,7 +8610,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff2b07eb-7d97-4b67-ac61-4aff12eea8cf")
+		(uuid "ff2b07eb-7d97-4b67-ac61-4aff12eea8d0")
 		(property "Reference" "SW7"
 			(at 224.79 120.65 0)
 			(effects
@@ -8663,16 +8663,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1697a1b6-b1c4-4e2f-b034-fc7ec8774ff3")
+			(uuid "1697a1b6-b1c4-4e2f-b034-fc7ec8774ff4")
 		)
 		(pin "2"
-			(uuid "df1197bf-b8a4-4b1d-8349-0ef76589147e")
+			(uuid "df1197bf-b8a4-4b1d-8349-0ef76589147f")
 		)
 		(pin "3"
-			(uuid "0da8c79e-2050-459f-bcc8-746e7c0a007f")
+			(uuid "0da8c79e-2050-459f-bcc8-746e7c0a0080")
 		)
 		(pin "4"
-			(uuid "74d65996-eb74-4ba8-bfcc-5f041df3ce1d")
+			(uuid "74d65996-eb74-4ba8-bfcc-5f041df3ce1e")
 		)
 		(instances
 			(project "pocket_synth"

@@ -121,6 +121,16 @@
 	)
 	(bus
 		(pts
+			(xy 101.6 36.83) (xy 139.7 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8eb4d5-8010-4929-b314-db851df69c15")
+	)
+	(bus
+		(pts
 			(xy 113.03 59.69) (xy 116.84 63.5)
 		)
 		(stroke
@@ -430,8 +440,8 @@
 		(uuid "eb4066c2-4460-470b-abc1-8a42c331e57f")
 	)
 	(sheet
-		(at 63.5 38.1)
-		(size 38.1 29.21)
+		(at 63.5 34.29)
+		(size 38.1 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -446,7 +456,7 @@
 		)
 		(uuid "0f59ca20-5500-4399-8ffa-55aebf6eb4ee")
 		(property "Sheetname" "MCU"
-			(at 63.5 37.3884 0)
+			(at 63.5 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +465,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 63.5 67.8946 0)
+			(at 63.5 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,6 +577,16 @@
 		(pin "{EXP_CODEC}" output
 			(at 101.6 59.69 0)
 			(uuid "ae86d620-5710-4bfe-8b42-3727d683be13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{QSPI}" output
+			(at 101.6 36.83 0)
+			(uuid "729a7409-d633-4cfe-849c-ec23b5ace842")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,8 +882,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 38.1)
-		(size 25.4 15.24)
+		(at 139.7 34.29)
+		(size 25.4 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -878,7 +898,7 @@
 		)
 		(uuid "d641c287-d179-45c1-92b5-f0a3902e6ffa")
 		(property "Sheetname" "Memory"
-			(at 139.7 37.3884 0)
+			(at 139.7 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,6 +939,16 @@
 		(pin "{SPI}" input
 			(at 139.7 40.64 180)
 			(uuid "5b5c3618-e779-4e1f-839a-b95abd74c414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{QSPI}" input
+			(at 139.7 36.83 180)
+			(uuid "a9d1f309-c323-4ad6-b51d-91bbbe52c147")
 			(effects
 				(font
 					(size 1.27 1.27)
