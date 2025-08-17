@@ -4266,6 +4266,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pocket_synth:SP3401-02UTG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "SP3401-02UTG"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "pocket_synth:SP340102UTG"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp3401_datasheet.pdf.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 28KV 0.6pF 3.3V 10A uDFN-6 TVS Array"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-SP3401-02UTG"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP3401-02UTG?qs=T3oQrply3y%2FjRDLmSQJ5ww%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SP3401-02UTG"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SP3401-02UTG_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -12.7 90)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -12.7 90)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -5282,6 +5506,18 @@
 		(uuid "0b86904d-bdd2-4f1d-89f0-85ff4263edf8")
 	)
 	(junction
+		(at 73.66 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d92c963-1ccb-42c5-a828-60fa381a188b")
+	)
+	(junction
+		(at 45.72 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e3af23c-b6de-4048-b50a-a9bd1858e2c3")
+	)
+	(junction
 		(at 166.37 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5324,6 +5560,12 @@
 		(uuid "52c85246-03f5-4a19-9b6f-45e9fe160fe5")
 	)
 	(junction
+		(at 29.21 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c3dddc2-49ca-467f-ae89-15ebb4203a42")
+	)
+	(junction
 		(at 270.51 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5340,12 +5582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6955bd8d-2cda-4352-b2fa-868d373f298f")
-	)
-	(junction
-		(at 45.72 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8873eb22-8536-4780-9580-f4fe24548d80")
 	)
 	(junction
 		(at 45.72 44.45)
@@ -5619,6 +5855,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3448e64a-cdb2-4946-922c-adfae25a98b3")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 29.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4289a3-4f82-42da-9268-a7d9e7d99176")
+	)
+	(wire
+		(pts
 			(xy 209.55 133.35) (xy 212.09 133.35)
 		)
 		(stroke
@@ -5749,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 46.99 39.37)
+			(xy 45.72 41.91) (xy 59.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5899,6 +6155,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 66.04) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfd5b1b-bd7f-407c-a437-3896382c11dc")
+	)
+	(wire
+		(pts
 			(xy 128.27 43.18) (xy 128.27 48.26)
 		)
 		(stroke
@@ -5946,6 +6212,16 @@
 			(type default)
 		)
 		(uuid "78ecdeb4-dcbb-4966-a4cc-3c82fc039d97")
+	)
+	(wire
+		(pts
+			(xy 90.17 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab2c225-1216-4149-a9ec-714e258ccb23")
 	)
 	(wire
 		(pts
@@ -6089,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 39.37) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9921959e-39d0-48af-8ec6-6c041ca545b7")
+	)
+	(wire
+		(pts
 			(xy 203.2 67.31) (xy 205.74 67.31)
 		)
 		(stroke
@@ -6116,16 +6402,6 @@
 			(type default)
 		)
 		(uuid "9d496508-b0d2-49e0-b974-474fcfde91ce")
-	)
-	(wire
-		(pts
-			(xy 45.72 39.37) (xy 45.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fad8472-a2b5-4dff-848f-02ee32b9f3e7")
 	)
 	(wire
 		(pts
@@ -6299,7 +6575,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 46.99 44.45)
+			(xy 45.72 44.45) (xy 59.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6369,6 +6645,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 66.04) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de390d43-98d4-474f-b915-b0577a92c490")
+	)
+	(wire
+		(pts
 			(xy 205.74 31.75) (xy 205.74 33.02)
 		)
 		(stroke
@@ -6416,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "f16d0c83-b62f-48b4-8273-181bdb5e5d90")
+	)
+	(wire
+		(pts
+			(xy 73.66 59.69) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c491cc-c5e6-467f-85db-c7b267821f9c")
 	)
 	(wire
 		(pts
@@ -6517,6 +6813,16 @@
 		)
 		(uuid "768ac892-f4b6-413c-8fb5-dbd0c365e34d")
 	)
+	(label "USB_D+"
+		(at 46.99 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ae332d1-f568-47b7-a1bf-5cf3b914fda6")
+	)
 	(label "3v3_PG"
 		(at 196.85 45.72 90)
 		(effects
@@ -6527,6 +6833,16 @@
 			(justify left bottom)
 		)
 		(uuid "842bf974-1d1a-490f-bffb-e5b7a024cfc6")
+	)
+	(label "USB_D-"
+		(at 46.99 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d0ad654-b1b8-4eaa-9082-6acc85580f9f")
 	)
 	(label "PH_1v8"
 		(at 254 52.07 0)
@@ -6551,7 +6867,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 46.99 44.45 0)
+		(at 92.71 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6584,7 +6900,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 46.99 39.37 0)
+		(at 92.71 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10858,6 +11174,138 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4/4ddef61a-efa7-4012-86d6-37c4f1088d14"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pocket_synth:SP3401-02UTG")
+		(at 74.93 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a6fe9c-20a1-4801-a44f-cf45ab4ab00a")
+		(property "Reference" "IC3"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP3401-02UTG"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pocket_synth:SP340102UTG"
+			(at 101.6 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp3401_datasheet.pdf.pdf"
+			(at 101.6 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 28KV 0.6pF 3.3V 10A uDFN-6 TVS Array"
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 101.6 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SP3401-02UTG"
+			(at 101.6 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP3401-02UTG?qs=T3oQrply3y%2FjRDLmSQJ5ww%3D%3D"
+			(at 101.6 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 101.6 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SP3401-02UTG"
+			(at 101.6 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "56b9e987-66f2-4a25-8284-9249619fe3bb")
+		)
+		(pin "2"
+			(uuid "02762c2f-b930-44c2-9583-803d1ba1774a")
+		)
+		(pin "3"
+			(uuid "3024c929-5a64-4449-ae72-ef5f0ba4ae0b")
+		)
+		(pin "4"
+			(uuid "881abec6-7b08-47cf-aed6-56f43687b48f")
+		)
+		(pin "1"
+			(uuid "bf48367c-6038-4f8a-9026-874936c2fa85")
+		)
+		(pin "6"
+			(uuid "03cc6b1c-f030-4da5-a1a9-a9171ecffa85")
+		)
+		(instances
+			(project ""
+				(path "/485383b8-00f4-4405-b270-de249939cff4/4ddef61a-efa7-4012-86d6-37c4f1088d14"
+					(reference "IC3")
 					(unit 1)
 				)
 			)

@@ -32271,7 +32271,7 @@
 		(uuid "231393b2-290f-44dc-bb01-0b7ce6d60956")
 	)
 	(bus_entry
-		(at 176.53 147.32)
+		(at 176.53 121.92)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -32703,7 +32703,7 @@
 		(uuid "e54899c4-993f-47a0-bbdd-29c1304b34d2")
 	)
 	(bus_entry
-		(at 179.07 152.4)
+		(at 179.07 121.92)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -32877,17 +32877,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 147.32) (xy 176.53 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d91546b-a622-4ada-a6a4-53e532ef05c8")
-	)
-	(bus
-		(pts
-			(xy 176.53 144.78) (xy 176.53 147.32)
+			(xy 176.53 119.38) (xy 176.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -33184,6 +33174,16 @@
 			(type default)
 		)
 		(uuid "250fee4d-ecc4-4297-af09-2932ba739df5")
+	)
+	(wire
+		(pts
+			(xy 24.13 78.74) (xy 19.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270c561c-5ecc-4348-8d99-5b640cd56cd0")
 	)
 	(wire
 		(pts
@@ -33545,6 +33545,16 @@
 		)
 		(uuid "4b16a403-71f3-4eb0-93ba-d8aea35a1626")
 	)
+	(bus
+		(pts
+			(xy 176.53 116.84) (xy 176.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bac3438-c512-4d4c-bb4f-7794473dbe4e")
+	)
 	(wire
 		(pts
 			(xy 182.88 139.7) (xy 195.58 139.7)
@@ -33874,6 +33884,16 @@
 			(type default)
 		)
 		(uuid "6a53b119-e537-4f94-b176-4441952cb68c")
+	)
+	(wire
+		(pts
+			(xy 34.29 78.74) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b20c6c8-7dc4-4efd-ab94-7fd5af13794b")
 	)
 	(wire
 		(pts
@@ -34347,7 +34367,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 152.4) (xy 195.58 152.4)
+			(xy 179.07 121.92) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -34817,7 +34837,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 53.34) (xy 58.42 53.34)
+			(xy 55.88 53.34) (xy 58.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -34837,7 +34857,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 149.86) (xy 195.58 149.86)
+			(xy 179.07 124.46) (xy 195.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -35205,6 +35225,16 @@
 		)
 		(uuid "eb6ef03a-7f58-4b3b-974d-0ec1168db97e")
 	)
+	(wire
+		(pts
+			(xy 19.05 76.2) (xy 19.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7d826d-fef3-4c3c-bcdc-367547e8f893")
+	)
 	(bus
 		(pts
 			(xy 275.59 60.96) (xy 275.59 72.39)
@@ -35546,7 +35576,7 @@
 		(uuid "272d1d9f-6aea-4efb-be04-494d03531569")
 	)
 	(label "AUDIO_UART.RX"
-		(at 194.31 149.86 180)
+		(at 194.31 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35686,7 +35716,7 @@
 		(uuid "4d466f04-cacc-49ad-9d71-1f379816037e")
 	)
 	(label "AUDIO_UART.TX"
-		(at 194.31 152.4 180)
+		(at 194.31 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35814,6 +35844,16 @@
 			(justify left bottom)
 		)
 		(uuid "834c88bd-6eb6-4b84-8a4e-8fbe4a9166bb")
+	)
+	(label "BOOT0"
+		(at 36.83 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8db785ad-fe24-43f5-858a-cd669d99f229")
 	)
 	(label "EXP_CODEC.LRCLK"
 		(at 261.62 97.79 0)
@@ -36126,12 +36166,12 @@
 		(uuid "f39a5e11-bbbd-4486-aea2-7f312372cd88")
 	)
 	(label "BOOT0"
-		(at 50.8 53.34 0)
+		(at 55.88 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f429dca7-1995-49c6-b2f7-822100c34dbd")
 	)
@@ -36202,7 +36242,7 @@
 	)
 	(hierarchical_label "{AUDIO_UART}"
 		(shape output)
-		(at 176.53 144.78 90)
+		(at 176.53 116.84 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36588,6 +36628,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 19.05 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c55f738-bd1d-47e0-b1c9-e7bb45bf2291")
+		(property "Reference" "#PWR0126"
+			(at 19.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 19.05 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 19.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0001a6-f1f7-438c-8590-7990c70fb00f")
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 19.05 55.88 90)
 		(unit 1)
@@ -36612,7 +36717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 13.97 55.88 0)
 			(effects
 				(font
@@ -36863,6 +36968,113 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
 					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 29.21 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "352d964a-60a4-4f04-b8cf-42c2915e0694")
+		(property "Reference" "SW25"
+			(at 33.02 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT0"
+			(at 25.146 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bce7ba0d-1767-4513-b5f7-ae779992ca83")
+		)
+		(pin "1"
+			(uuid "ab120f57-befe-4a55-a692-be15e32ab1b7")
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4/0f59ca20-5500-4399-8ffa-55aebf6eb4ee"
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -38471,11 +38683,11 @@
 		)
 		(pin "34"
 			(uuid "61e128ff-9aeb-4ba4-8c2d-3f3167467a7e")
-			(alternate "ADC1_INP16")
+			(alternate "UART4_TX")
 		)
 		(pin "35"
 			(uuid "09bf16d6-8427-4ff6-9c7d-44ac5ce667ca")
-			(alternate "ADC1_INP17")
+			(alternate "UART4_RX")
 		)
 		(pin "36"
 			(uuid "21af8e44-12dc-4f62-b156-117503135855")
@@ -38509,11 +38721,11 @@
 		)
 		(pin "103"
 			(uuid "1976e252-e26f-4940-9d41-5fae22f4f9ee")
-			(alternate "UART4_RX")
+			(alternate "PA11")
 		)
 		(pin "104"
 			(uuid "8038ebd7-8a5c-49be-80f3-e0d3b1be81be")
-			(alternate "UART4_TX")
+			(alternate "PA12")
 		)
 		(pin "105"
 			(uuid "09a70525-493a-4954-911b-fabba5b8ddf8")
