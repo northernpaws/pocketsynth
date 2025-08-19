@@ -5,6 +5,113 @@
 	(uuid "251796d6-934e-47b7-86f1-78dc0bcbfad4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -2328,6 +2435,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Rows map to ADC inputs that read the voltage\nacross the divider network for a given row."
+		(exclude_from_sim no)
+		(at 162.814 133.096 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "13216843-b38d-4ed6-819c-e43919db28b9")
+	)
 	(text "Velostat in testing appears to be \nin roughly the 60-3Kohm range.\n\n10k appears to be a good middleground\nfor R1 of the divider circuit.\n\nThe format of this divider will cause:\n50k = ~0.5v\n4k = ~2.3v"
 		(exclude_from_sim no)
 		(at 283.21 93.726 0)
@@ -2350,6 +2468,17 @@
 		)
 		(uuid "7488d704-7b87-42c5-bd08-483701f5701a")
 	)
+	(text "Columns map to digital outputs that provide 3.3v\nto the divider network on a given column."
+		(exclude_from_sim no)
+		(at 209.296 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "ec11ec42-0226-49b5-8722-feee08c8d445")
+	)
 	(junction
 		(at 173.99 22.86)
 		(diameter 0)
@@ -2363,7 +2492,7 @@
 		(uuid "0bd6798d-9bb4-4a65-ba26-3b09ca1b87c9")
 	)
 	(junction
-		(at 191.77 139.7)
+		(at 191.77 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "128d07e2-f6d4-4d1e-9c6b-326f415404d2")
@@ -2375,19 +2504,19 @@
 		(uuid "18731e68-707b-4c3e-b9fa-bd5f08ead29b")
 	)
 	(junction
-		(at 210.82 120.65)
+		(at 210.82 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24e3ce88-8ba6-4790-bf85-3e8c97f066db")
 	)
 	(junction
-		(at 191.77 109.22)
+		(at 191.77 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f54d4d1-c04d-4d87-8ac8-97999d22640b")
 	)
 	(junction
-		(at 237.49 124.46)
+		(at 237.49 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3158b842-c344-4e38-897d-fa72556c5a2a")
@@ -2399,13 +2528,13 @@
 		(uuid "3365c525-f223-4763-93a4-7ebaa73477a1")
 	)
 	(junction
-		(at 195.58 151.13)
+		(at 195.58 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "366656d1-2a38-44ba-b79e-d4ab9d3ee2a3")
 	)
 	(junction
-		(at 180.34 139.7)
+		(at 180.34 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43501384-d04a-4192-8b3f-3ca0cfb5f3cb")
@@ -2417,13 +2546,13 @@
 		(uuid "44298480-0ba8-4e5d-be5a-30a8573ffe7a")
 	)
 	(junction
-		(at 166.37 120.65)
+		(at 166.37 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ce00ae0-ed3d-4986-80ab-8c660eb1eb72")
 	)
 	(junction
-		(at 222.25 139.7)
+		(at 222.25 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58a4441b-2300-46c8-96e5-eaaa790d3398")
@@ -2441,13 +2570,13 @@
 		(uuid "5f0ef173-fd38-4165-8b9a-34c738cd9702")
 	)
 	(junction
-		(at 180.34 151.13)
+		(at 180.34 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fb01cb8-ec2a-4ce7-b795-759225226565")
 	)
 	(junction
-		(at 237.49 109.22)
+		(at 237.49 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fb4b04e-dc84-4101-b2db-63bd3c4dcc7d")
@@ -2465,7 +2594,7 @@
 		(uuid "63e160c4-bb57-4037-8630-75bca03c89c2")
 	)
 	(junction
-		(at 195.58 120.65)
+		(at 195.58 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d0f667b-8b67-4780-97b2-aa2116aef203")
@@ -2477,13 +2606,13 @@
 		(uuid "7286c352-115d-44e9-841f-97cf8b704bcf")
 	)
 	(junction
-		(at 207.01 109.22)
+		(at 207.01 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "751e5f1f-995b-4e62-98fb-a82af7583741")
 	)
 	(junction
-		(at 210.82 135.89)
+		(at 210.82 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c60599-8a1b-4eb1-a25c-3c4e0ca52baa")
@@ -2501,7 +2630,7 @@
 		(uuid "820d5bac-dad7-4ab8-ba85-0f10129c9a23")
 	)
 	(junction
-		(at 166.37 135.89)
+		(at 166.37 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82c17769-5bf0-437b-9a02-6cc2da5723fd")
@@ -2525,7 +2654,7 @@
 		(uuid "909f1b0d-cc47-4c65-bbaf-20bca7aba0c2")
 	)
 	(junction
-		(at 207.01 139.7)
+		(at 207.01 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a41284-39df-4508-be30-50a3d1d166f5")
@@ -2537,13 +2666,13 @@
 		(uuid "a2c4cc79-1ff2-4fba-8f89-33140be9ecd8")
 	)
 	(junction
-		(at 180.34 154.94)
+		(at 180.34 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a477a6c9-c0f2-499d-b5d3-0b1b473a48b3")
 	)
 	(junction
-		(at 222.25 124.46)
+		(at 222.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a685e646-601b-4a16-afe2-63aa6a2a29e9")
@@ -2561,49 +2690,49 @@
 		(uuid "b89b4886-24c3-4813-97cc-62096cf83d1a")
 	)
 	(junction
-		(at 195.58 135.89)
+		(at 195.58 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9939250-9b84-4c08-907a-d9d27c40646b")
 	)
 	(junction
-		(at 210.82 105.41)
+		(at 210.82 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba983250-3583-487a-8a22-3c506ebdf38f")
 	)
 	(junction
-		(at 180.34 135.89)
+		(at 180.34 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2b3db7-b7fa-42ff-acc8-c14537945e36")
 	)
 	(junction
-		(at 222.25 109.22)
+		(at 222.25 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befc616a-57bd-431e-9d36-e646f6b5f452")
 	)
 	(junction
-		(at 191.77 124.46)
+		(at 191.77 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5897cac-7caf-4b2e-aead-a6ec8c3fe25d")
 	)
 	(junction
-		(at 195.58 105.41)
+		(at 195.58 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c632e2a4-0435-453b-880f-a5bdda418954")
 	)
 	(junction
-		(at 180.34 124.46)
+		(at 180.34 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf44337-321c-4097-a906-d13029d8420a")
 	)
 	(junction
-		(at 207.01 124.46)
+		(at 207.01 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07cd335-1d11-4e76-8dd3-f1f81733fe82")
@@ -2627,7 +2756,7 @@
 		(uuid "d473c8c9-7fec-466b-a144-934053719b20")
 	)
 	(junction
-		(at 210.82 151.13)
+		(at 210.82 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4cd8eab-dc11-4ca2-90e5-a2e6fe1848ea")
@@ -2639,19 +2768,19 @@
 		(uuid "d78801a3-0702-401c-b415-4bfe8070fbcc")
 	)
 	(junction
-		(at 237.49 139.7)
+		(at 237.49 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8930911-0a07-4a37-8840-db65c53b1c2d")
 	)
 	(junction
-		(at 180.34 120.65)
+		(at 180.34 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd94a84f-cabd-453b-bc6f-e33c88b61d60")
 	)
 	(junction
-		(at 180.34 109.22)
+		(at 180.34 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e607bb04-a5f5-4c9f-8a85-5bab5de4f131")
@@ -2669,7 +2798,7 @@
 		(uuid "eaee936b-80e9-43af-b32c-87ec9a19ed7e")
 	)
 	(junction
-		(at 166.37 151.13)
+		(at 166.37 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0458d74-3a6e-4155-8450-2566ae53153b")
@@ -2687,7 +2816,7 @@
 		(uuid "f42429f2-892c-484d-bc36-a60fc8ff0be1")
 	)
 	(junction
-		(at 180.34 105.41)
+		(at 180.34 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8df57a8-58b8-478f-9869-1bc7f4b629ef")
@@ -2712,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 135.89) (xy 226.06 139.7)
+			(xy 226.06 137.16) (xy 226.06 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 151.13) (xy 210.82 154.94)
+			(xy 210.82 152.4) (xy 210.82 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2911,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 154.94) (xy 227.33 154.94)
+			(xy 226.06 156.21) (xy 227.33 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 109.22) (xy 207.01 124.46)
+			(xy 207.01 110.49) (xy 207.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 154.94) (xy 212.09 154.94)
+			(xy 210.82 156.21) (xy 212.09 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 109.22) (xy 227.33 109.22)
+			(xy 226.06 110.49) (xy 227.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 154.94) (xy 204.47 154.94)
+			(xy 207.01 156.21) (xy 204.47 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 227.33 139.7)
+			(xy 226.06 140.97) (xy 227.33 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +3011,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 124.46) (xy 222.25 139.7)
+			(xy 222.25 125.73) (xy 222.25 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 109.22) (xy 237.49 124.46)
+			(xy 237.49 110.49) (xy 237.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 151.13) (xy 226.06 151.13)
+			(xy 210.82 152.4) (xy 226.06 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +3061,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 237.49 109.22)
+			(xy 237.49 100.33) (xy 237.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +3071,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 120.65) (xy 180.34 120.65)
+			(xy 176.53 121.92) (xy 180.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 135.89) (xy 195.58 135.89)
+			(xy 180.34 137.16) (xy 195.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 154.94) (xy 219.71 154.94)
+			(xy 222.25 156.21) (xy 219.71 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 105.41) (xy 226.06 109.22)
+			(xy 226.06 106.68) (xy 226.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 120.65) (xy 168.91 120.65)
+			(xy 166.37 121.92) (xy 168.91 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 210.82 124.46)
+			(xy 210.82 121.92) (xy 210.82 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 120.65) (xy 210.82 120.65)
+			(xy 195.58 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3052,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 135.89) (xy 195.58 139.7)
+			(xy 195.58 137.16) (xy 195.58 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 135.89) (xy 166.37 151.13)
+			(xy 166.37 137.16) (xy 166.37 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3271,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 109.22) (xy 237.49 109.22)
+			(xy 234.95 110.49) (xy 237.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3182,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 151.13) (xy 195.58 151.13)
+			(xy 180.34 152.4) (xy 195.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 135.89) (xy 180.34 139.7)
+			(xy 180.34 137.16) (xy 180.34 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 237.49 124.46)
+			(xy 234.95 125.73) (xy 237.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3212,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 154.94) (xy 180.34 154.94)
+			(xy 177.8 156.21) (xy 180.34 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 124.46) (xy 212.09 124.46)
+			(xy 210.82 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 139.7) (xy 207.01 154.94)
+			(xy 207.01 140.97) (xy 207.01 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3392,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 139.7) (xy 181.61 139.7)
+			(xy 180.34 140.97) (xy 181.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3402,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 99.06) (xy 222.25 109.22)
+			(xy 222.25 100.33) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3432,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 120.65) (xy 226.06 124.46)
+			(xy 226.06 121.92) (xy 226.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3442,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 135.89) (xy 210.82 139.7)
+			(xy 210.82 137.16) (xy 210.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3462,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 196.85 109.22)
+			(xy 195.58 110.49) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 120.65) (xy 195.58 120.65)
+			(xy 180.34 121.92) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 124.46) (xy 207.01 124.46)
+			(xy 204.47 125.73) (xy 207.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 151.13) (xy 180.34 154.94)
+			(xy 180.34 152.4) (xy 180.34 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3562,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 180.34 105.41)
+			(xy 176.53 106.68) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3572,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 207.01 109.22)
+			(xy 207.01 100.33) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3602,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 124.46) (xy 237.49 139.7)
+			(xy 237.49 125.73) (xy 237.49 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3622,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 212.09 109.22)
+			(xy 210.82 110.49) (xy 212.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3642,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 135.89) (xy 210.82 135.89)
+			(xy 195.58 137.16) (xy 210.82 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3662,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 191.77 109.22)
+			(xy 191.77 100.33) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3672,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 109.22) (xy 222.25 109.22)
+			(xy 219.71 110.49) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3762,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 139.7) (xy 222.25 139.7)
+			(xy 219.71 140.97) (xy 222.25 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3792,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 134.62) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919adc03-c1b9-420a-b877-93e919643464")
+	)
+	(wire
+		(pts
 			(xy 173.99 22.86) (xy 199.39 22.86)
 		)
 		(stroke
@@ -3802,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 139.7) (xy 212.09 139.7)
+			(xy 210.82 140.97) (xy 212.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 139.7) (xy 237.49 139.7)
+			(xy 234.95 140.97) (xy 237.49 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3822,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 154.94) (xy 189.23 154.94)
+			(xy 191.77 156.21) (xy 189.23 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3852,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 135.89) (xy 168.91 135.89)
+			(xy 166.37 137.16) (xy 168.91 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3862,7 +4001,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 151.13) (xy 166.37 156.21)
+			(xy 166.37 152.4) (xy 166.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3882,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 105.41) (xy 210.82 105.41)
+			(xy 195.58 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3892,7 +4031,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 154.94) (xy 196.85 154.94)
+			(xy 195.58 156.21) (xy 196.85 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 151.13) (xy 180.34 151.13)
+			(xy 176.53 152.4) (xy 180.34 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 120.65) (xy 195.58 124.46)
+			(xy 195.58 121.92) (xy 195.58 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3932,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 154.94) (xy 181.61 154.94)
+			(xy 180.34 156.21) (xy 181.61 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3952,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 124.46) (xy 196.85 124.46)
+			(xy 195.58 125.73) (xy 196.85 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3962,7 +4101,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 180.34 109.22)
+			(xy 259.08 128.27) (xy 261.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41362d2-a4ce-40e9-850c-39cd0d1751dc")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 180.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3982,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 105.41) (xy 210.82 109.22)
+			(xy 210.82 106.68) (xy 210.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4032,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 109.22) (xy 222.25 124.46)
+			(xy 222.25 110.49) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4052,7 +4201,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 124.46) (xy 191.77 124.46)
+			(xy 259.08 147.32) (xy 261.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b046122b-64a3-4ed5-84f8-33228eb16779")
+	)
+	(wire
+		(pts
+			(xy 189.23 125.73) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4072,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 181.61 124.46)
+			(xy 180.34 125.73) (xy 181.61 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4112,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 227.33 124.46)
+			(xy 226.06 125.73) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4132,13 +4291,23 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 151.13) (xy 226.06 154.94)
+			(xy 226.06 152.4) (xy 226.06 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5518f7a-4377-4b9c-b7f2-26155c27998c")
+	)
+	(wire
+		(pts
+			(xy 259.08 140.97) (xy 261.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a168e0-ab76-40f7-a35e-4229bbe58e7d")
 	)
 	(polyline
 		(pts
@@ -4152,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 139.7) (xy 191.77 154.94)
+			(xy 191.77 140.97) (xy 191.77 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4162,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 124.46) (xy 222.25 124.46)
+			(xy 219.71 125.73) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4172,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 139.7) (xy 207.01 139.7)
+			(xy 204.47 140.97) (xy 207.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4192,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 109.22) (xy 191.77 109.22)
+			(xy 189.23 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4202,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 151.13) (xy 168.91 151.13)
+			(xy 166.37 152.4) (xy 168.91 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4222,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 105.41) (xy 195.58 109.22)
+			(xy 195.58 106.68) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4252,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 120.65) (xy 166.37 135.89)
+			(xy 166.37 121.92) (xy 166.37 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4262,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 139.7) (xy 222.25 154.94)
+			(xy 222.25 140.97) (xy 222.25 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4272,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 195.58 105.41)
+			(xy 180.34 106.68) (xy 195.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4282,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 109.22) (xy 207.01 109.22)
+			(xy 204.47 110.49) (xy 207.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4292,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 120.65) (xy 180.34 124.46)
+			(xy 180.34 121.92) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4322,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 139.7) (xy 191.77 139.7)
+			(xy 189.23 140.97) (xy 191.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4332,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 135.89) (xy 226.06 135.89)
+			(xy 210.82 137.16) (xy 226.06 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4342,7 +4511,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 124.46) (xy 207.01 139.7)
+			(xy 207.01 125.73) (xy 207.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4402,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 105.41) (xy 226.06 105.41)
+			(xy 210.82 106.68) (xy 226.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4412,7 +4581,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 154.94) (xy 234.95 154.94)
+			(xy 237.49 156.21) (xy 234.95 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4422,7 +4591,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 105.41) (xy 166.37 120.65)
+			(xy 166.37 106.68) (xy 166.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4442,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 191.77 139.7)
+			(xy 191.77 125.73) (xy 191.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4482,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 109.22) (xy 180.34 109.22)
+			(xy 177.8 110.49) (xy 180.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4512,7 +4681,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 105.41) (xy 166.37 105.41)
+			(xy 168.91 106.68) (xy 166.37 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4532,7 +4701,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 151.13) (xy 210.82 151.13)
+			(xy 195.58 152.4) (xy 210.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4562,7 +4731,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 135.89) (xy 180.34 135.89)
+			(xy 176.53 137.16) (xy 180.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4592,7 +4761,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 180.34 124.46)
+			(xy 177.8 125.73) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4622,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 191.77 124.46)
+			(xy 191.77 110.49) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4632,7 +4801,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 151.13) (xy 195.58 154.94)
+			(xy 195.58 152.4) (xy 195.58 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4642,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 139.7) (xy 180.34 139.7)
+			(xy 177.8 140.97) (xy 180.34 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4652,7 +4821,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 226.06 120.65)
+			(xy 210.82 121.92) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4662,7 +4831,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 139.7) (xy 196.85 139.7)
+			(xy 195.58 140.97) (xy 196.85 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4682,7 +4851,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 139.7) (xy 237.49 154.94)
+			(xy 237.49 140.97) (xy 237.49 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4692,7 +4861,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 109.22) (xy 181.61 109.22)
+			(xy 180.34 110.49) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4700,8 +4869,18 @@
 		)
 		(uuid "ff18bec7-0e6e-4266-bfa4-8dd68f63cfef")
 	)
+	(label "VEL_ROW1"
+		(at 259.08 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a3840af-72f3-4b77-bc6d-bd2403fafaba")
+	)
 	(label "VEL_COL3"
-		(at 237.49 99.06 180)
+		(at 237.49 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4731,7 +4910,7 @@
 		(uuid "22ee5563-cab8-4fde-8c52-f557ac38162e")
 	)
 	(label "VEL_COL1"
-		(at 207.01 99.06 180)
+		(at 207.01 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4741,7 +4920,7 @@
 		(uuid "234f8bd2-e704-4266-ac2b-ce29f06fbe45")
 	)
 	(label "VEL_ROW2"
-		(at 177.8 139.7 180)
+		(at 177.8 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4821,7 +5000,7 @@
 		(uuid "74309edc-bd56-4040-baec-37bd8e1d46e9")
 	)
 	(label "VEL_ROW0"
-		(at 177.8 109.22 180)
+		(at 177.8 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4840,6 +5019,16 @@
 		)
 		(uuid "7de62622-9a02-4e62-9a08-7cdb3f8527f7")
 	)
+	(label "VEL_ROW0"
+		(at 259.08 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83257f36-6877-4c03-9c7b-bdd195ee1333")
+	)
 	(label "SW_COL2"
 		(at 73.66 50.8 0)
 		(effects
@@ -4850,8 +5039,18 @@
 		)
 		(uuid "8cac4c6f-7cf4-4f1a-bd04-2010d230e02b")
 	)
+	(label "VEL_ROW2"
+		(at 259.08 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9518efd3-ca62-4d5e-9d52-8a70bb01a58e")
+	)
 	(label "VEL_ROW1"
-		(at 177.8 124.46 180)
+		(at 177.8 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +5060,7 @@
 		(uuid "9995f32d-b90f-42d8-805c-3a9b59fb22cf")
 	)
 	(label "VEL_ROW3"
-		(at 177.8 154.94 180)
+		(at 177.8 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4881,7 +5080,7 @@
 		(uuid "b60f0b92-be0c-47f0-bf7b-e287b307ae04")
 	)
 	(label "VEL_COL2"
-		(at 222.25 99.06 180)
+		(at 222.25 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4890,8 +5089,18 @@
 		)
 		(uuid "be39aa2d-05e6-443d-a576-e8f34d396e58")
 	)
+	(label "VEL_ROW3"
+		(at 259.08 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2835041-db5f-4fe6-9d50-29433b5873db")
+	)
 	(label "VEL_COL0"
-		(at 191.77 99.06 180)
+		(at 191.77 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5214,7 +5423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 156.21 0)
+		(at 166.37 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5222,7 +5431,7 @@
 		(dnp no)
 		(uuid "27f52860-35e9-44fb-8668-c572557b4eaf")
 		(property "Reference" "#PWR039"
-			(at 166.37 162.56 0)
+			(at 166.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 160.782 0)
+			(at 166.37 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 156.21 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 156.21 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 156.21 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5663,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 200.66 124.46 0)
+		(at 200.66 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5463,7 +5672,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb95d14-9913-47ac-94bb-ea15aeeb71d1")
 		(property "Reference" "SW6"
-			(at 200.66 116.84 0)
+			(at 200.66 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5680,7 @@
 			)
 		)
 		(property "Value" "TRIG6"
-			(at 200.66 119.38 0)
+			(at 200.66 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5688,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 200.7235 119.4435 0)
+			(at 200.7235 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.7235 119.4435 0)
+			(at 200.7235 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5706,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 200.7235 124.5235 0)
+			(at 200.7235 125.7935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5715,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 200.66 124.46 0)
+			(at 200.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,6 +6023,73 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4/7f1ac839-494f-4521-b63e-5606a3cb7bc9"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3239365a-1e1c-491a-837b-d7e7337011bd")
+		(property "Reference" "TP3"
+			(at 266.7 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VEL_ROW2"
+			(at 266.7 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a532fb96-bf00-41e6-a811-22abb9480c65")
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4/7f1ac839-494f-4521-b63e-5606a3cb7bc9"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6420,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 105.41 0)
+		(at 107.95 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6152,7 +6428,7 @@
 		(dnp no)
 		(uuid "420ccb19-8d85-44e7-ba6c-60a3bbb828ce")
 		(property "Reference" "SW18"
-			(at 33.02 100.584 0)
+			(at 107.95 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6436,7 @@
 			)
 		)
 		(property "Value" "HELP"
-			(at 33.02 107.442 0)
+			(at 107.95 186.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6445,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQQ2"
-			(at 33.02 100.33 0)
+			(at 107.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 100.33 0)
+			(at 107.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6463,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 33.02 105.41 0)
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6472,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 33.02 105.41 0)
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6496,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 120.65 90)
+		(at 172.72 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6228,7 +6504,7 @@
 		(dnp no)
 		(uuid "453a0b3f-d574-4a9d-892c-212a48de0962")
 		(property "Reference" "R12"
-			(at 172.72 115.316 90)
+			(at 172.72 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6512,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.72 117.856 90)
+			(at 172.72 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 122.428 90)
+			(at 172.72 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 120.65 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6538,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 120.65 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6645,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 185.42 154.94 0)
+		(at 185.42 156.21 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6378,7 +6654,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c0572e7-2d7e-48c8-8e99-4d69fb0cd23b")
 		(property "Reference" "SW13"
-			(at 185.42 147.32 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6662,7 @@
 			)
 		)
 		(property "Value" "TRIG13"
-			(at 185.42 149.86 0)
+			(at 185.42 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +6670,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 185.4835 149.9235 0)
+			(at 185.4835 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.4835 149.9235 0)
+			(at 185.4835 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6688,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.4835 155.0035 0)
+			(at 185.4835 156.2735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6697,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 185.42 154.94 0)
+			(at 185.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6809,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 215.9 139.7 0)
+		(at 215.9 140.97 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6542,7 +6818,7 @@
 		(fields_autoplaced yes)
 		(uuid "5190521d-43d2-43d8-ad80-c7c8ddf3a0b1")
 		(property "Reference" "SW11"
-			(at 215.9 132.08 0)
+			(at 215.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6826,7 @@
 			)
 		)
 		(property "Value" "TRIG11"
-			(at 215.9 134.62 0)
+			(at 215.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6834,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 215.9635 134.6835 0)
+			(at 215.9635 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9635 134.6835 0)
+			(at 215.9635 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6852,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9635 139.7635 0)
+			(at 215.9635 141.0335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6861,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 215.9 139.7 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6973,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 231.14 109.22 0)
+		(at 231.14 110.49 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6706,7 +6982,7 @@
 		(fields_autoplaced yes)
 		(uuid "53a478a5-fb5e-403c-a865-25b1491ecabc")
 		(property "Reference" "SW4"
-			(at 231.14 101.6 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6990,7 @@
 			)
 		)
 		(property "Value" "TRIG4"
-			(at 231.14 104.14 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6998,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 231.2035 104.2035 0)
+			(at 231.2035 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +7007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.2035 104.2035 0)
+			(at 231.2035 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +7016,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 231.2035 109.2835 0)
+			(at 231.2035 110.5535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +7025,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 231.14 109.22 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7137,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 215.9 154.94 0)
+		(at 215.9 156.21 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6870,7 +7146,7 @@
 		(fields_autoplaced yes)
 		(uuid "55e50c04-5d77-4f8d-b215-6ac11af1add3")
 		(property "Reference" "SW15"
-			(at 215.9 147.32 0)
+			(at 215.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7154,7 @@
 			)
 		)
 		(property "Value" "TRIG15"
-			(at 215.9 149.86 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +7162,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 215.9635 149.9235 0)
+			(at 215.9635 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +7171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9635 149.9235 0)
+			(at 215.9635 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +7180,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9635 155.0035 0)
+			(at 215.9635 156.2735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +7189,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 215.9 154.94 0)
+			(at 215.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +7219,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 135.89 90)
+		(at 172.72 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6951,7 +7227,7 @@
 		(dnp no)
 		(uuid "5d2e1783-05fa-4265-990a-e71f4c6acc88")
 		(property "Reference" "R20"
-			(at 172.72 130.556 90)
+			(at 172.72 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +7235,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.72 133.096 90)
+			(at 172.72 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +7243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 137.668 90)
+			(at 172.72 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 135.89 0)
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +7261,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 135.89 0)
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,6 +7537,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62b8190b-4ff3-4b0e-aa47-61fb67a86a40")
+		(property "Reference" "TP4"
+			(at 266.7 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VEL_ROW3"
+			(at 266.7 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15735363-1b3d-465e-9e67-3dd42a7aa407")
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4/7f1ac839-494f-4521-b63e-5606a3cb7bc9"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SW_Push_Pressure_1")
 		(lib_id "pocket_synth:SW_Push_Pressure")
 		(at 256.54 76.2 0)
@@ -7346,7 +7689,7 @@
 	(symbol
 		(lib_name "SW_Push_Pressure_1")
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 231.14 154.94 0)
+		(at 231.14 156.21 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7355,7 +7698,7 @@
 		(fields_autoplaced yes)
 		(uuid "63160132-be19-43aa-9337-31dacd1fe54d")
 		(property "Reference" "SW16"
-			(at 231.14 147.32 0)
+			(at 231.14 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7706,7 @@
 			)
 		)
 		(property "Value" "TRIG16"
-			(at 231.14 149.86 0)
+			(at 231.14 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7714,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
-			(at 231.2035 149.9235 0)
+			(at 231.2035 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.2035 149.9235 0)
+			(at 231.2035 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7732,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 231.2035 155.0035 0)
+			(at 231.2035 156.2735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7741,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 231.14 154.94 0)
+			(at 231.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7853,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 185.42 109.22 0)
+		(at 185.42 110.49 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7519,7 +7862,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a62e4d3-5e79-4ae0-a425-fde9c2f5ba00")
 		(property "Reference" "SW1"
-			(at 185.42 101.6 0)
+			(at 185.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7870,7 @@
 			)
 		)
 		(property "Value" "TRIG1"
-			(at 185.42 104.14 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7878,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 185.4835 104.2035 0)
+			(at 185.4835 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.4835 104.2035 0)
+			(at 185.4835 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7896,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.4835 109.2835 0)
+			(at 185.4835 110.5535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7905,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 185.42 109.22 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,6 +8027,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "844c9b2d-a2b5-4323-aa77-3965be5c8486")
+		(property "Reference" "TP1"
+			(at 266.7 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VEL_ROW0"
+			(at 266.7 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03d46034-214d-41c9-a518-30097c2f57fc")
+		)
+		(instances
+			(project ""
+				(path "/485383b8-00f4-4405-b270-de249939cff4/7f1ac839-494f-4521-b63e-5606a3cb7bc9"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
 		(at 256.54 45.72 0)
 		(unit 1)
@@ -7767,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 231.14 124.46 0)
+		(at 231.14 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7776,7 +8186,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a242a84-3655-4ce9-8f88-ff997cab139d")
 		(property "Reference" "SW8"
-			(at 231.14 116.84 0)
+			(at 231.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +8194,7 @@
 			)
 		)
 		(property "Value" "TRIG8"
-			(at 231.14 119.38 0)
+			(at 231.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +8202,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 231.2035 119.4435 0)
+			(at 231.2035 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +8211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.2035 119.4435 0)
+			(at 231.2035 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +8220,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 231.2035 124.5235 0)
+			(at 231.2035 125.7935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +8229,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 231.14 124.46 0)
+			(at 231.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8341,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 231.14 139.7 0)
+		(at 231.14 140.97 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7940,7 +8350,7 @@
 		(fields_autoplaced yes)
 		(uuid "9730d66f-47c6-40bc-9b75-aad5e17a2f00")
 		(property "Reference" "SW12"
-			(at 231.14 132.08 0)
+			(at 231.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +8358,7 @@
 			)
 		)
 		(property "Value" "TRIG12"
-			(at 231.14 134.62 0)
+			(at 231.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +8366,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 231.2035 134.6835 0)
+			(at 231.2035 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +8375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.2035 134.6835 0)
+			(at 231.2035 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +8384,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 231.2035 139.7635 0)
+			(at 231.2035 141.0335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8393,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 231.14 139.7 0)
+			(at 231.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8598,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 200.66 154.94 0)
+		(at 200.66 156.21 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8197,7 +8607,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a3c5d2a-d020-4d18-9ddd-0fadb8223402")
 		(property "Reference" "SW14"
-			(at 200.66 147.32 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8615,7 @@
 			)
 		)
 		(property "Value" "TRIG14"
-			(at 200.66 149.86 0)
+			(at 200.66 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +8623,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 200.7235 149.9235 0)
+			(at 200.7235 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.7235 149.9235 0)
+			(at 200.7235 151.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +8641,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 200.7235 155.0035 0)
+			(at 200.7235 156.2735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8650,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 200.66 154.94 0)
+			(at 200.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,7 +8746,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 151.13 90)
+		(at 172.72 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8344,7 +8754,7 @@
 		(dnp no)
 		(uuid "9f802346-1e68-441d-a70d-26b599f9c088")
 		(property "Reference" "R21"
-			(at 172.72 145.796 90)
+			(at 172.72 147.066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8762,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.72 148.336 90)
+			(at 172.72 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 152.908 90)
+			(at 172.72 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 151.13 0)
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8788,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 151.13 0)
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8971,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 185.42 139.7 0)
+		(at 185.42 140.97 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8570,7 +8980,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b973ec-679a-4f0e-b1b8-ad4ff418ecef")
 		(property "Reference" "SW9"
-			(at 185.42 132.08 0)
+			(at 185.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8988,7 @@
 			)
 		)
 		(property "Value" "TRIG9"
-			(at 185.42 134.62 0)
+			(at 185.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8996,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 185.4835 134.6835 0)
+			(at 185.4835 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +9005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.4835 134.6835 0)
+			(at 185.4835 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +9014,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.4835 139.7635 0)
+			(at 185.4835 141.0335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +9023,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 185.42 139.7 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +9053,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 105.41 90)
+		(at 172.72 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8651,7 +9061,7 @@
 		(dnp no)
 		(uuid "aa4d7595-baa6-4fc5-9888-c56f9aba0fb1")
 		(property "Reference" "R8"
-			(at 172.72 100.076 90)
+			(at 172.72 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +9069,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.72 102.616 90)
+			(at 172.72 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +9077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 107.188 90)
+			(at 172.72 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +9086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 105.41 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +9095,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 105.41 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +9388,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 185.42 124.46 0)
+		(at 185.42 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8987,7 +9397,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc8af26b-7fa6-46e9-962c-efae76585b9a")
 		(property "Reference" "SW5"
-			(at 185.42 116.84 0)
+			(at 185.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +9405,7 @@
 			)
 		)
 		(property "Value" "TRIG5"
-			(at 185.42 119.38 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9413,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 185.4835 119.4435 0)
+			(at 185.4835 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.4835 119.4435 0)
+			(at 185.4835 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9431,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.4835 124.5235 0)
+			(at 185.4835 125.7935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9440,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 185.42 124.46 0)
+			(at 185.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9552,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 200.66 139.7 0)
+		(at 200.66 140.97 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9151,7 +9561,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcd2bcfd-f69e-4786-a738-00e8f0ba859c")
 		(property "Reference" "SW10"
-			(at 200.66 132.08 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9569,7 @@
 			)
 		)
 		(property "Value" "TRIG10"
-			(at 200.66 134.62 0)
+			(at 200.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +9577,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 200.7235 134.6835 0)
+			(at 200.7235 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.7235 134.6835 0)
+			(at 200.7235 135.9535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9595,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 200.7235 139.7635 0)
+			(at 200.7235 141.0335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9604,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 200.66 139.7 0)
+			(at 200.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9902,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 200.66 109.22 0)
+		(at 200.66 110.49 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9501,7 +9911,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb354008-ba2f-4681-8a26-f65bfffb4f06")
 		(property "Reference" "SW2"
-			(at 200.66 101.6 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +9919,7 @@
 			)
 		)
 		(property "Value" "TRIG2"
-			(at 200.66 104.14 0)
+			(at 200.66 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9927,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 200.7235 104.2035 0)
+			(at 200.7235 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.7235 104.2035 0)
+			(at 200.7235 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9945,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 200.7235 109.2835 0)
+			(at 200.7235 110.5535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9954,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 200.66 109.22 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 215.9 109.22 0)
+		(at 215.9 110.49 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9665,7 +10075,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0c5d618-6f84-416f-8984-7b7192325dbd")
 		(property "Reference" "SW3"
-			(at 215.9 101.6 0)
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +10083,7 @@
 			)
 		)
 		(property "Value" "TRIG3"
-			(at 215.9 104.14 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +10091,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 215.9635 104.2035 0)
+			(at 215.9635 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,7 +10100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9635 104.2035 0)
+			(at 215.9635 105.4735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +10109,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9635 109.2835 0)
+			(at 215.9635 110.5535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +10118,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 215.9 109.22 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,6 +10327,73 @@
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4/7f1ac839-494f-4521-b63e-5606a3cb7bc9"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df69e4c4-46cf-4577-ba01-750dd489d994")
+		(property "Reference" "TP2"
+			(at 266.7 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VEL_ROW1"
+			(at 266.7 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18cf8c9e-d7b8-45fa-8cde-e36695fec313")
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4/7f1ac839-494f-4521-b63e-5606a3cb7bc9"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10258,7 +10735,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SW_Push_Pressure")
-		(at 215.9 124.46 0)
+		(at 215.9 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10267,7 +10744,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff2b07eb-7d97-4b67-ac61-4aff12eea8d0")
 		(property "Reference" "SW7"
-			(at 215.9 116.84 0)
+			(at 215.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10752,7 @@
 			)
 		)
 		(property "Value" "TRIG7"
-			(at 215.9 119.38 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10760,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
-			(at 215.9635 119.4435 0)
+			(at 215.9635 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9635 119.4435 0)
+			(at 215.9635 120.7135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10778,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9635 124.5235 0)
+			(at 215.9635 125.7935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +10787,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 215.9 124.46 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
