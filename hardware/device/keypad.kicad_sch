@@ -2460,7 +2460,7 @@
 	)
 	(text "Velostat in testing appears to be \nin roughly the 60-3Kohm range, 10\nto 20 kohm for R2 should be good.\n\nR2 of the divider is the resistors\ntied to ground on one side.\n"
 		(exclude_from_sim no)
-		(at 283.21 93.472 0)
+		(at 283.21 92.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2482,7 +2482,7 @@
 	)
 	(text "TODO: add navigation stick?\nhttps://tech.alpsalpine.com/e/products/detail/RKJXT1F42001/#ancFig4"
 		(exclude_from_sim no)
-		(at 70.612 170.434 0)
+		(at 84.582 219.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2507,7 +2507,7 @@
 	)
 	(text "Diodes prevent ghosting from 3 keys on adjacent\nrows and columns being simultaniously pressed."
 		(exclude_from_sim no)
-		(at 283.21 90.17 0)
+		(at 283.21 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2519,7 +2519,7 @@
 	)
 	(text "Columns map to digital outputs that provide 3.3v to the divider network\non a given column. Unaddressed columns should be pulled to ground."
 		(exclude_from_sim no)
-		(at 207.264 93.472 0)
+		(at 207.264 92.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3071,7 +3071,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.02 91.44) (xy 160.02 166.37)
+			(xy 160.02 90.17) (xy 160.02 166.37)
 		)
 		(stroke
 			(width 0.2032)
@@ -3739,6 +3739,16 @@
 		)
 		(uuid "70fc5967-4b71-4a3b-b32c-5838ceba444e")
 	)
+	(polyline
+		(pts
+			(xy 160.02 12.7) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0.2032)
+			(type dash)
+		)
+		(uuid "7321f65d-092b-44c4-bca8-2eb10085c79a")
+	)
 	(wire
 		(pts
 			(xy 205.74 80.01) (xy 204.47 80.01)
@@ -4401,7 +4411,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 91.44) (xy 284.48 91.44)
+			(xy 12.7 90.17) (xy 284.48 90.17)
 		)
 		(stroke
 			(width 0.2032)
@@ -5812,7 +5822,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 210.8835 44.5135 0)
 			(effects
 				(font
@@ -5893,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 205.8035 119.4435 0)
 			(effects
 				(font
@@ -6793,7 +6803,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 185.4835 74.9935 0)
 			(effects
 				(font
@@ -6874,7 +6884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 189.2935 149.9235 0)
 			(effects
 				(font
@@ -6956,7 +6966,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 236.2835 59.7535 0)
 			(effects
 				(font
@@ -7037,7 +7047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 222.3135 134.6835 0)
 			(effects
 				(font
@@ -7119,7 +7129,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 261.6835 29.2735 0)
 			(effects
 				(font
@@ -7200,7 +7210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 238.8235 104.2035 0)
 			(effects
 				(font
@@ -7282,7 +7292,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 236.2835 74.9935 0)
 			(effects
 				(font
@@ -7363,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 222.3135 149.9235 0)
 			(effects
 				(font
@@ -8063,7 +8073,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 185.4835 29.2735 0)
 			(effects
 				(font
@@ -8144,7 +8154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 189.2935 104.2035 0)
 			(effects
 				(font
@@ -8386,7 +8396,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 261.6835 44.5135 0)
 			(effects
 				(font
@@ -8467,7 +8477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 238.8235 119.4435 0)
 			(effects
 				(font
@@ -8616,7 +8626,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 261.6835 59.7535 0)
 			(effects
 				(font
@@ -8697,7 +8707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 238.8235 134.6835 0)
 			(effects
 				(font
@@ -8872,7 +8882,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 210.8835 74.9935 0)
 			(effects
 				(font
@@ -8953,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 205.8035 149.9235 0)
 			(effects
 				(font
@@ -9244,7 +9254,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 185.4835 59.7535 0)
 			(effects
 				(font
@@ -9325,7 +9335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 189.2935 134.6835 0)
 			(effects
 				(font
@@ -9660,7 +9670,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 185.4835 44.5135 0)
 			(effects
 				(font
@@ -9741,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 189.2935 119.4435 0)
 			(effects
 				(font
@@ -9823,7 +9833,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 210.8835 59.7535 0)
 			(effects
 				(font
@@ -9904,7 +9914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 205.8035 134.6835 0)
 			(effects
 				(font
@@ -10172,7 +10182,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 210.8835 29.2735 0)
 			(effects
 				(font
@@ -10253,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 205.8035 104.2035 0)
 			(effects
 				(font
@@ -10335,7 +10345,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 236.2835 29.2735 0)
 			(effects
 				(font
@@ -10416,7 +10426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 222.3135 104.2035 0)
 			(effects
 				(font
@@ -11070,7 +11080,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 236.2835 44.5135 0)
 			(effects
 				(font
@@ -11151,7 +11161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u"
+		(property "Footprint" "pocket_synth:SW_Hotswap_Kailh_Choc_V1_1.00u_Pressure"
 			(at 222.3135 119.4435 0)
 			(effects
 				(font
