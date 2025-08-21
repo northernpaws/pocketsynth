@@ -14908,7 +14908,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 12.7 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14917,7 +14917,7 @@
 			)
 		)
 		(property "Value" "SP3401-02UTG"
-			(at 0 10.16 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +14926,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SP340102UTG"
-			(at 26.67 -94.92 0)
+			(at 26.67 -98.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14936,7 +14936,7 @@
 			)
 		)
 		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp3401_datasheet.pdf.pdf"
-			(at 26.67 -194.92 0)
+			(at 26.67 -198.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14946,7 +14946,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes 28KV 0.6pF 3.3V 10A uDFN-6 TVS Array"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,7 +14955,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 26.67 -394.92 0)
+			(at 26.67 -398.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,7 +14965,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SP3401-02UTG"
-			(at 26.67 -494.92 0)
+			(at 26.67 -498.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14975,7 +14975,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP3401-02UTG?qs=T3oQrply3y%2FjRDLmSQJ5ww%3D%3D"
-			(at 26.67 -594.92 0)
+			(at 26.67 -598.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +14985,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 26.67 -694.92 0)
+			(at 26.67 -698.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,7 +14995,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SP3401-02UTG"
-			(at 26.67 -794.92 0)
+			(at 26.67 -798.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15006,8 +15006,8 @@
 		)
 		(symbol "SP3401-02UTG_1_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -7.62 3.81)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -15017,8 +15017,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 5.08 0)
-				(length 5.08)
+				(at -11.43 1.27 0)
+				(length 3.81)
 				(name "I/O1"
 					(effects
 						(font
@@ -15035,8 +15035,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 2.54 0)
-				(length 5.08)
+				(at -11.43 -1.27 0)
+				(length 3.81)
 				(name "I/O2"
 					(effects
 						(font
@@ -15053,9 +15053,10 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -12.7 90)
+				(at 0 -8.89 90)
 				(length 5.08)
-				(name "GND_1"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15071,9 +15072,9 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -12.7 90)
+				(at 0 -8.89 90)
 				(length 5.08)
-				(name "GND_2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15089,8 +15090,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 5.08 180)
-				(length 5.08)
+				(at 11.43 1.27 180)
+				(length 3.81)
 				(name "NC_2"
 					(effects
 						(font
@@ -15107,8 +15108,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 2.54 180)
-				(length 5.08)
+				(at 11.43 -1.27 180)
+				(length 3.81)
 				(name "NC_1"
 					(effects
 						(font

@@ -36350,6 +36350,18 @@
 		)
 		(uuid "e1321994-846a-4ae6-9cd0-557fe4be3041")
 	)
+	(hierarchical_label "USB_INT"
+		(shape input)
+		(at 118.11 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "e4f92f80-44d5-447e-8bb0-18913259d2db")
+	)
 	(hierarchical_label "{FMC}"
 		(shape output)
 		(at 177.8 16.51 180)

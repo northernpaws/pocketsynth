@@ -71,7 +71,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 43.18) (xy 63.5 43.18)
+			(xy 49.53 39.37) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -171,7 +171,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 40.64) (xy 63.5 40.64)
+			(xy 49.53 36.83) (xy 63.5 36.83)
 		)
 		(stroke
 			(width 0)
@@ -431,6 +431,16 @@
 	)
 	(bus
 		(pts
+			(xy 22.86 45.72) (xy 25.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6019cca-36c2-4d86-b7c2-2dee1e4bb31e")
+	)
+	(bus
+		(pts
 			(xy 101.6 55.88) (xy 116.84 55.88)
 		)
 		(stroke
@@ -438,6 +448,28 @@
 			(type default)
 		)
 		(uuid "eb4066c2-4460-470b-abc1-8a42c331e57f")
+	)
+	(label "I2C"
+		(at 22.86 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d3ee19d-4020-4917-8af9-cdb4b7654426")
+	)
+	(label "I2C"
+		(at 104.14 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "c21a7c55-49f4-47a3-bda9-2eec3c147b37")
 	)
 	(sheet
 		(at 63.5 34.29)
@@ -505,7 +537,7 @@
 			)
 		)
 		(pin "USB_D+" input
-			(at 63.5 40.64 180)
+			(at 63.5 36.83 180)
 			(uuid "4bab05d3-dfb2-441d-a8ff-a0159b6ef0e0")
 			(effects
 				(font
@@ -515,7 +547,7 @@
 			)
 		)
 		(pin "USB_D-" input
-			(at 63.5 43.18 180)
+			(at 63.5 39.37 180)
 			(uuid "55c4ac30-3b9a-4234-8422-95436036a634")
 			(effects
 				(font
@@ -603,8 +635,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 38.1)
-		(size 24.13 19.05)
+		(at 25.4 34.29)
+		(size 24.13 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -619,7 +651,7 @@
 		)
 		(uuid "4ddef61a-efa7-4012-86d6-37c4f1088d14")
 		(property "Sheetname" "Power"
-			(at 25.4 37.3884 0)
+			(at 25.4 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +660,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 25.4 57.7346 0)
+			(at 25.4 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +690,7 @@
 			)
 		)
 		(pin "USB_D+" output
-			(at 49.53 40.64 0)
+			(at 49.53 36.83 0)
 			(uuid "0fa07fc5-86e4-489a-be27-9febfe5b63b2")
 			(effects
 				(font
@@ -668,7 +700,7 @@
 			)
 		)
 		(pin "USB_D-" output
-			(at 49.53 43.18 0)
+			(at 49.53 39.37 0)
 			(uuid "f3f91908-6251-4ba5-beaf-73178279f11d")
 			(effects
 				(font
@@ -685,6 +717,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_INT" output
+			(at 49.53 43.18 0)
+			(uuid "73807544-1554-471b-8997-2957449b33e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOL_POT" output
+			(at 25.4 41.91 180)
+			(uuid "cccb61b0-ff2a-47a5-a0d6-bc35ea0065f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2C}" input
+			(at 25.4 45.72 180)
+			(uuid "f7769596-f6c3-481c-a6ba-a86181366000")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
