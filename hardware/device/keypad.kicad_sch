@@ -2713,7 +2713,7 @@
 	)
 	(text "Miscellaneous Inputs"
 		(exclude_from_sim no)
-		(at 13.97 168.402 0)
+		(at 13.462 168.402 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2799,7 +2799,7 @@
 	)
 	(text "Keyswitch Matrix Decoder"
 		(exclude_from_sim no)
-		(at 13.462 13.97 0)
+		(at 13.208 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
