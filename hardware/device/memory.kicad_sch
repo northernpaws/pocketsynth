@@ -2319,6 +2319,19 @@
 		)
 		(uuid "4d1404ab-bda5-4ad9-8780-e108a933415e")
 	)
+	(text "140mA"
+		(exclude_from_sim no)
+		(at 262.89 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 132 132 132 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a8b93c1-4ed7-4969-90cb-4d0c89cb2c5c")
+	)
 	(text "Operates in SPI mode as we don't need a particularly fast\ntransfer speed = most data that's stored/read from the card\nis loaded once and cached in SDRAM while the project is open."
 		(exclude_from_sim no)
 		(at 27.94 114.3 0)
