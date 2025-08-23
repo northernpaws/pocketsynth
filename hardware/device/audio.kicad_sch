@@ -3383,7 +3383,7 @@
 	)
 	(text "MEMs Microphone for\ninternal recording input"
 		(exclude_from_sim no)
-		(at 12.954 151.384 0)
+		(at 13.462 151.638 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3487,7 +3487,7 @@
 	)
 	(text "Analog MUX for switching\nline-in input modes"
 		(exclude_from_sim no)
-		(at 84.328 150.876 0)
+		(at 84.836 151.384 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3525,7 +3525,7 @@
 	)
 	(text "Audio Line & Microphone Input"
 		(exclude_from_sim no)
-		(at 84.328 147.828 0)
+		(at 84.836 148.336 0)
 		(effects
 			(font
 				(size 1.651 1.651)
@@ -3601,7 +3601,7 @@
 	)
 	(text "Internal Microphone"
 		(exclude_from_sim no)
-		(at 12.954 148.082 0)
+		(at 13.462 148.336 0)
 		(effects
 			(font
 				(size 1.651 1.651)

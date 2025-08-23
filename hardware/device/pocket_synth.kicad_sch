@@ -658,7 +658,7 @@
 	)
 	(text "1MOhm resistor provides protection\nagainst ESD from the metal case."
 		(exclude_from_sim no)
-		(at 33.782 171.958 0)
+		(at 38.862 172.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
