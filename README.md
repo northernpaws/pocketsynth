@@ -1,6 +1,6 @@
 # Pocket Synth
 
-[Online Board & Schematic View](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fnorthernpaws%2Fpocketsynth%2Fblob%2Fmain%2Fhardware%2Fpocket_synth.kicad_pro)
+[Online Board & Schematic View](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fnorthernpaws%2Fpocketsynth%2Fblob%2Fmain%2Fhardware%2Fdevice%2Fpocket_synth.kicad_pro)
 
 This repository contains my project for an STM32H7-based sequencer, synthesizer, and sampler, all in a small phone-sized pocketable form factor. 
 
