@@ -2823,6 +2823,20 @@
 		)
 		(uuid "7889c81f-1fe2-4eb2-bbc7-b95bb17d6c47")
 	)
+	(text "Keypad Decoder"
+		(exclude_from_sim no)
+		(at 66.294 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(italic yes)
+				(color 132 132 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "a273a684-afdf-4018-ab69-9a7c208b5318")
+	)
 	(text "Keyswitch Matrix Decoder"
 		(exclude_from_sim no)
 		(at 13.208 13.97 0)
@@ -2851,7 +2865,7 @@
 	)
 	(text "Rows map to inputs that read the voltage\nacross the matrix for a given row."
 		(exclude_from_sim no)
-		(at 118.11 50.546 90)
+		(at 118.11 49.784 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8268,22 +8282,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3691bdfd-cddb-477e-ae1f-d3e94d8cbe5f")
 		(property "Reference" "U25"
-			(at 77.47 17.78 0)
+			(at 66.294 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TCA8418RTWR"
-			(at 77.47 20.32 0)
+			(at 66.294 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"

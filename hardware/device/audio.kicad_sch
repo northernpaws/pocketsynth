@@ -3394,6 +3394,20 @@
 		)
 		(uuid "00cd34c8-6d40-4153-aec0-c52413009448")
 	)
+	(text "Audio CODEC"
+		(exclude_from_sim no)
+		(at 88.9 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(italic yes)
+				(color 132 132 132 1)
+			)
+			(justify top)
+		)
+		(uuid "08d6f5d1-96b9-411d-b9f2-e4b34ab09af8")
+	)
 	(text "Expansion module pulls\nHIGH to signal presence."
 		(exclude_from_sim no)
 		(at 194.564 142.748 0)
