@@ -613,6 +613,12 @@
         },
         {
           "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Connector",
           "name": "Connector",
           "show": false
@@ -627,7 +633,7 @@
           "group_by": false,
           "label": "JLC",
           "name": "JLC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -712,8 +718,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Height"
     },
     "connection_grid_size": 50.0,
     "drawing": {
