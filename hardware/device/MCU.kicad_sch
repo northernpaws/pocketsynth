@@ -31823,6 +31823,17 @@
 		)
 		(uuid "308f174c-299c-4898-a35a-80315b43e962")
 	)
+	(text "Selects if line-in is\na mic or aux input"
+		(exclude_from_sim no)
+		(at 167.64 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "4bdf3bb4-5ff3-47f9-9175-b7aa6d82ac30")
+	)
 	(text "1x 100nf per VDD"
 		(exclude_from_sim no)
 		(at 94.996 19.304 0)
@@ -31857,7 +31868,7 @@
 	)
 	(text "Notifies MCU of\nline-in jack plug"
 		(exclude_from_sim no)
-		(at 107.95 136.906 0)
+		(at 171.45 155.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33601,6 +33612,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 160.02) (xy 195.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc17921-c365-4978-92d5-009e8d25f01b")
+	)
+	(wire
+		(pts
 			(xy 182.88 139.7) (xy 195.58 139.7)
 		)
 		(stroke
@@ -35021,6 +35042,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 95.25) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda2b367-daf4-4967-b5d7-dff66eee5db0")
+	)
+	(wire
+		(pts
 			(xy 58.42 30.48) (xy 58.42 31.75)
 		)
 		(stroke
@@ -36398,6 +36429,17 @@
 		)
 		(uuid "92e95b4f-f966-4d7b-8e3b-ea2402f5296b")
 	)
+	(hierarchical_label "MIC_SELECT"
+		(shape input)
+		(at 173.99 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96bc05a2-b3b0-4bc2-a43d-db10209c4c3b")
+	)
 	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 58.42 189.23 180)
@@ -36500,7 +36542,7 @@
 	)
 	(hierarchical_label "CODEC_IRQ"
 		(shape input)
-		(at 114.3 140.97 180)
+		(at 177.8 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -788,6 +788,16 @@
 		)
 		(uuid "224d825d-3bfa-4ed9-8b0d-2abfa664e620")
 	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dd69ba-82b1-47ba-bafd-dd2df990e70f")
+	)
 	(bus
 		(pts
 			(xy 132.08 91.44) (xy 128.27 87.63)
@@ -820,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 109.22 138.43)
+			(xy 109.22 63.5) (xy 109.22 132.08)
 		)
 		(stroke
 			(width 0)
@@ -837,6 +847,16 @@
 			(type default)
 		)
 		(uuid "3272c35b-ebb3-44a4-8bf8-15f1ef985fea")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cb954c-6c72-401f-bb31-b3967cb7d4c2")
 	)
 	(bus
 		(pts
@@ -918,6 +938,16 @@
 		)
 		(uuid "6da42c49-5da9-4224-8a56-37bdddd8a8ec")
 	)
+	(wire
+		(pts
+			(xy 106.68 66.04) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74db100b-f8e1-4a56-b219-6d6dd3e64c41")
+	)
 	(polyline
 		(pts
 			(xy 85.344 166.116) (xy 85.344 197.866)
@@ -930,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 139.7 138.43)
+			(xy 109.22 132.08) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1298,7 @@
 		)
 		(uuid "fb383aa2-52df-4eb3-a6e1-082a04698259")
 	)
-	(label "I2C"
+	(label "{I2C}"
 		(at 22.86 45.72 180)
 		(effects
 			(font
@@ -1279,7 +1309,7 @@
 		)
 		(uuid "9d3ee19d-4020-4917-8af9-cdb4b7654426")
 	)
-	(label "I2C"
+	(label "{I2C}"
 		(at 104.14 48.26 0)
 		(effects
 			(font
@@ -2369,6 +2399,16 @@
 				(justify right)
 			)
 		)
+		(pin "MIC_SELECT" output
+			(at 101.6 66.04 0)
+			(uuid "3b41f227-e9de-4676-82c2-6b79a3c11bb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4"
@@ -2585,7 +2625,7 @@
 	)
 	(sheet
 		(at 139.7 114.3)
-		(size 25.4 25.4)
+		(size 25.4 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2609,7 +2649,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 139.7 140.2846 0)
+			(at 139.7 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,8 +2678,8 @@
 				(justify left)
 			)
 		)
-		(pin "CODEC_IRQ" input
-			(at 139.7 138.43 180)
+		(pin "CODEC_IRQ" output
+			(at 139.7 132.08 180)
 			(uuid "d883d2de-9f93-4d9b-b63b-e32895f101e8")
 			(effects
 				(font
@@ -2668,18 +2708,8 @@
 				(justify left)
 			)
 		)
-		(pin "AUX_SELECT" input
-			(at 139.7 133.35 180)
-			(uuid "e028735d-5c34-4c44-96c8-98a0237ceba2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MIC_SELECT" input
-			(at 139.7 135.89 180)
+			(at 139.7 134.62 180)
 			(uuid "37451544-608f-41a2-b37a-580abb35e0eb")
 			(effects
 				(font

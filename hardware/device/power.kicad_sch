@@ -3133,26 +3133,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FUSB302B01MPX_1"
+		(symbol "Interface_USB:FUSB302B01MPX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U31"
-				(at -3.302 11.938 0)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Value" "FUSB302B01MPX"
-				(at -3.302 9.398 0)
+				(at 3.81 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm"
@@ -3200,7 +3200,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FUSB302B01MPX_1_0_1"
+			(symbol "FUSB302B01MPX_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -3213,7 +3213,7 @@
 					)
 				)
 			)
-			(symbol "FUSB302B01MPX_1_1_1"
+			(symbol "FUSB302B01MPX_1_1"
 				(pin bidirectional line
 					(at -12.7 2.54 0)
 					(length 2.54)
@@ -3418,6 +3418,24 @@
 				(pin bidirectional line
 					(at 12.7 0 180)
 					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
 					(hide yes)
 					(name "CC1"
 						(effects
@@ -3437,14 +3455,14 @@
 				(pin bidirectional line
 					(at 12.7 -2.54 180)
 					(length 2.54)
-					(name "CC1"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3464,24 +3482,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5903,7 +5903,7 @@
 	)
 	(text "ESD filter on USB\ndifferential pair."
 		(exclude_from_sim no)
-		(at 64.262 76.2 0)
+		(at 66.802 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6156,12 +6156,6 @@
 		(uuid "7b38479d-620f-4e26-9c21-da399cc7e7a5")
 	)
 	(junction
-		(at 62.23 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e641175-e464-47e1-ab5a-127cf6e58323")
-	)
-	(junction
 		(at 76.2 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6202,6 +6196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd97e08f-9c84-4a15-be5e-2159fa479f1b")
+	)
+	(junction
+		(at 64.77 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be034ccb-16b1-40c4-9a53-03ba309d5f3b")
 	)
 	(junction
 		(at 57.15 48.26)
@@ -6351,7 +6351,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 62.23 88.9)
+			(xy 64.77 73.66) (xy 64.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6631,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 88.9) (xy 62.23 88.9)
+			(xy 29.21 88.9) (xy 64.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6809,6 +6809,16 @@
 		)
 		(uuid "3d083390-9c5b-48ae-8bd7-e7ea05146fa2")
 	)
+	(wire
+		(pts
+			(xy 64.77 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd484d0-7b5f-4a47-9073-74c7ce03c13b")
+	)
 	(bus
 		(pts
 			(xy 218.44 60.96) (xy 218.44 63.5)
@@ -6828,6 +6838,16 @@
 			(type default)
 		)
 		(uuid "411ea1e5-4752-4fdd-9c74-c0db823d37a0")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412d11ef-28ae-4c31-abe0-118154dce16c")
 	)
 	(wire
 		(pts
@@ -6861,7 +6881,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 63.5) (xy 76.2 63.5)
+			(xy 76.2 63.5) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6981,16 +7001,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 88.9) (xy 90.17 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d363098-1d21-47f7-b065-5e31eb0d9269")
-	)
-	(wire
-		(pts
 			(xy 101.6 153.67) (xy 101.6 157.48)
 		)
 		(stroke
@@ -7072,6 +7082,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c05d99f-f3a4-42a2-aa14-d1ed53642864")
+	)
+	(wire
+		(pts
 			(xy 279.4 147.32) (xy 279.4 148.59)
 		)
 		(stroke
@@ -7139,16 +7159,6 @@
 			(type default)
 		)
 		(uuid "746c6bf6-fb12-4b0b-a2b5-fbadb2d8108e")
-	)
-	(wire
-		(pts
-			(xy 44.45 55.88) (xy 77.47 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a346444-e3a6-4672-a376-b26b95a54f47")
 	)
 	(wire
 		(pts
@@ -7450,6 +7460,16 @@
 			(type default)
 		)
 		(uuid "94c85479-1133-47bd-8934-e1ee65c50cc6")
+	)
+	(wire
+		(pts
+			(xy 77.47 50.8) (xy 46.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d1d12c-5f9f-4db9-96ce-f691109fba55")
 	)
 	(wire
 		(pts
@@ -7773,6 +7793,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd595407-def6-4cb1-87dd-3a017a7fd439")
+	)
+	(wire
+		(pts
 			(xy 237.49 68.58) (xy 220.98 68.58)
 		)
 		(stroke
@@ -7893,7 +7923,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 76.2 66.04)
+			(xy 76.2 66.04) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7923,6 +7953,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 55.88) (xy 49.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95579e1-5e60-4f1b-8b22-fca345b71c2e")
+	)
+	(wire
+		(pts
 			(xy 271.78 68.58) (xy 271.78 71.12)
 		)
 		(stroke
@@ -7933,7 +7973,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 45.72 63.5)
+			(xy 53.34 63.5) (xy 45.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8010,16 +8050,6 @@
 			(type default)
 		)
 		(uuid "e4bc859d-8868-40c0-afd9-07d4fe8dbaa6")
-	)
-	(wire
-		(pts
-			(xy 44.45 53.34) (xy 77.47 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5934202-5ccc-4ac9-8631-0118bb0a1dea")
 	)
 	(wire
 		(pts
@@ -8163,6 +8193,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 53.34) (xy 44.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5642e07-a1da-4112-b016-c460580c7141")
+	)
+	(wire
+		(pts
 			(xy 57.15 153.67) (xy 67.31 153.67)
 		)
 		(stroke
@@ -8223,7 +8263,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 66.04) (xy 45.72 66.04)
+			(xy 53.34 66.04) (xy 45.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8271,6 +8311,16 @@
 		)
 		(uuid "00515e5e-a4a9-4fa4-8980-d3649087e69c")
 	)
+	(label "USB_D-"
+		(at 46.99 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22d6a3f8-1b26-48a9-947a-692249f6c6fc")
+	)
 	(label "I2C.SDA"
 		(at 104.14 48.26 0)
 		(effects
@@ -8290,6 +8340,16 @@
 			(justify right bottom)
 		)
 		(uuid "40d591bc-d1e1-4c6a-a41d-b9107e3603ae")
+	)
+	(label "USB_D+"
+		(at 46.99 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4433e8c3-d1dd-493a-96f5-c26aa002ab92")
 	)
 	(label "I2C.SDA"
 		(at 236.22 68.58 180)
@@ -8422,7 +8482,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape output)
-		(at 76.2 66.04 0)
+		(at 78.74 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8478,7 +8538,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape output)
-		(at 76.2 63.5 0)
+		(at 78.74 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11722,7 +11782,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FUSB302B01MPX_1")
 		(lib_id "Interface_USB:FUSB302B01MPX")
 		(at 90.17 50.8 0)
 		(mirror y)
@@ -14020,7 +14079,7 @@
 	)
 	(symbol
 		(lib_id "pocket_synth:SP3401-02UTG")
-		(at 62.23 64.77 0)
+		(at 64.77 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14028,7 +14087,7 @@
 		(dnp no)
 		(uuid "f8a6fe9c-20a1-4801-a44f-cf45ab4ab00a")
 		(property "Reference" "IC3"
-			(at 64.262 71.628 0)
+			(at 66.802 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14037,7 +14096,7 @@
 			)
 		)
 		(property "Value" "SP3401-02UTG"
-			(at 64.262 74.168 0)
+			(at 66.802 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14046,7 +14105,7 @@
 			)
 		)
 		(property "Footprint" "pocket_synth:SP340102UTG"
-			(at 88.9 159.69 0)
+			(at 91.44 159.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +14115,7 @@
 			)
 		)
 		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp3401_datasheet.pdf.pdf"
-			(at 88.9 259.69 0)
+			(at 91.44 259.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14066,7 +14125,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes 28KV 0.6pF 3.3V 10A uDFN-6 TVS Array"
-			(at 62.23 64.77 0)
+			(at 64.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14075,7 +14134,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 88.9 459.69 0)
+			(at 91.44 459.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14144,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SP3401-02UTG"
-			(at 88.9 559.69 0)
+			(at 91.44 559.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14095,7 +14154,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP3401-02UTG?qs=T3oQrply3y%2FjRDLmSQJ5ww%3D%3D"
-			(at 88.9 659.69 0)
+			(at 91.44 659.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,7 +14164,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 88.9 759.69 0)
+			(at 91.44 759.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,7 +14174,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SP3401-02UTG"
-			(at 88.9 859.69 0)
+			(at 91.44 859.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14125,7 +14184,7 @@
 			)
 		)
 		(property "JLC" "C3702190"
-			(at 62.23 64.77 0)
+			(at 64.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
