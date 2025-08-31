@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|67800000|52800006|5f80a8e0-8a70-40a6-8eac-58978545c7fa|1b788cce-1cef-4a48-a856-5029e330857a",
+          ""
+        ],
+        [
+          "clearance|67800000|80700000|64e2da2f-93cc-4d37-b341-bd61c1f18a8e|88210fcc-f511-4f38-882f-6f9012a96110",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -68,7 +77,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",

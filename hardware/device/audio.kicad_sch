@@ -3535,6 +3535,18 @@
 		)
 		(uuid "6f047b65-a810-460c-af8f-1495b0728bb4")
 	)
+	(text "CODEC will operate in BTL\nmode for speaker outputs"
+		(exclude_from_sim no)
+		(at 145.034 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left)
+		)
+		(uuid "78909ee4-89cc-4b67-9015-051eea76e4aa")
+	)
 	(text "Audio ADC and DAC"
 		(exclude_from_sim no)
 		(at 13.208 17.018 0)
@@ -3762,8 +3774,8 @@
 		(uuid "ff927b1c-ef1f-468b-ac69-cdc01021965c")
 	)
 	(bus_entry
-		(at 203.2 133.35)
-		(size -2.54 -2.54)
+		(at 264.16 118.11)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3825,8 +3837,8 @@
 		(uuid "85c6acbf-0491-4188-b70b-d727bdf11434")
 	)
 	(bus_entry
-		(at 203.2 135.89)
-		(size -2.54 -2.54)
+		(at 264.16 120.65)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -4027,16 +4039,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 135.89) (xy 227.33 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177023dc-2cf7-4981-8f0c-9c36e5627fa9")
-	)
-	(wire
-		(pts
 			(xy 82.55 26.67) (xy 73.66 26.67)
 		)
 		(stroke
@@ -4045,9 +4047,19 @@
 		)
 		(uuid "188c4c8d-7e47-471c-ab69-c121cead24e4")
 	)
+	(wire
+		(pts
+			(xy 264.16 120.65) (xy 250.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b75da2-962e-4afd-b11c-7340b70a1911")
+	)
 	(bus
 		(pts
-			(xy 200.66 115.57) (xy 200.66 130.81)
+			(xy 266.7 113.03) (xy 266.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4187,7 +4199,7 @@
 	)
 	(bus
 		(pts
-			(xy 200.66 130.81) (xy 200.66 133.35)
+			(xy 266.7 115.57) (xy 266.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4749,7 @@
 	)
 	(bus
 		(pts
-			(xy 269.24 118.11) (xy 269.24 120.65)
+			(xy 269.24 113.03) (xy 269.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5047,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 133.35) (xy 227.33 133.35)
+			(xy 264.16 118.11) (xy 250.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5646,12 +5658,12 @@
 		(uuid "2b40d711-4b13-4721-b2fa-13989d03c6d9")
 	)
 	(label "I2C.SCL"
-		(at 226.06 133.35 180)
+		(at 251.46 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2bff1b38-9520-4f9b-85e0-c6288b2c730d")
 	)
@@ -5808,12 +5820,12 @@
 		(uuid "94bdba94-30fe-4aed-a466-53d5877bccf5")
 	)
 	(label "I2C.SDA"
-		(at 226.06 135.89 180)
+		(at 251.46 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9cac40e5-8efb-40ff-aa0e-6a83c1254b47")
 	)
@@ -5889,7 +5901,7 @@
 	)
 	(hierarchical_label "{AUDIO_UART}"
 		(shape input)
-		(at 269.24 119.38 90)
+		(at 269.24 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5933,7 +5945,7 @@
 	)
 	(hierarchical_label "{I2C}"
 		(shape input)
-		(at 200.66 115.57 90)
+		(at 266.7 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
