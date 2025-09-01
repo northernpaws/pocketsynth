@@ -659,6 +659,9 @@
 	(bus_alias "I2S"
 		(members "MCLK" "ADCDAT" "DACDAT" "LRCLK" "BCLK")
 	)
+	(bus_alias "VELOCITY"
+		(members "ROW0" "ROW1" "ROW2" "ROW3" "COL0" "COL1" "COL2" "COL3")
+	)
 	(text "1MOhm resistor provides protection\nagainst ESD from the metal case."
 		(exclude_from_sim no)
 		(at 38.862 172.212 0)
@@ -810,6 +813,16 @@
 			(type default)
 		)
 		(uuid "0f612b35-7620-4a60-8872-4261effdd939")
+	)
+	(bus
+		(pts
+			(xy 113.03 97.79) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6db87c-2c27-42ac-aaa7-43d7d15c339c")
 	)
 	(wire
 		(pts
@@ -983,6 +996,16 @@
 	)
 	(bus
 		(pts
+			(xy 113.03 66.04) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e288d4-9503-4daa-aca0-c10691a866ea")
+	)
+	(bus
+		(pts
 			(xy 130.81 120.65) (xy 139.7 120.65)
 		)
 		(stroke
@@ -1130,6 +1153,16 @@
 			(type default)
 		)
 		(uuid "97c32230-25f5-42b0-82b1-fd237320e8a7")
+	)
+	(bus
+		(pts
+			(xy 101.6 63.5) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b56409a-bffc-47ce-af79-9a909e4b20eb")
 	)
 	(bus
 		(pts
@@ -1350,6 +1383,26 @@
 			(type default)
 		)
 		(uuid "eb4066c2-4460-470b-abc1-8a42c331e57f")
+	)
+	(bus
+		(pts
+			(xy 114.3 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf41f1f-1b75-4fad-8450-5fdfa64f6fc7")
+	)
+	(bus
+		(pts
+			(xy 110.49 63.5) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48869fd-6aaa-4749-acd7-51e8f6eb0ba5")
 	)
 	(wire
 		(pts
@@ -2532,6 +2585,16 @@
 				(justify right)
 			)
 		)
+		(pin "{VELOCITY}" output
+			(at 101.6 63.5 0)
+			(uuid "e0433832-5f2b-4de0-bd8e-0efc89e8f2c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pocket_synth"
 				(path "/485383b8-00f4-4405-b270-de249939cff4"
@@ -2793,6 +2856,26 @@
 		(pin "{I2C}" input
 			(at 139.7 91.44 180)
 			(uuid "f26b5d06-fb60-4ffd-9449-bffe32f97f4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCROLL" output
+			(at 165.1 93.98 0)
+			(uuid "16ab6888-f97f-4358-9718-fcc01b741914")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{VELOCITY}" input
+			(at 139.7 99.06 180)
+			(uuid "c61b20d1-058f-4889-858c-0af905cc2db8")
 			(effects
 				(font
 					(size 1.27 1.27)
