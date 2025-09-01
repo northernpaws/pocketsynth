@@ -4997,7 +4997,7 @@
 		)
 		(uuid "97733bf9-6f31-454a-9a6f-6f71813fa54a")
 	)
-	(hierarchical_label "{SPI}"
+	(hierarchical_label "SPI{SPI}"
 		(shape input)
 		(at 187.96 110.49 90)
 		(effects

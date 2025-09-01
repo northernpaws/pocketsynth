@@ -656,6 +656,9 @@
 			"FMC.WE" "FMC.NE0" "FMC.CKE" "FMC.NE1"
 		)
 	)
+	(bus_alias "I2S"
+		(members "MCLK" "ADCDAT" "DACDAT" "LRCLK" "BCLK")
+	)
 	(text "1MOhm resistor provides protection\nagainst ESD from the metal case."
 		(exclude_from_sim no)
 		(at 38.862 172.212 0)
@@ -698,6 +701,16 @@
 		(color 0 0 0 0)
 		(uuid "acc9f7dd-9915-40f0-b524-ed6afb5ef5c6")
 	)
+	(bus
+		(pts
+			(xy 128.27 157.48) (xy 139.7 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001c6d82-7ffe-4236-bddf-58bf3b397d32")
+	)
 	(wire
 		(pts
 			(xy 49.53 46.99) (xy 63.5 46.99)
@@ -730,6 +743,16 @@
 	)
 	(bus
 		(pts
+			(xy 116.84 146.05) (xy 128.27 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4ff782-290e-442b-bd27-58867757805c")
+	)
+	(bus
+		(pts
 			(xy 132.08 116.84) (xy 139.7 116.84)
 		)
 		(stroke
@@ -737,6 +760,16 @@
 			(type default)
 		)
 		(uuid "0bc90812-df7a-473b-bfca-0bea57313d83")
+	)
+	(bus
+		(pts
+			(xy 120.65 144.78) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caed598-66f6-46ec-b3c8-5481e3a80eab")
 	)
 	(bus
 		(pts
@@ -940,7 +973,27 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 63.5) (xy 116.84 116.84)
+			(xy 101.6 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5343c939-a1ae-4d30-9002-6f64eb0a71c8")
+	)
+	(bus
+		(pts
+			(xy 130.81 120.65) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c0f7dd-45f6-44e5-9be1-5eb9bdef42d4")
+	)
+	(bus
+		(pts
+			(xy 116.84 63.5) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -950,13 +1003,13 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 40.64) (xy 139.7 40.64)
+			(xy 120.65 59.69) (xy 120.65 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "675bf970-4cf4-48e6-8f9f-17979ff9d021")
+		(uuid "659742a3-046d-47a0-b2e2-bfd8c71fb750")
 	)
 	(wire
 		(pts
@@ -1057,16 +1110,6 @@
 			(type dash)
 		)
 		(uuid "90ec3dee-1d7d-4ed5-9565-298f23cf3d37")
-	)
-	(bus
-		(pts
-			(xy 120.65 59.69) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939dfafd-8941-4d16-9b4a-8cb593c2aa35")
 	)
 	(wire
 		(pts
@@ -1170,16 +1213,6 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 120.65) (xy 139.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c0b17f-8b6f-42ca-97e5-24dcffc65574")
-	)
-	(bus
-		(pts
 			(xy 124.46 114.3) (xy 130.81 120.65)
 		)
 		(stroke
@@ -1228,16 +1261,6 @@
 		)
 		(uuid "c45c3ba9-f5c7-45fd-b64b-fcd440354b90")
 	)
-	(bus
-		(pts
-			(xy 129.54 124.46) (xy 139.7 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6c4e8c9-391a-47f4-85cb-a2409f7d7394")
-	)
 	(wire
 		(pts
 			(xy 77.47 175.26) (xy 80.01 175.26)
@@ -1247,16 +1270,6 @@
 			(type default)
 		)
 		(uuid "c89c5f71-c54c-4605-8b2b-5119fee716cb")
-	)
-	(bus
-		(pts
-			(xy 128.27 128.27) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf25178-ffdc-475f-866d-3a4b9890cee2")
 	)
 	(wire
 		(pts
@@ -1270,16 +1283,6 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 115.57) (xy 129.54 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea37428-148e-4dc6-a6e6-c436a3dd6d38")
-	)
-	(bus
-		(pts
 			(xy 101.6 44.45) (xy 121.92 44.45)
 		)
 		(stroke
@@ -1290,16 +1293,6 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 116.84) (xy 128.27 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4912612-2e58-4614-bae2-e3bd5c949d29")
-	)
-	(bus
-		(pts
 			(xy 119.38 52.07) (xy 124.46 57.15)
 		)
 		(stroke
@@ -1307,6 +1300,16 @@
 			(type default)
 		)
 		(uuid "d72cf78a-1145-48fe-9a6d-2b85f4a0453d")
+	)
+	(bus
+		(pts
+			(xy 129.54 153.67) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3885fd-1c1b-4b31-b532-b90eeeb8b19c")
 	)
 	(wire
 		(pts
@@ -2359,16 +2362,6 @@
 				(justify right)
 			)
 		)
-		(pin "{SPI}" output
-			(at 101.6 40.64 0)
-			(uuid "e77d332e-3603-46a7-b7df-1a00717acf1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_D+" input
 			(at 63.5 36.83 180)
 			(uuid "4bab05d3-dfb2-441d-a8ff-a0159b6ef0e0")
@@ -2399,16 +2392,6 @@
 				(justify left)
 			)
 		)
-		(pin "{CODEC}" output
-			(at 101.6 52.07 0)
-			(uuid "886f8b5a-7d2f-4747-8d37-e3dd0fec213a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{MCU_PWR_EN}" output
 			(at 63.5 53.34 180)
 			(uuid "ad6bd4b9-5ef1-4881-a7f1-fe23dc0a877d")
@@ -2432,16 +2415,6 @@
 		(pin "{AUDIO_UART}" output
 			(at 101.6 55.88 0)
 			(uuid "112704e5-4242-4291-989e-66f8032ee235")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{EXP_CODEC}" output
-			(at 101.6 59.69 0)
-			(uuid "ae86d620-5710-4bfe-8b42-3727d683be13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,6 +2500,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CODEC{I2S}" output
+			(at 101.6 52.07 0)
+			(uuid "5724c0e2-a4c3-4306-a208-7aa60519e808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXP_CODEC{I2S}" output
+			(at 101.6 59.69 0)
+			(uuid "0215f790-a219-431f-9052-80375464a62f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI{SPI}" output
+			(at 101.6 40.64 0)
+			(uuid "bbbc0afc-a72b-457d-be41-095fc523d8e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2681,6 +2684,68 @@
 		)
 	)
 	(sheet
+		(at 139.7 152.4)
+		(size 29.21 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e9f39e0-07aa-49bf-8354-e1f007de5af0")
+		(property "Sheetname" "RF"
+			(at 139.7 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf.kicad_sch"
+			(at 139.7 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2S}" input
+			(at 139.7 157.48 180)
+			(uuid "c447115d-8d40-42d8-b17e-f9898f33b74f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{AUDIO_UART}" input
+			(at 139.7 153.67 180)
+			(uuid "091f4f2c-6b4e-4208-a4bb-31859888c16a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pocket_synth"
+				(path "/485383b8-00f4-4405-b270-de249939cff4"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 139.7 88.9)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
@@ -2778,16 +2843,6 @@
 				(hide yes)
 			)
 		)
-		(pin "{CODEC}" input
-			(at 139.7 120.65 180)
-			(uuid "eb256cc4-2a3a-482e-8b86-c0828049fa0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{I2C}" input
 			(at 139.7 116.84 180)
 			(uuid "bdb9ec9d-cb3c-4566-a3ad-c07bc8f93f7c")
@@ -2808,26 +2863,6 @@
 				(justify left)
 			)
 		)
-		(pin "AUDIO_EXP_DETECT" input
-			(at 165.1 116.84 0)
-			(uuid "f81ce34d-55e0-4032-ac45-964679c9a52b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{AUDIO_UART}" input
-			(at 139.7 124.46 180)
-			(uuid "ee393009-d258-4c5c-9f8b-057a822794ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MIC_SELECT" input
 			(at 139.7 134.62 180)
 			(uuid "37451544-608f-41a2-b37a-580abb35e0eb")
@@ -2838,9 +2873,9 @@
 				(justify left)
 			)
 		)
-		(pin "{EXP_CODEC}" input
-			(at 139.7 128.27 180)
-			(uuid "1f1c1ded-2673-4a2b-86f2-e84f16170834")
+		(pin "CODEC{I2S}" input
+			(at 139.7 120.65 180)
+			(uuid "7dc9a32f-281d-4346-b786-35cd3cca2794")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,16 +2946,6 @@
 				(justify left)
 			)
 		)
-		(pin "{SPI}" input
-			(at 139.7 40.64 180)
-			(uuid "5b5c3618-e779-4e1f-839a-b95abd74c414")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{QSPI}" input
 			(at 139.7 36.83 180)
 			(uuid "a9d1f309-c323-4ad6-b51d-91bbbe52c147")
@@ -2934,6 +2959,16 @@
 		(pin "FLASH_CS" input
 			(at 139.7 29.21 180)
 			(uuid "9ac367ca-29e2-4c4d-9b4f-52e3d3d8821f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI{SPI}" input
+			(at 139.7 40.64 180)
+			(uuid "6b08ea5b-9fef-4e89-9311-40ec76d9c2bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,6 +3016,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LED_DIN" input
+			(at 184.15 92.71 180)
+			(uuid "e1c36280-39b2-4479-971a-fc37ab5b12d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
